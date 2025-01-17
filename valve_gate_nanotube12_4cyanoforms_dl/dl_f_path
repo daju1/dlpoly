@@ -1,0 +1,27 @@
+# Directory paths for DL_FIELD version 4.10.
+# C W Yong, January 2024
+# This file must be located where DL_FIELD executable is located.
+# The directory must be changed correspondly if you move the file components.
+# All directory paths are RELATIVE to DL_FIELD home directory.
+# Do not use absolute paths.
+
+# paths
+library = lib/
+solvent = solvent/ 
+output  = output/
+
+# Control file 
+# To run example structures mentioned in Chaprter 14,
+# comment out the default control file, dl_field.control, and then
+# remove the comment for running the example structures.
+
+control = dl_field.control       
+
+##########################
+# optional files
+# Look for CHARMM rtf, and or prm files
+# See Chapters 13.3 and 13.4
+# charmm_rtf = pentanoic_acid.rtf  OPLS2005 
+# charmm_prm = pentanoic_acid.prm  OPLS2005 
+# charmm_psf = example.psf charmm36_prot
+# charmm_pdb = example.pdb charmm36_prot

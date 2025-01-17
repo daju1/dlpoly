@@ -1,0 +1,2318 @@
+Atom type conversion for DL_FIELD - C W Yong, 9/7/2011
+Remember to put 'END' statement for every potential scheme.
+Always put DL_FIELD atom type first, with the heading DL_FIELD
+---------------------------------------------------------------
+
+DL_FIELD  CHARMM     DL_FIELD name
+C1        CT1        C_aliphatic1
+C_L1      CTL1       C_aliphatic_l1
+C2        CT2        C_aliphatic2
+C_L2      CTL2       C_aliphatic_l2
+C3        CT3        C_aliphatic3 
+C_L3      CTL3       C_aliphatic_l3
+C_L4      CTL5       C_tetramethyl
+C4        CA         C_aromatic
+CST       CST        C_carbon_dioxide
+C5        CD         C_carboxylate
+C6        CC         C_amide
+C7        C          C_polar
+C8        CP1        C_proline_1
+C9        CP2        C_proline_2
+C10       CP3        C_proline_3
+C11       CY         C_pyrrole
+C12       CPT        C_fuse_indole
+C13       CPH1       C_imidazole4_5
+C14       CPH2       C_imidazole2
+C15       CE2        C_ethene_e
+C16       CE1        C_ethene_m
+C17       CS         C_thiolate
+C18       CD         C_carbonate
+C19       CM         C_monoxide
+H1        HA         H_aliphatic
+H_L1      HAL1       H_aliphatic_l1
+H_L2      HAL2       H_aliphatic_l2
+H_L3      HAL3       H_aliphatic_l3
+H2        HP         H_aromatic
+H3        HB         H_backbone
+H4        HR1        H_imidazole1
+H5        HR2        H_imidazole2
+H6        HR3        H_imidazole3
+H7        HE2        H_ethene_e
+H8        HE1        H_ethene_m
+HL        HL         H_methylammonium
+HN        HC         H_amine
+HO        H          H_hydroxyl
+HS        HS         H_thiol
+HW        HT         H_tip3p_c
+H3P       H3P        H_tip3p
+HTP       HTP        H_tip3p_pme
+HT4       HT4        H_tip4p
+HT5       HT5        H_tip5p
+HSPC      HSPC       H_spc
+N1        NH2        N_amide
+N2        NH1        N_amide2
+N3        NH3        N_ammonium
+N3L       NH3L       N_ammonium_l
+N4        NP         N_proline
+N5        N          N_proline_res
+N6        NY         N_pyrrole
+N7        NC2        N_guanidinium
+N8        NR1        N_imidazole1
+N9        NR2        N_imidazole3
+N10       NR3        N_imidazole_ch
+NT        NTL        N_ammonium2
+OC1       OB         O_carboxylate
+OC2       O          O_amide
+OC3       OC         O_carboxylate2 
+OCA       OC         O_carbonate
+OE        OS         O_ester
+OSL       OSL        O_ester_l
+OH        OH1        O_hydroxyl
+OM        OM         O_monoxide
+OST       OST        O_carbon_dioxide
+OP        O2L        O_phosphate
+OSLP      OSLP       O_phosphate_l
+OW        OT         O_tip3p
+OT        OT         O_tip3p_c
+OTP       OTP        O_tip3p_pme
+OT4       OT4        O_tip4p
+OT5       OT5        O_tip5p
+OT5E      OT5E       O_tip5p_pme
+OSPC      OSPC       O_spc
+P1        PL         P_phosphate
+S1        S          S_thiol
+S2        SM         S_disulphide
+S3        SS         S_thiolate
+S4        SO         S_sulphoxide
+S5        SL         S_sulphate
+CPA       CPA        C_heme_alpha_C
+CPB       CPB        C_heme_beta_C 
+CPM       CPM        C_heme_meso_C  
+NPH       NPH        N_heme_pyrrole
+CAE1      CC31A      CA1_ether
+CAE2      CC32A      CA2_ether
+CAE3      CC33A      CA3_ether
+CTHF      CC325B     C_tethydfuran
+CTHP      CC326A     C_tethydpyran
+CYCP      CC325A     C_cyclopentane
+HAE1      HCA1       HA1_ether
+HAE2      HCA2       HA2_ether
+HAE3      HCA3       HA3_ether
+HTHF      HCA25A     H_tethydfuran
+OET       OC301      O_ether
+OET       OC305A     O_ether
+CAS1      CC311      CA1_sugar
+CAS2      CC321      CA2_sugar
+CAS3      CC331      CA3_sugar
+CS1       CC3162     C1_sugar
+CF1       CC3152     C1_furan
+CS        CC3161     C_sugar
+CF        CC3151     C_furan
+CFD       CC3251     C_furan_deoxy
+CS5       CC3163     C5_sugar
+CF4       CC3153     C4_furan
+CFF2      CC3051     C2_furan_fruct
+OG        OC302      O_glycosidic
+OHS       OC311      OH_sugar
+HOS       HCP1       HO_sugar
+OS        OC3C61     O_sugar
+OF        OC3C51     O_furan
+HAS1      HCA1       HA1_sugar
+HAS2      HCA2       HA2_sugar
+HAS3      HCA3       HA3_sugar
+Na+       SOD        Sodium ion
+Cl-       CLA        Chloride ion
+Zn2+      ZN         Zinc ion
+Cu2+      CU         Copper ion
+Cu_1      Cu_1       copper_type 1 for heme reductase
+FE        FE         heme_iron
+Q4        Q4         pseudo_atom
+Q1        Q1         pseudo_atom
+Q2        Q2         pseudo_atom
+END
+
+------------------------------------------------
+10/11/2009 C W Yong
+22/10/2013 C W Yong
+
+DL_FIELD  AMBER      DL_FIELD name 
+C1        CT         C_aliphatic 
+C2        CB         C_fuse_indole1
+C3        CN         C_fuse_indole2
+C4        C*         C_pyrrole1
+C5        CW         C_pyrrole2
+C6        CR         C_histidine2
+C7        CV         C_histidine4
+C         C          C_carbonyl
+CA        CA         C_aromatic
+CC        CC         C_5member
+CY        CY         C_nitrile
+H1        H1         H_aliphatic1
+H2        H2         H_aliphatic2
+H4        H4         H_pyrole
+H5        H5         H_histidine2
+HA        HA         H_aromatic
+HC        HC         H_aliphatic
+HG        H0         H_glycine
+HO        HO         H_hydroxyl
+HP        HP         H_positive
+HS        HS         H_thiol
+HW        HW         H_tip3p
+H3P       H3P        H_tip3p_c
+H3E       H3E        H_tip3p_pme  
+HT4       HT4        H_tip4p   
+HT5       HT5        H_tip5p
+HN        H          H_amine
+N1        N          N_amide
+N2        N2         N_guanidinium
+N3        N3         N_ammonium
+N4        NT         N_sp3_amino
+N5        NB         N_5member
+N5H       NA         N_5member_H
+NY        NY         N_nitrile
+O         O          O_carbonyl
+OC        O2         O_carboxylate
+OS        OS         O_ether
+OSX       OSX        O_sulphoxide
+OH        OH         O_hydroxyl
+OW        OW         O_tip3p
+OT3E      OT3E       O_tip3p_pme 
+OT4       OT4        O_tip4p 
+OT5       OT5        O_tip5p 
+OT5E      OT5E       O_tip5p_pme 
+P         P          P_phosphate
+S1        S          S_disulfide
+S2        SH         S_thiol
+SSX       SSX        S_sulphoxide
+G_Cg      G_Cg       Glycam_C_aliphatic 
+G_Cy      G_Cy       Glycam_C_sialic 
+G_Cp      G_Cp       Glycam_C_phos 
+G_Ck      G_Ck       Glycam_C_alkene 
+G_Cj      G_Cj       Glycam_C_alkene_j   
+G_Hc      G_Hc       Glycam_H_aliphatic 
+G_Ha      G_Ha       Glycam_H_alkene   
+G_Ho      G_Ho       Glycam_H_hydroxyl  
+G_Hp      G_Hp       Glycam_H_positive  
+G_Ng      G_Ng       Glycam_N_amide 
+G_Oh      G_Oh       Glycam_O_hydroxyl 
+G_Os      G_Os       Glycam_O_ether 
+G_Oy      G_Oy       Glycam_O_sialic  
+G_Sm      G_Sm       Glycam_S_sulfane 
+Na+        Na         sodium_ion
+Ca2+       Ca         calcium_ion
+Cl-        Cl         chloride_ion
+Q4        Q4         pseudo_atom
+Q1        Q1         pseudo_atom
+Q2        Q2         pseudo_atom
+END
+
+------------------------------------------------------
+1/7/2011 C W Yong
+5/9/2013 C W Yong
+
+DL_FIELD  OPLSAA     DL_FIELD name
+C3        C135       CH3_aliphatic
+C2        C136       CH2_aliphatic 
+C1        C137       CH_aliphatic
+CB        C145       C_benzene
+CEB       C149       C_ethyl_benz
+CA3       C157       C_alcohol3
+CA1       C158       C_alcohol1
+CPH       C166       C_phenol
+CT        C206       C_thiol
+CS3       C209       CH3_sulphide3
+CS2       C210       CH2_sulphide2
+CSS2      C214       CH2_disulphide
+CH2A      C223       CH2_amine
+CHA       C224       CH_amine
+CM        C235       C_amide
+CM2       C242       C_amide2
+CM3       C245       C_amide3
+CM4       C246       C_amide4
+CC        C267       C_carboxylic
+COO       C271       C_carboxylate
+CHC       C274       CH2_carboxylate
+C_ALA     C283       C_ALA
+C_GLY     C284       C_GLY
+C_PRO     C285       C_PRO
+C_AMM2    C292       CH2_ammonium
+C_AMM     C293       CH_ammonium
+CAPNH2    C295       CA_PRO_NH2
+CDPNH2    C296       CD_PRO_NH2
+CG        C302       C_guanidinium
+CHG       C307       CH_guanidinium
+CCHG      C308       CCH_guanidinium
+CP1       C500       C_pyrrole1
+CF1       C501       C_fuse_indole1
+CF2       C502       C_fuse_indole2
+C_HIS     C505       CH_histidine
+C_HIS2    C506       C_histidine2
+C_HIS4    C507       C_histidine4
+C_HIS5    C508       C_histidine5
+C2_HIS    C509       C2_histidine
+C4_HIS    C510       C4_histidine
+CP2       C514       C_pyrrole2
+C1PY      C521       C1_pyridine
+C2PY      C522       C2_pyridine
+C3PY      C523       C3_pyridine
+CPYZ      C528       C_pyrazine
+C3PD      C538       C3_pyridazine
+C4PD      C539       C4_pyridazine
+C         C          C_double_bond
+HC        H140       H_aliphatic
+HB        H146       H_benzene
+HA        H155       H_alcohol 
+HP        H168       H_phenol
+HT        H204       H_thiol
+HAM1      H240       Primary_H_amide
+HAM2      H241       Secondary_H_amide
+HOO       H270       H_carboxylic
+H3N       H290       H_ammonium
+H2G       H301       H2N_guanidinium
+H1G       H304       HN_guanidinium
+H2A       H310       H_sec_ammonium
+HTRP      H504       H_tryptophan
+HN_HIS    H513       HN_histidine
+H1PY      H524       H1_pyridine
+H2PY      H525       H2_pyridine
+H3PY      H526       H3_pyridine
+HPYZ      H529       H_pyrazine
+H3PD      H540       H3_pyridazine
+H4PD      H541       H4_pyridazine
+HW        HW         H_tip3p
+H3P       H3P        H_tip3p_c
+H3E       H3E        H_tip3p_pme
+HT4       HT4        H_tip4p
+HT5       HT5        H_tip5p
+NAM1      N237       Primary_N_amide
+NAM2      N238       Secondary_N_amide
+NAM3      N239       Tertiary_N_amide
+NC        NC         N_double_bond
+N_AM      N287       N_ammonium
+N2G       N300       NH2_guanidinium
+N1G       N303       NH_guanidinium
+N2A       N309       N_sec_ammonium
+NTRP      N503       N_tryptophan
+NHIS      N511       N_histidine
+NHHIS     N512       NH_histidine
+NPY       N520       N_pyridine
+NPZ       N527       N_pyrazine 
+NPD       N537       N_pyridazine
+OA        O154       O_alcohol
+OPH       O167       O_phenol
+OAM       O236       O_amide
+OHC       O268       OH_carboxylic
+OC2       O269       OC_carboxylic
+OC        O272       O_carboxylate
+OW        OW         O_tip3
+ST        S200       S_thiol
+SS        S202       S_sulphide
+SD        S203       S_disulphide
+Na        Na         Sodium_ion
+Cl        Cl         chloride_ion
+Q4        Q4         pseudo_atom
+Q1        Q1         pseudo_atom
+Q2        Q2         pseudo_atom
+END
+
+----------------------------------------
+July 2019 C W Yong
+OPLS_DES DL_FIELD
+NA1      N47q#1    Nq_ammonium1
+CA1      C1pN#1    CpN+_alkane1
+HA1      H1CpN#1   HCpN+_alkane1
+CS1      C1sN#1    CsN+_alkane1
+HS1      H1CsN#1   HCsN+_alkane1
+CW1      C1s#1     Cs_alkane1
+HW1      H1C#1     HC_alkane1
+OY1      O15#1     O_alcohol1
+HY1      H15O#1    HO_alcohol1
+CG2      C1s#2     Cs_alkane2
+HG2      H1C#2     HC_alkane2
+OH2      O15#2     O_alcohol2
+HO2      H15O#2    HO_alcohol2
+CG2      C1s#2     Cs_alkane2        
+HG2      H1C#2     HC_alkane2   
+OH2      O15#2     O_alcohol2
+HO2      H15O#2    HO_alcohol2       
+CB3      C1s#3     Cs_alkane3      
+CM3      C1t#3     Ct_alkane3        
+HC3      H1C#3     HC_alkane3        
+OH3      O15#3     O_alcohol3      
+HO3      H15O#3    HO_alcohol3     
+CB4      C20#4     C_carboxylic4     
+OB4      O20E#4    OE_carboxylic4   
+OH4      O20L#4    OL_carboxylic4    
+HO4      H20O#4    HO_carboxylic4     
+CT4      C1p#4     Cp_alkane4          
+CT4      C1s#4     Cs_alkane4          
+HT4      H1C#4     HC_alkane4      
+CD4      C16#4     C_ketone4
+OC4      O16#4     O_ketone4
+CD5      C20#5     C_carboxylic5     
+OD5      O20E#5    OE_carboxylic5    
+OH5      O20L#5    OL_carboxylic5  
+HO5      H20O#5    HO_carboxylic5  
+CT5      C1s#5     Cs_alkane5       
+HC5      H1C#5     HC_alkane5       
+CD6      C20#6     C_carboxylic6    
+OD6      O20E#6    OE_carboxylic6     
+OH6      O20L#6    OL_carboxylic6     
+HO6      H20O#6    HO_carboxylic6    
+CB7      C6-1#7    C1_benzene7         
+CB7      C6-2#7    C2_benzene7
+CB7      C6-3#7    C3_benzene7
+CB7      C6-4#7    C4_benzene7
+CB7      C6-5#7    C5_benzene7
+CB7      C6-6#7    C6_benzene7
+HB7      H6C#7     HC_benzene7       
+OH7      O8#7      O_phenol7       
+HO7      H8O#7     HO_phenol7       
+C8       C42#8     C_urea8
+O8       O42#8     O_urea8           
+N8       N42p#8    Np_urea8         
+H8       H42N#8    HN_urea8       
+CL       Cl963     Cl_anion
+END
+
+----------------------------------------
+January 2015 C W Yong
+Revised January 2016
+Use ATOM_TYPE to determine OPLS2005 type
+for BCI determination.
+Do not use DL_FIELD type to determine BCI
+DL_FIELD   OPLS2005
+CT         C135      C_alkane
+CT         C135      Cp_alkane
+CT         C135      Cs_alkane
+CT         C135      Ct_alkane
+CT         C135      Cq_alkane
+CYA        C135      C_cycloalkane           
+CYA        C135      Cp_cycloalkane          
+CYA        C135      Cs_cycloalkane          
+CYA        C135      Ct_cycloalkane          
+CYA        C135      Cq_cycloalkane          
+HC         H140      HC_cycloalkane          
+CT	   C135      C_methanol
+HC         H140      HC_alkane
+HC	   H156      HC_methanol
+CM	   C141	     C_alkene
+CME	   C141	     CE_alkene
+CML 	   C141      CL_alkene
+HE	   H146      HC_alkene
+CZN        C930      C_alkyne
+CZN        C928      CL_alkyne
+CZN        C925      CE_alkyne
+CZN        C925      CH_alkyne
+CZN	   C927      CCp_alkyne
+CZN	   C927      CCs_alkyne
+CZN        C928	     CCt_alkyne
+CZN	   C929      CCq_alkyne
+HY	   H146      HC_alkyne  
+C3T	   C124	     C_cyclopropyl
+C3T        C124      CH_cyclopropyl
+HC         H140      HC_cyclopropyl     
+O3T        O132      O_epoxide 
+C3T        C124      C_epoxide             
+HC         H140      HC_epoxide       
+C4T        C125      C_cyclobutyl
+C4T        C125      CH_cyclobutyl      
+HC         H140      HC_cyclobutyl     
+O4T        O139      O_cyclobutyl
+N4T        N131      N_azetidine          
+C4T        C125      C_azetidine
+C4T        C125      CN_azetidine        
+HC         H140      HCN_azetidine      
+C4T        C125      C_oxetane        
+C4T        C125      CO_oxetane
+HC         H140      HC_oxetane     
+O4T        O139      O_oxetane      
+C3M        C129      C_cyclopropene   
+HE         H146      HC_cyclopropene 
+C3T        C124      CL_cyclopropene
+HC         H140      HCL_cyclopropene   
+N3T        N130      N_aziridine
+C3T        C124      C_aziridine
+HANI       H140      HC_aziridine
+H          H240      HN_aziridine
+O3T        O132      O_oxaziridine  
+N3T        N130      N_oxaziridine    
+NE         N343      NR_oxaziridine      
+C3T        C124      C_oxaziridine      
+H          H240      HN_oxaziridine    
+HANI       H140      HC_oxaziridine   
+O3T        O132      OL_N_sulfonyloxaziridine 
+NS         N478      N_N_sulfonyloxaziridine
+C3T        C124      C_N_sulfonyloxaziridine 
+SY         S474      S_N_sulfonyloxaziridine 
+OY         O470      OE_N_sulfonyloxaziridine 
+HC         H140      HC_N_sulfonyloxaziridine
+CT         C476      CS_N_sulfonyloxaziridine 
+OS         O180      O_ether     
+OVE        O180      OU_ether      
+CT         C181      CA_ether        
+HC         H140      HA_ether      
+OS         O180      O_monoxolane         
+CYA        C181      CO_monoxolane        
+CYA        C135      Cs_monoxolane           
+CYA        C135      Ct_monoxolane           
+HC         H140      HC_monoxolane         
+CA         C145      C_benzene
+CA         C145      C1_benzene
+CA         C145      C2_benzene
+CA         C145      C3_benzene
+CA         C145      C4_benzene
+CA         C145      C5_benzene
+CA         C145      C6_benzene
+HA         H146      HC_benzene
+F	   F719	     FC_benzene
+Cl	   Cl264     ClC_benzene
+I          I732      IC_benzene
+CA         C145      C1_m_dihalobenzene   
+CA         C145      C2_m_dihalobenzene   
+CA         C145      C3_m_dihalobenzene   
+CA         C145      C4_m_dihalobenzene   
+CA         C145      C5_m_dihalobenzene  
+CA         C145      C6_m_dihalobenzene   
+HA         H146      HC_m_dihalobenzene  
+Cl         Cl264     ClC_m_dihalobenzene   
+F          F719      FC_m_dihalobenzene
+I          I732      IC_m_dihalobenzene
+CT         C218      C_benzyl
+HC         H140      HC_benzyl
+CO4        C465      C_benzoyl    
+O          O281      O_benzoyl        
+CA         C145      C_biphenyl
+OHP        O167      O_phenol
+HO         H240      HO_phenol
+NE	   N6003     N_aniline
+NE         N6003     Np_aniline      
+NE         N6004     Ns_aniline     
+NE         N343      Nt_aniline    
+H	   H240      HN_aniline
+OAL        O154      O_alcohol
+HO         H240      HO_alcohol
+CALK	   C418	     Cp_alkoxide
+CALK       C418      Cs_alkoxide
+HALK       H140      HC_alkoxide
+OM	   O420	     O_alkoxide
+OHE        O168      O_enol        
+HO         H240      HO_enol        
+CMLE       C141      CL_enol             
+CMEE       C141      CE_enol              
+HE         H146      HC_enol      
+NEA        N342      N_enamine   
+NEA        N342      Np_enamine 
+NEA        N342      Ns_enamine      
+H          H240      HN_enamine      
+CM         C141      CN_enamine     
+CM         C141      C_enamine     
+HE         H146      HC_enamine     
+CO         C195      C_hemiacetal  
+CAO        C195      CA1_hemiacetal   
+CBO        C195      CB1_hemiacetal 
+OAS        O180      OA5_hemiacetal     
+OBS        O180      OB5_hemiacetal     
+HC         H140      HC_hemiacetal 
+OS         O180      O_hemiacetal    
+OAL        O154      OH_hemiacetal   
+HO         H240      HO_hemiacetal  
+CT         C181      CA_hemiacetal     
+HC         H140      HA_hemiacetal    
+CO         C195      C_acetal   
+CAO        C195      CA1_acetal          
+CBO        C195      CB1_acetal      
+OAS        O180      OA5_acetal     
+OBS        O180      OB5_acetal    
+HC         H140      HC_acetal         
+OS         O180      O_acetal             
+CT         C181      CA_acetal     
+HC         H140      HA_acetal       
+CO         C195      C_dihaloacetal 
+OS         O178      O_dihaloacetal 
+FX2        F727      FC_dihaloacetal
+CT         C135      C_aminoacetal    
+CT         C135      Cq_aminoacetal
+CT         C135      Cs_aminoacetal
+CT         C135      Ct_aminoacetal
+CT         C135      CN_aminoacetal     
+HANI       H140      HC_aminoacetal
+HANI       H140      HCN_aminoacetal    
+NT         N900      Np_aminoacetal
+NT         N901      Ns_aminoacetal   
+NT         N902      Nt_aminoacetal
+NE         N6004     NR_aminoacetal   
+H          H240      HN_aminoacetal  
+CO         C195      C_ketal   
+OS         O180      O_ketal     
+CT         C181      CA_ketal        
+HC         H140      HA_ketal    
+CO4        C277      C_aldehyde
+CO4        C277      CR_aldehyde
+C          C235      CN_aldehyde            
+O          O281      O_aldehyde
+HAE        H146      H_aldehyde
+HAE        H146      HC_aldehyde
+CT         C135      CA_aldehyde
+HAE        H140      HA_aldehyde
+CO4        C280      C_ketone
+O          O281      O_ketone
+CT         C135      CA_ketone
+HAE        H140      HA_ketone
+C   	   C316      C_acylhalide      
+O          O281	     O_acylhalide         
+Cl	   Cl151     Cl_acylhalide      
+CDS        C234      C_thioacyl_chloride    
+SD         S205      S_thioacyl_chloride  
+Cl         Cl151     Cl_thioacyl_chloride 
+C          C267      C_carboxylic
+O          O269      OE_carboxylic
+OH         O268      OL_carboxylic
+HO         H240      HO_carboxylic
+HAE        H146      HC_carboxylic     
+CO4	   C465      C_acid_anhydride     
+CT         C135      CA_acid_anhydride     
+HAE        H140      HA_acid_anhydride      
+O          O281      OE_acid_anhydride      
+OES        O467      OL_acid_anhydride       
+CO4	   C465      C_ester
+CO4        C471      CR_ester
+CT	   C135      CC_ester
+O  	   O281      OE_ester
+OES	   O467      OL_ester
+CT         C181      CA_ester
+HAE        H140      HA_ester
+CO4        C465      C_ester_halogen    
+CT         C181      CA_ester_halogen
+HAE        H140      HA_ester_halogen
+O          O281      OE_ester_halogen  
+OES        O467      OL_ester_halogen    
+Cl         Cl151     Cl_ester_halogen   
+CO4        C465      C_carbonate_ester   
+O	   O281      OE_carbonate_ester  
+OES	   O467      OL_carbonate_ester  
+CT         C181      CA_carbonate_ester
+HAE        H140      HA_carbonate_ester
+CO         C195      C_orthoester   
+CT         C181      CA_orthoester          
+OS         O180      O_orthoester        
+HC         H140      HA_orthoester           
+HC         H140      HC_orthoester       
+CO4        C465      C_perester       
+O          O281      OE_perester     
+OES        O467      OL1_perester    
+OS         O180      OL2_perester    
+CO4        C465      C_thioester
+O          O281      O_thioester
+S          S202      S_thioester
+CO4        C465      C_carbamate
+O          O233      OE_carbamate
+OES        O467      OL_carbamate
+N          N230      Np_carbamate    
+N	   N231      Ns_carbamate      
+N          N232      Nt_carbamate      
+H          H240      HN_carbamate
+CT         C181      CA_carbamate
+HAE        H140      HA_carbamate
+C          C267      C_carbamic_acid        
+O          O269      OE_carbamic_acid      
+OH         O268      OL_carbamic_acid      
+N          N230      Np_carbamic_acid      
+H          H240      HN_carbamic_acid       
+HO         H240      HO_carbamic_acid   
+C          C247      C_urea
+O          O248      O_urea
+N          N230      Np_urea
+N	   n231      Ns_urea
+N          N232      Nt_urea
+H          H240      HN_urea
+N          N249      NN_urea   
+CDS        C234      C_thiourea     
+SD         S205      S_thiourea      
+N          N232      Nt_thiourea     
+NT         N900      Np_amine         
+NT	   N901      Ns_amine         
+NT         N902      Nt_amine        
+H          H240      HN_amine
+HANI       H140      HA_amine           
+CT         C135      CA_amine     
+NTC        N901      Ns_cyclic_amine      
+NTC        N902      Nt_cyclic_amine     
+CTNC       C135      CA_cyclic_amine     
+H          H240      HN_cyclic_amine    
+HANI       H140      HA_cyclic_amine    
+CTNC       C135      C_cyclic_amine     
+HC         H140      HC_cyclic_amine    
+NTC        N901      Ns_piperidine
+NTC        N901      N1s_piperidine
+NTH        N901      N2s_piperidine
+NTC        N902      Nt_piperidine
+CTNC       C135      C_piperidine
+CTNC       C135      Cs_piperidine
+CTNC       C135      Ct_piperidine
+CTNC       C135      Cq_piperidine
+HC         H140      HC_piperidine
+H          H240      HN_piperidine
+NTH0       N902      Nt_piperazine
+CT         C135      C_piperazine
+HC         H140      HC_piperazine 
+OS         O180      O1_morpholine   
+CT         C181      C2_morpholine     
+CT         C135      C3_morpholine    
+NTH0       N902      N4_morpholine    
+NE         N343      NR_morpholine
+CT         C135      C5_morpholine    
+CT         C181      C6_morpholine    
+HC         H140      HC_morpholine    
+CTNC       C135      C_pyrrolidine
+CTNC       C135      CA_pyrrolidine
+HANI       H140      HA_pyrrolidine
+HC         H140      HC_pyrrolidine
+NTH0       N902      Nt_pyrrolidine
+NT         N901      Ns_pyrrolidine
+H          H240      HN_pyrrolidine
+C          C235      C_lactam          
+N          N238      Ns_lactam         
+H          H240      HN_lactam        
+O          O233      O_lactam         
+CT         C135      Cs_lactam        
+HC         H140      HC_lactam       
+C	   C235	     C_amide
+O	   O233      O_amide
+N          N238      N_amide
+N	   N237	     Np_amide
+N          N238      Ns_amide
+N          N239      Nt_amide
+H	   H240      HN_amide
+CDS        C234      C_thioamide
+SD         S205      S_thioamide
+N          N237      Np_thioamide
+N          N238      Ns_thioamide
+N          N239      Nt_thioamide
+H          H240      HN_thioamide
+C          C316      C_carbamoyl_chloride   
+O          O233      O_carbamoyl_chloride 
+N          N237      Np_carbamoyl_chloride  
+N          N238      Ns_carbamoyl_chloride   
+N          N239      Nt_carbamoyl_chloride 
+Cl         Cl151     Cl_carbamoyl_chloride 
+H          H240      HN_carbamoyl_chloride
+C          C235      C_hydroxamic_acid
+O          O233      OE_hydroxamic_acid
+OHA        O147      OL_hydroxamic_acid 
+N          N238      N_hydroxamic_acid
+H          H240      HN_hydroxamic_acid
+HO         H240      HO_hydroxamic_acid
+CDX        C752      C_amidine     
+CDXR	   C752      CR_amidine
+NI         N750      NU_amidine   
+NE         N6002     Np_amidine
+NE         N6002     Ns_amidine        
+NE         N6002     Nt_amidine   
+H          H240      HN_amidine    
+CDX        C752      C_guanidine 
+CT         C748      CA_guanidine   
+NI         N750      NU_guanidine 
+NI         N995      NR_guanidine
+NEA        N749      N_guanidine
+NEA        N749      Np_guanidine
+NEA        N6002     Ns_guanidine     
+NEA        N6002     Nt_guanidine
+H          H240      HN_guanidine 
+HC         H140      HA_guanidine
+C          C993      C_carbonyl_guanidine 
+O          O244      O_carbonyl_guanidine   
+NI         N994      NU_carbonyl_guanidine  
+N          N238      Np_amide_guanidine  
+N          N238      Ns_amide_guanidine   
+N          N238      Nt_amide_guanidine  
+H          H240      HN_amide_guanidine   
+C          C252      C_imide
+CT	   C256      CA_imide 
+O          O253      O_imide
+N          N232      N_imide
+N          N239      NC_imide
+N          N251      NH_imide
+HAM        H240      HN_imide
+HC         H140      HA_imide
+CZA	   C263      C_carbodiimide
+NI         N245      N_carbodiimide
+OS         O180      O_cyanate       
+CZ         C757      C_cyanate      
+NZ         N756      N_cyanate      
+CT         C181      CA_cyanate     
+HC         H140      HA_cyanate         
+NI         N245      N_isocyanate     
+CZA        C263      C_isocyanate    
+O          O233      O_isocyanate         
+CZ	   C754	     C_nitrile
+CZ  	   C754      CC_nitrile
+CZB	   C261	     CR_nitrile
+NZB        C262      NCR_nitrile   
+NZ	   N753	     N_nitrile
+CANI	   C755	     CA_nitrile
+HANI	   H140	     HA_nitrile
+CANI       C755      CC_cyanohydrin   
+HANI       H140      HC_cyanohydrin    
+CZ         C754      CN_cyanohydrin    
+NZ         N753      N_cyanohydrin      
+OAL        O154      O_cyanohydrin      
+HO         H240      HO_cyanohydrin     
+CZ         C754      C_cyanimide           
+NZ         N756      NE_cyanimide      
+NEA        N342      Ns_cyanimide       
+NEA        N342      Nt_cyanimide        
+NE         N343      NR_cyanimide       
+H          H240      HN_cyanimide          
+CD         C190      C_aldimine
+NI         N245      N_aldimine
+NI         N245      Ns_aldimine
+HE         H146      HC_aldimine
+CD	   C190      C_aldoxime             
+HE	   H146      HC_aldoxime     
+NI         N245      N_aldoxime          
+OHX        O176      O_aldoxime     
+HO         H240      HO_aldoxime     
+CD         C190      C_ketoxime          
+NI         N245      N_ketoxime           
+OHX        O176      O_ketoxime           
+HO         H240      HO_ketoxime           
+OS         O180      O_peroxide              
+OS         O180      O_hydroperoxide        
+OH         O154      OH_hydroperoxide        
+HO         H240      HO_hydroperoxide        
+NO2B	   N7760     NR_nitro
+NO2	   N760	     N_nitro
+NO2        N760      NC_nitro
+ONI	   O761      O_nitro
+CT         C762      CA_nitro
+HANI       H140      HA_nitro
+NO         N768      N_nitroso
+ONI	   O761      O_nitroso
+NI         N245      N_nitrite
+OS         O180      OL_nitrite
+ONI        O761      OE_nitrite
+NI         N245      N_thionitrite   
+ONI        O761      O_thionitrite  
+S          S202      S_thionitrite  
+NO3        N764      N_nitrate            
+ONA        O765      OL_nitrate        
+ONI        O761      OE_nitrate       
+OAL        O148      O_hydroxylamine  
+HO         H240      HO_hydroxylamine  
+NT         N903      Np_hydroxylamine  
+NT         N903      Ns_hydroxylamine
+H          H240      HN_hydroxylamine 
+OS         O904      O_alkoxyamine    
+NT         N903      Np_alkoxyamine   
+NT         N903      Ns_alkoxyamine
+H          H240      HN_alkoxyamine   
+NP	   N288	     Nq_ammonium
+NP         N309      Ns_ammonium   
+NP         N287      Np_ammonium     
+H          H240      HN_ammonium    
+NHZ	   N393      NE_nitrosamine
+NO	   N768      NL_nitrosamine
+ONI	   O761      O_nitrosamine
+CHZ        C394      C_hydrazone
+CHZ        C394      CC_hydrazone
+CHZ        C394      CR_hydrazone
+NI         N245      N_hydrazone
+NI         N245      NL_hydrazone
+NI         N245      NE_hydrazone
+N          N238      NU_hydrazone
+NHZ        N393      NH_hydrazone
+NHZ        N393      Np_hydrazone
+NHZ        N393      Ns_hydrazone
+NHZ  	   N393	     Nt_hydrazone
+NE         N6004     NR_hydrazone
+HE         H146      HC_hydrazone
+H          H240      HN_hydrazone
+NN         N344      N_azo
+NN         N344      NR_azo
+NZA	   N243      N_azide      
+NZC        N242      N+_azide     
+NZT        N241      N-_azide    
+NH         N345      Np_hydrazine   
+NH         N345      Ns_hydrazine    
+NH         N345      Nt_hydrazine      
+NH         H240      HN_hydrazine        
+SY         S474      S_sulphamide
+OY         O470      O_sulphamide
+NS         N478      Np_sulphamide
+NS         N478      Ns_sulphamide
+NS         N478      Nt_sulphamide
+NE         N478      NR_sulphamide
+H          H240      HN_sulphamide
+CT         C482      CA_sulphamide
+HC         H140      HA_sulphamide
+OZ         O497      O_sulfinamide         
+SZ         S496      S_sulfinamide         
+NT         N494      Np_sulfinamide         
+NT         N494      Ns_sulfinamide        
+NT         N494      Nt_sulfinamide    
+NE         N343      NR_sulfinamide
+HG         H140      HS_sulfinamide    
+H          H240      HN_sulfinamide    
+SZ         S496      S_sulphite_ester
+OZ         O497      OE_sulphite_ester
+OS         O492      OL_sulphite_ester
+OZ	   O497	     O_sulphoxide
+SZ	   S496	     S_sulphoxide
+S  	   S202      S_thiocyanate
+CZ	   C757      C_thiocyanate
+NZ	   N756      N_thiocyanate
+NI	   N245      N_isothiocyanate
+CZA	   C263      C_isothiocyanate
+SD	   S205      S_isothiocyanate
+SZ         S496      S_sulphinic_acid    
+OZ         O497      OE_sulphinic_acid  
+OH         O154      OL_sulphinic_acid  
+HO         H240      HO_sulphinic_acid  
+SY         S475      S_sulphonic_acid     
+OY         O470      OE_sulphonic_acid  
+OS         O5174     OL_sulphonic_acid   
+HO         H240      HO_sulphonic_acid   
+CT         C476      CA_sulphonic_acid       
+HC         H140      HA_sulphonic_acid   
+SY	   S491	     S_sulphate
+S	   S202	     S_sulphide
+OY	   O470	     OE_sulphate
+OS	   O5174     OL_sulphate
+SY         S499      S_sulphuric_acid        
+OY         O470      OE_sulphuric_acid       
+OS         O5174     OL_sulphuric_acid       
+OS         O5174     OH_sulphuric_acid
+HO         H240      HO_sulphuric_acid       
+S          S189      S_disulphide
+SH         S189      SH_disulphide
+HS         H240      HS_disulphide
+CT         C213      CA_disulphide
+HC         H140      HA_disulphide    
+SH	   S200      S_thiol
+HS	   H240      HS_thiol
+CDS        C234      C_thial
+SD         S205      S_thial
+HE         H146      H_thial
+SD         S205      S_thionoester 
+OS         O180      O_thionoester    
+CDS        C234      C_thionoester  
+CT         C181      CO_thionoester        
+SY         S493      S_sulphone
+OY         O470      O_sulphone
+CT         C495      CA_sulphone
+HC         H140      HA_sulphone
+SY         S474      S_sulphonamide   
+OY         O470      O_sulphonamide  
+NS         N478      N_sulphonamide   
+NS         N478      Np_sulphonamide   
+NS         N478      Ns_sulphonamide  
+NS         N478      Nt_sulphonamide   
+NE         N478      NR_sulphonamide    
+H          H240      HN_sulphonamide  
+CT         C482      CN_sulphonamide 
+CT         C476      CS_sulphonamide  
+P1         P446      P_phosphonic_acid     
+O2ZP       O441      OE_phosphonic_acid     
+OSP        O457      OL_phosphonic_acid    
+HO         H240      HO_phosphonic_acid   
+P1         P446      PO_phosphate    
+P2         P450      PO2_phosphate
+P3         P445      PO3_phosphate     
+P4         P460      PO4_phosphate     
+O2ZP       O441      OE_phosphate
+OSP        O452      O_phosphate 
+OSP        O457      OL_phosphate
+OSP        O457      OH_phosphate
+HO         H240      HO_phosphate
+P1         P446      P_phosphonate    
+O2ZP       O441      OE_phosphonate     
+OSP        O457      OL_phosphonate     
+OSP        O457      OH_phosphonate     
+HO         H240      HO_phosphonate     
+HP         H140      HP_phosphonate
+PR         P443      P_phosphine      
+HP         H140      HP_phosphine     
+P1         P446      P_phosphine_oxide       
+O2ZP       O441      O_phosphine_oxide       
+PR         P443      P_phosphinite      
+OS         O180      O_phosphinite         
+PR         P443      P_phosphoramidite
+NT         N905      Ns_phosphoramidite
+NT         N905      Nt_phosphoramidite
+H          H240      HN_phosphoramidite
+OS         O180      O_phosphoramidite
+P1         P446      P_phosphoramidate     
+OSP        O457      OL_phosphoramidate    
+O2ZP       O441      OE_phosphoramidate    
+NX         N459      Ns_phosphoramidate  
+H          H240      HN_phosphoramidate   
+P1         P446      P_phosphoramide   
+O2ZP       O441      O_phosphoramide         
+NX         N459      Np_phosphoramide      
+NX         N459      Ns_phosphoramide
+NX         N459      Nt_phosphoramide
+H          H240      HN_phosphoramide      
+P1         P446      P_phosphoryl_amino      
+O2ZP       O441      OE_phosphoryl_amino     
+OSP        O457      OL_phosphoryl_amino     
+NX         N459      Ns_phosphoryl_amino     
+H          H240      HN_phosphoryl_amino     
+P1         P446      P_phosphonofluoridate  
+O2ZP       O441      OE_phosphonofluoridate  
+OSP        O457      OL_phosphonofluoridate 
+F          F9956     F_phosphonofluoridate   
+P1         P446      P_phosphonothioate   
+O2ZP       O441      OE_phosphonothioate  
+OSP        O457      OL_phosphonothioate    
+S          S463      S_phosphonothioate    
+HC         H140      HC_monohaloalkane    
+HC         H140      HC_dihaloalkane     
+HC         H140      HC_trihaloalkane    
+HC         H140      HC_tetrahaloalkane     
+Cl         Cl153     ClC_tetrahaloalkane    
+CT         C135      C_tetrahaloalkane       
+FX1        F719      FC_monohaloalkane    
+FX2        F727      FC_dihaloalkane      
+FX3        F726      FC_trihaloalkane    
+FX4        F726      FC_tetrahaloalkane      
+Cl         Cl151     ClC_monohaloalkane      
+Cl         Cl152     ClC_dihaloalkane        
+Cl         Cl153     ClC_trihaloalkane    
+Br         Br722     BrC_monohaloalkane  
+Br         Br723     BrC_dihaloalkane   
+Br         Br724     BrC_trihaloalkane     
+I          I732      IC_dihaloalkane       
+CT         C2154     CF_monohaloalkane   
+CT         C2155     CCl_monohaloalkane  
+CT         C2156     CBr_monohaloalkane  
+CT_F       C2157     CF_dihaloalkane    
+CT         C2158     CCl_dihaloalkane   
+CT         C2159     CBr_dihaloalkane    
+CT_F       C2160     CF_trihaloalkane    
+CT         C2161     CCl_trihaloalkane   
+CT         C2162     CBr_trihaloalkane   
+CT         C135      C_dihaloalkane  (guess CY)
+CME        C150      CE_dihaloalkene          
+FX2        F727      FC_dihaloalkene        
+Cl         Cl152     ClC_dihaloalkene      
+Br         Br723     BrC_dihaloalkene        
+CME        C141      CE_monohaloalkene       
+CML        C141      CL_monohaloalkene
+HE         H146      HC_monohaloalkene      
+Cl         Cl151     ClC_monohaloalkene    
+Br         Br722     BrC_monohaloalkene   
+FX1        F719      FC_monohaloalkene       
+OS         O179      O_trihalogenated_ether  
+OS         O179      O_trihalogenated_aryl_ether   
+CTHO       C181      CA_trihalogenated_aryl_ether 
+CTHO       C181      CA_dihalogenated_aryl_ether   
+CTHO       C181      CA_monohalogenated_aryl_ether 
+FX5        F725      FCA_trihalogenated_aryl_ether  
+OS         O180      O1_oxathiolane13       
+CT         C181      C2_oxathiolane13        
+HC         H140      HC2_oxathiolane13       
+S          S202      S3_oxathiolane13        
+CT         C135      C4_oxathiolane13        
+HC         H140      HC4_oxathiolane13       
+CT         C181      C5_oxathiolane13        
+HC         H140      HC5_oxathiolane13       
+HA         H146      HC_aromatic
+F          F719      FC_aromatic
+Cl         Cl264     ClC_aromatic    
+Br         Br722     BrC_aromatic
+I          I732      IC_aromatic
+NBQ	   N520	     N1_pyridine
+CA         C521      C2_pyridine
+CA         C522      C3_pyridine
+CA         C523      C4_pyridine
+CA         C522      C5_pyridine            
+CA         C521      C6_pyridine          
+NAP        N1029     N1_pyridinium     
+HNP        H240      HN_pyridinium          
+CA         C1035     C2_pyridinium       
+CA         C1036     C3_pyridinium     
+CA         C1037     C4_pyridinium     
+CA         C1036     C5_pyridinium     
+CA         C1035     C6_pyridinium    
+NAP        N1029     N1_alkyl_pyridinium 
+CA         C1038     C2_alkyl_pyridinium
+CA         C1036     C3_alkyl_pyridinium  
+CA         C1039     C4_alkyl_pyridinium 
+CA         C1036     C5_alkyl_pyridinium 
+CA         C1038     C6_alkyl_pyridinium 
+NB	   N527      N1_pyrazine
+CA	   C528	     C2_pyrazine
+CA	   C528	     C3_pyrazine
+NB	   N527      N4_pyrazine
+CA	   C528	     C5_pyrazine
+CA         C528      C6_pyrazine
+NB         N537      N1_pyridazine         
+NB         N537      N2_pyridazine         
+CA         C538      C3_pyridazine        
+CA         C539      C4_pyridazine          
+CA         C539      C5_pyridazine           
+CA         C538      C6_pyridazine        
+NB         N530      N1_pyrimidine   
+CQ         C531      C2_pyrimidine      
+NB         N530      N3_pyrimidine         
+CA         C532      C4_pyrimidine           
+CA         C533      C5_pyrimidine         
+CA         C532      C6_pyrimidine          
+NB         N641      N1_triazine135       
+CQ         C642      C2_triazine135     
+NB         N641      N3_triazine135    
+CQ         C642      C4_triazine135     
+NB         N641      N5_triazine135    
+CQ         C642      C6_triazine135   
+NB         N10086    N1_triazine124    
+NB         N10087    N2_triazine124   
+CQ         C10088    C3_triazine124     
+NB         N10089    N4_triazine124    
+CA         C10090    C5_triazine124   
+CA         C10091    C6_triazine124   
+NA         N557      N1_imidazole 
+CRA        C558      C2_imidazole   
+N5B        N559      N3_imidazole    
+C5B        C560      C4_imidazole    
+C5A        C561      C5_imidazole    
+H          H240      HN_imidazole   
+NBQ        N603      N1_quinoline       
+CA         C604      C2_quinoline  
+CA         C605      C3_quinoline         
+CA         C606      C4_quinoline            
+CA         C607      C4a_quinoline           
+CA         C608      C5_quinoline       
+CA         C609      C6_quinoline            
+CA         C610      C7_quinoline            
+CA         C611      C8_quinoline          
+CA         C612      C8a_quinoline          
+CA         C3106     C1_isoquinoline      
+NBQ        N3107     N2_isoquinoline      
+CA         C3108     C3_isoquinoline     
+CA         C3109     C4_isoquinoline      
+CA         C3110     C4a_isoquinoline     
+CA         C3101     C5_isoquinoline     
+CA         C3102     C6_isoquinoline      
+CA         C3103     C7_isoquinoline      
+CA         C3104     C8_isoquinoline     
+CA         C3105     C8a_isoquinoline   
+NB         N3186     N1_quinoxaline         
+CA         N3185     C2_quinoxaline          
+CA         C3184     C3_quinoxaline         
+NB         N3183     N4_quinoxaline        
+CA         C3182     C4a_quinoxaline        
+CA         C3181     C5_quinoxaline         
+CA         C3180     C6_quinoxaline         
+CA         C3179     C7_quinoxaline        
+CA         C3178     C8_quinoxaline         
+CA         C3187     C8a_quinoxaline       
+NC         N2134     N1_pteridine
+CA         C2135     C2_pteridine
+NC         N2136     N3_pteridine
+CA         C2137     C4_pteridine
+CA         C2138     C4a_pteridine
+NC         N2129     N5_pteridine
+CA         C2130     C6_pteridine
+CA         C2131     C7_pteridine
+NC         N2132     N8_pteridine
+CA         C2133     C8a_pteridine
+NA         N2939     N1_pyrazolo_34_d_pyrimidine_1H  
+N5A        N2940     N2_pyrazolo_34_d_pyrimidine_1H  
+C5B        C2941     C3_pyrazolo_34_d_pyrimidine_1H  
+C56B       C2942     C3a_pyrazolo_34_d_pyrimidine_1H 
+CA         C2934     C4_pyrazolo_34_d_pyrimidine_1H  
+NB         N2935     N5_pyrazolo_34_d_pyrimidine_1H  
+CQ         C2936     C6_pyrazolo_34_d_pyrimidine_1H  
+NB         N2937     N7_pyrazolo_34_d_pyrimidine_1H  
+C56A       C2938     C7a_pyrazolo_34_d_pyrimidine_1H 
+NB         N537      N1_cinnoline       
+NB         N537      N2_cinnoline            
+CA         C538      C3_cinnoline         
+CA         C539      C4_cinnoline         
+CA         C5539     C4a_cinnoline       
+CA         C145      C5_cinnoline          
+CA         C145      C6_cinnoline          
+CA         C145      C7_cinnoline         
+CA         C145      C8_cinnoline         
+CA         C5538     C8a_cinnoline      
+CA         C145      C1_naphthalene   
+CA         C145      C2_naphthalene          
+CA         C145      C3_naphthalene          
+CA         C145      C4_naphthalene          
+CA         C145      C4a_naphthalene         
+CA         C145      C5_naphthalene          
+CA         C145      C6_naphthalene          
+CA         C145      C7_naphthalene         
+CA         C145      C8_naphthalene          
+CA         C145      C8a_naphthalene         
+CA         C145      C_pyrene
+CA         C145      C_anthracene
+CA         C145      C_phenanthrene
+CA         C145      C_coronene
+CA5        C145      C5_aromatic
+CA         C145      C6_aromatic
+F          F719      FC6_aromatic
+Cl         Cl264     ClC6_aromatic
+I          I732      IC6_aromatic
+C5A        C145      C5a_aromatic
+C5B        C145      C5b_aromatic
+C56A       C145      C56a_aromatic
+C56B       C145      C56b_aromatic
+NB         N520      N6_aromatic
+NA         N542      N5_aromatic
+H          H240      HN5_aromatic
+SA         S1143     S5_aromatic
+SA         S2948     S1_benzo_b_thiophene    
+C5A        C2949     C2_benzo_b_thiophene    
+C5B        C2950     C3_benzo_b_thiophene    
+C56B       C2951     C3a_benzo_b_thiophene   
+CA         C2943     C4_benzo_b_thiophene    
+CA         C2944     C5_benzo_b_thiophene    
+CA         C2945     C6_benzo_b_thiophene    
+CA         C2946     C7_benzo_b_thiophene    
+C56A       C2947     C7a_benzo_b_thiophene   
+OAB        O2885     O1_benzoxazole         
+CRA        C2886     C2_benzoxazole      
+N5BB       N2887     N3_benzoxazole          
+CA         C2880     C4_benzoxazole          
+CA         C2881     C5_benzoxazole          
+CA         C2882     C6_benzoxazole          
+CA         C2883     C7_benzoxazole          
+C56B       C2888     C3a_benzoxazole         
+C56A       C2884     C7a_benzoxazole         
+OA         O579      O1_benzisoxazole
+N5A        N580      N2_benzisoxazole
+C5BB       C581      C3_benzisoxazole
+C56B       C5001     C3a_benzisoxazole
+CA         C145      C4_benzisoxazole
+CA         C145      C5_benzisoxazole
+CA         C145      C6_benzisoxazole
+CA         C145      C7_benzisoxazole
+C56A       C5002     C7a_benzisoxazole
+NA         N2802     N1_benzimidazole      
+CRA        C2803     C2_benzimidazole      
+N5BB       N2804     N3_benzimidazole     
+C56B       C2805     C3a_benzimidazole     
+CA         C2797     C4_benzimidazole     
+CA         C2798     C5_benzimidazole   
+CA         C2799     C6_benzimidazole      
+CA         C2800     C7_benzimidazole      
+C56A       C2801     C7a_benzimidazole    
+H          H240      HN_benzimidazole 
+OA         O2867     O1_benzofuran
+C5A        C2868     C2_benzofuran
+C5B        C2869     C3_benzofuran
+CA         C2862     C4_benzofuran
+CA         C2863     C5_benzofuran
+CA         C2864     C6_benzofuran
+CA         C2865     C7_benzofuran
+C56B       C2870     C3a_benzofuran
+C56A       C2866     C7a_benzofuran
+SA         S2912     S1_benzothiazole
+CRA        S2913     C2_benzothiazole
+N5B        N2914     N3_benzothiazole
+C56B       C2915     C3a_benzothiazole
+CA         C2907     C4_benzothiazole
+CA         C2908     C5_benzothiazole
+CA         C2909     C6_benzothiazole
+CA         C2910     C7_benzothiazole
+C56A       C2911     C7a_benzothiazole
+NA         N587      N1_indole      
+H          H240      HN_indole    
+C5A        C596      C2_indole           
+C5B        C595      C3_indole          
+C56B       C594      C3a_indole       
+CA         C593      C4_indole     
+CA         C592      C5_indole         
+CA         C591      C6_indole          
+CA         C590      C7_indole       
+C56A       C589      C7a_indole          
+NA         N3022     N1_indazole    
+N5A        N3023     N2_indazole      
+C5B        C3024     C3_indazole       
+CA         C3017     C4_indazole      
+CA         C3018     C5_indazole             
+CA         C3019     C6_indazole             
+CA         C3020     C7_indazole          
+CA         C3021     C7a_indazole           
+C56B       C3025     C3a_indazole           
+H          H240      HN_indazole            
+CA         C3143     C1_phthalazine        
+NB         N3144     N2_phthalazine       
+NB         N3145     N3_phthalazine       
+CA         C3146     C4_phthalazine       
+CA         C3147     C4a_phthalazine      
+CA         C3138     C5_phthalazine       
+CA         C3139     C6_phthalazine      
+CA         C3140     C7_phthalazine      
+CA         C3141     C8_phthalazine     
+CA         C3142     C8a_phthalazine    
+CA         C145      C_carbazole           
+C56A       C145      C56a_carbazole          
+C56B       C145      C56b_carbazole          
+NA         N542      N_carbazole            
+H          H240      HN_carbazole        
+CA         C145      C_phenothiazine        
+N          N239      Nt_phenothiazine        
+N          N238      Ns_phenothiazine
+S          S202      S_phenothiazine     
+OA         O566      O1_furan      
+C5A        C567      C2_furan               
+C5BC       C568      C3_furan         
+C5BC       C568      C4_furan               
+C5A        C567      C5_furan               
+NA         N542      N1_pyrrole        
+C5A        C543      C2_pyrrole           
+C5BD       C544      C3_pyrrole              
+C5BD       C544      C4_pyrrole              
+C5A        C543      C5_pyrrole             
+NA         N548      N1_pyrazole   
+N5A        N549      N2_pyrazole         
+C5BB       C550      C3_pyrazole            
+C5BD       C551      C4_pyrazole             
+C5A        C552      C5_pyrazole            
+H240       H240      HN_pyrazole         
+SA         S633      S1_thiazole           
+CRA        C634      C2_thiazole             
+N5B        N635      N3_thiazole             
+C5B        C636      C4_thiazole            
+C5A        C637      C5_thiazole             
+NA         N1146     N1_triazole_1H_124     
+N5A        N1147     N2_triazole_1H_124   
+CRB        C1148     C3_triazole_1H_124     
+N5B        N1149     N4_triazole_1H_124      
+CRA        C1150     C5_triazole_1H_124      
+N5B        N10238    N1_triazole_2H_4H_124  
+N5P        N10237    N2_triazole_2H_4H_124  
+CRA        C10236    C3_triazole_2H_4H_124 
+N5P        C10235    N4_triazole_2H_4H_124  
+C5X        C10239    C5_triazole_2H_4H_124  
+N5BB       N2213     N1_triazole_4H_124      
+N5BB       N2212     N2_triazole_4H_124     
+CRA        C2211     C3_triazole_4H_124    
+NA         N2210     N4_triazole_4H_124      
+CRA        C2214     C5_triazole_4H_124      
+NA         N1151     N1_tetrazole1234
+H          H240      HN_tetrazole1234
+N5A        N1152     N2_tetrazole1234
+N5B        N1153     N3_tetrazole1234
+N5B        N1154     N4_tetrazole1234
+C5A        N1155     C5_tetrazole1234
+NA         N1156     N1_tetrazole1235    
+N5A        N1157     N2_tetrazole1235   
+N5B        N1158     N3_tetrazole1235  
+CRB        N1159     C4_tetrazole1235  
+N5A        N1160     N5_tetrazole1235    
+H          H240      HN_tetrazole1235     
+NA5        N182      N1_pentazole
+H          H240      HN_pentazole
+N5B        N183      N2_pentazole
+N5B        N183      N3_pentazole
+N5B        N183      N4_pentazole
+N5B        N183      N5_pentazole
+OA         O571      O1_oxazole       
+CRA        C572      C2_oxazole      
+N5B        N573      N3_oxazole      
+C5B        C574      C4_oxazole     
+C5A        C575      C5_oxazole    
+OA         O579      O1_isoxazole          
+N5A        N580      N2_isoxazole         
+C5BB       C581      C3_isoxazole          
+C5BD       C582      C4_isoxazole        
+C5BD       C583      C5_isoxazole        
+SA         S1143     S1_thiophene      
+C5A        C1144     C2_thiophene            
+C5B        C1145     C3_thiophene            
+C5B        C1145     C4_thiophene         
+C5A        C1144     C5_thiophene         
+SA         S184      S1_thiadiazole124
+N5B        N183      N2_thiadiazole124
+CA5        C145      C3_thiadiazole124 
+N5B        N183      N4_thiadiazole124 
+CA5        C145      C5_thiadiazole124
+SY         S474      S_tosyl       
+OY         O470      O_tosyl 
+CA         C145      C_tosyl   
+CT         C135      CR_tosyl            
+HC         H140      HC_tosyl  
+Cl         Cl173     ClS_tosyl     
+B	   B404      B_boroxine
+OS	   O180      O_boroxine
+HG         H140      HB_boroxine    
+B	   B404      B_boronate_ester
+OS         O180      O_boronate_ester
+B          B404      B_boronic_acid          
+OAL        O154      O_boronic_acid       
+HO         H240      HO_boronic_acid      
+B          B404      B_borinate_ester    
+OS         O180      O_borinate_ester    
+B          B404      B_borinic_acid      
+OAL        O154      O_borinic_acid      
+HO         H240      HO_borinic_acid       
+CT	   C291	     CN+_alkane
+CT	   C161	     C_tetrachloride
+Cl         Cl123     Cl_tetrachloride
+CT         C135      C_aliphatic
+HC         H140      H_aliphatic
+SX6	   S473	     S_hexafluoride
+FG	   F9956     FS_hexafluoride
+CA         C145      C_aromatic
+CA         C145      C6_aromatic
+CA5        C145      C5_aromatic
+HA	   H146	     H_aromatic
+F	   F721	     F_hexafluorobenzene 
+NZB	   N262	     N_benzonitrile
+He         He000     He_noble_gas
+Ne         Ne000     Ne_noble_gas
+Ar         Ar000     Ar_noble_gas
+Kr         Kr000     Kr_noble_gas
+Xe         Xe000     Xe_noble_gas
+Rn         Rn000     Rn_noble_gas
+I          I000      I_diatomic
+F-         F000      F-_anion
+Cl-        Cl000     Cl-_anion
+Br-        Br000     Br-_anion
+I-         I000      I-_anion
+Na+        Na000     Na+_cation
+Mg2+       Mg000     Mg2+_cation
+Ca2+       Ca000     Ca2+_cation
+Ga3+       Ga000     Ga3+_cation
+OT3        O116      O_tip3p
+HT3        H117      HO_tip3p
+OTC        O116      O_tip3p_c
+HTC        H117      HO_tip3p_c
+OT4        O113      O_tip4p         
+HT4        H114      HO_tip4p     
+OWS        O133      O_spc
+HWS        H134      HO_spc
+N3         N127      N_ammonia
+HNA        H240      HN_ammonia
+N          N231      N1s_hydantoin         
+N          N232      N1t_hydantoin        
+H          H240      HN1_hydantoin        
+C          C252      C2_hydantoin         
+O          C253      OC2_hydantoin       
+N          N231      N3s_hydantoin       
+N          N232      N3t_hydantoin        
+H          H240      HN3_hydantoin       
+C          C252      C4_hydantoin        
+O          C253      OC4_hydantoin        
+CT         C256      C5_hydantoin         
+CT         C256      C5s_hydantoin
+CT         C256      C5t_hydantoin
+CT         C256      C5q_hydantoin
+HC         H140      HC5_hydantoin       
+CO         C195      C1A_glucosamine        
+CO         C195      C1B_glucosamine      
+HC         H140      HC1_glucosamine    
+OS         O180      O1L_glucosamine   
+OAL        O154      O1_glucosamine     
+HO         H240      HO1_glucosamine   
+CT         C135      C2_glucosamine    
+HANI       H140      HC2_glucosamine   
+NTH2       N900      Np_glucosamine
+NTH        N901      Ns_glucosamine
+NTH0       N902      Nt_glucosamine
+H          H240      HN_glucosamine
+CT         C135      C3_glucosamine      
+HC         H140      HC3_glucosamine      
+OAL        O154      O3_glucosamine       
+HO         H240      HO3_glucosamine     
+CT         C135      C4_glucosamine      
+HC         H140      HC4_glucosamine     
+OAL        O154      O4_glucosamine      
+OS         O180      O4L_glucosamine    
+HO         H240      HO4_glucosamine 
+CT         C135      C5_glucosamine       
+HC         H140      HC5_glucosamine      
+OS         O180      O5_glucosamine       
+CT         C135      C6_glucosamine       
+HC         H140      HC6_glucosamine      
+OAL        O154      O6_glucosamine      
+OS         O180      O6L_glucosamine    
+HO         H240      HO6_glucosamine    
+CO         C195      C1A_daunosamine     
+CO         C195      C1B_daunosamine   
+HC         H140      HC1_daunosamine    
+OS         O180      O1L_daunosamine    
+OAL        O154      O1_daunosamine     
+HO         H240      HO1_daunosamine  
+CT         C135      C2_daunosamine     
+HC         H140      HC2_daunosamine     
+CT         C135      C3_daunosamine      
+HANI       H140      HC3_daunosamine     
+CT         C135      C4_daunosamine      
+HC         H140      HC4_daunosamine      
+OS         O180      O4L_daunosamine   
+OAL        O154      O4_daunosamine      
+HO         H240      HO4_daunosamine     
+OS         O180      O5_daunosamine
+CT         C135      C5_daunosamine       
+HC         H140      HC5_daunosamine      
+CT         C135      C6_daunosamine      
+HC         H140      HC6_daunosamine   
+NTH2       N900      Np_daunosamine
+NTH        N901      Ns_daunosamine
+H          H240      HN_daunosamine
+CO         C931      C_nucleoside    
+NB         N346      N1_adenine 
+CQ         C347      C2_adenine  
+HA         H146      HC2_adenine
+NB         N348      N3_adenine   
+C56A       C349      C4_adenine   
+C56B       C350      C5_adenine   
+CA         C351      C6_adenine   
+NNA        N352      N7_adenine   
+CRAB       C353      C8_adenine   
+HA         H146      HC8_adenine
+N*         N354      N9t_adenine   
+NA         N354      N9s_adenine
+H          H240      HN9_adenine  
+NND        N356      Np_adenine         
+NND        N356      Ns_adenine
+H          H240      HN_adenine        
+N*         N319      N1t_uracil       
+NNB        N319      N1s_uracil
+H          H240      HN1_uracil       
+H          H240      HN3_uracil
+C          C320      C2_uracil          
+O          O326      OC2_uracil          
+NNB        N321      N3s_uracil          
+H          H240      HN3_uracil          
+C          C322      C4_uracil           
+O          O328      OC4_uracil          
+CMX        C323      C5_uracil           
+Cl         Cl151     ClC5_uracil 
+HC         H146      HC5_uracil           
+CMX        C324      C6_uracil            
+HC         H146      HC6_uracil           
+H          H240      HN_uracil
+NNE        N333      N1t_cytosine    
+C          C334      C2_cytosine  
+O          O340      OC2_cytosine  
+NNC        N335      N3_cytosine 
+CDX        C336      C4_cytosine   
+CM         C337      C5_cytosine   
+HCYT       H146      HC5_cytosine    
+CNA        C338      C6_cytosine 
+HCYT       H146      HC6_cytosine   
+CO         C931      CA1_cytosine  
+NND        N341      Np_cytosine 
+H          H240      HN_cytosine 
+F          F719      FC5_cytosine
+N          N231      N1s_xanthine          
+N          N232      N1t_xanthine        
+H          H240      HN1_xanthine     
+C          C252      C2_xanthine          
+O          O253      OC2_xanthine       
+N          N231      N3s_xanthine         
+N          N232      N3t_xanthine           
+H          H240      HN3_xanthine       
+C5B        C560      C4_xanthine        
+C5A        C561      C5_xanthine        
+C          C252      C6_xanthine          
+O          O253      OC6_xanthine        
+NA         N557      N7s_xanthine         
+NA         N557      N7t_xanthine         
+H          H240      HN7_xanthine         
+CRA        C558      C8_xanthine          
+HA         H146      HC8_xanthine       
+N5B        N559      N9_xanthine        
+NI         N750      N1_quinazolinone4       
+CDX        C752      C2_quinazolinone4       
+HA         H146      HC2_quinazolinone4      
+N          N239      N3t_quinazolinone4      
+H          H240      HN3_quinazolinone4      
+C          C235      C4_quinazolinone4       
+O          O233      OC4_quinazolinone4
+CA         C145      C4a_quinazolinone4
+CA         C145      C5_quinazolinone4       
+HA         H146      HC5_quinazolinone4      
+CA         C145      C6_quinazolinone4       
+HA         H146      HC6_quinazolinone4      
+CA         C145      C7_quinazolinone4      
+HA         H146      HC7_quinazolinone4      
+CA         C145      C8_quinazolinone4       
+HA         H146      HC8_quinazolinone4      
+CA         C145      C8a_quinazolinone4
+F          F719      FC5_quinazolinone4  
+Cl         Cl264     ClC6_quinazolinone4
+Cl         Cl264     ClC7_quinazolinone4
+CT1        C224      CA_amino_acid
+HC         H140      HCA_amino_acid
+CT1        C291      CN+_amino_acid
+HC         H140      HCN+_amino_acid
+CO3        C271      C_COO-terminus    
+O2Z        O272      O_COO-terminus   
+NP         N287      N_NH3-terminus
+H          H240      HN_NH3-terminus
+CT         C135      CB_alanine       
+HC         H140      HCB_alanine    
+CTM        C135      CB_arginine
+HC         H140      HCB_arginine
+CT         C135      CG_arginine         
+HC         H140      HCG_arginine     
+CT         C307      CD_arginine     
+HANI       H140      HCD_arginine    
+NG         N303      NE_arginine    
+H          H240      HNE_arginine   
+CG1        C302      CZ_arginine    
+NG         N8003     N_arginine     
+H          H240      HN_arginine    
+CTP	   C135	     CB_asparagine
+HC         H140      HCB_asparagine        
+C          C235      CG_asparagine       
+O          O233      O_asparagine     
+N          N237      ND_asparagine     
+N          N237      N_asparagine
+H          H240      HND_asparagine  
+H          H240      HN_asparagine
+CT         C135      CB_aspartic    
+HC         H140      HCB_aspartic    
+CO3        C271      CG_aspartic      
+O2Z        O272      O_aspartic 
+CT         C135      CB_cysteine     
+HC         H140      HCB_cysteine   
+SH         S200      S_cysteine   
+HS         H240      HS_cysteine  
+CT         C135      CB_cysteine_S
+HC         H140      HCB_cysteine_S
+S          S189      S_cysteine_S
+CTA        C135      CG_glutamine            
+HC         H140      HCG_glutamine          
+CT         C135      CB_glutamine           
+HC         H140      HCB_glutamine           
+C          C235      CD_glutamine            
+O          O233      O_glutamine             
+N          N237      N_glutamine            
+H          H240      HN_glutamine           
+CTJ	   C135	     CB_glutamic
+HC         H140      HCB_glutamic
+CTI	   C135	     CG_glutamic
+HC         H140      HCG_glutamic
+CO3        C271      C_glutamic
+O2Z        O272      O_glutamic
+CT         C135      CB_glutamic_H      
+HC         H140      HCB_glutamic_H    
+CT         C135      CG_glutamic_H      
+HC         H140      HCG_glutamic_H    
+C          C267      C_glutamic_H    
+OC3        O269      OE_glutamic_H      
+OH         O268      OL_glutamic_H     
+HO         H240      HO_glutamic_H     
+CT1G	   C224	     CA_glycine
+HC         H140      HCA_glycine
+CTE	   C135      CB_isoleucine
+HC         H140      HCB_isoleucine
+CT         C135      CG1_isoleucine
+HC         H140      HCG1_isoleucine
+CT         C135      CG2_isoleucine
+HC         H140      HCG2_isoleucine
+CT         C135      CD_isoleucine
+HC         H140      HCD_isoleucine
+CT1        C135      CA_histidine1    
+CTC        C135      CB_histidine1    
+HC         H140      HCB_histidine1    
+C5A        C508      CG_histidine1      
+C5B        C513      CD2_histidine1 
+HA         H146      HCD2_histidine1   
+N5B        N511      NE2_histidine1    
+CRA        C506      CE1_histidine1     
+HA         H146      HCE1_histidine1    
+H          H240      HD1_histidine1   
+NA         N503      ND1_histidine1    
+CT1        C135      CA_histidine3     
+CTC        C135      CB_histidine3    
+HC         H140      HCB_histidine3   
+NA5B       N503      ND1_histidine3    
+CRA        C602      CE1_histidine3  
+HA         H146      HCE1_histidine3  
+NA5        N601      NE2_histidine3    
+H          H240      HE2_histidine3  
+C5X        C507      CD2_histidine3   
+HA         H146      HCD2_histidine3   
+C5X        C600      CG_histidine3    
+CTD        C135      CB_leucine
+CT         C135      CG_leucine            
+CT         C135      CD1_leucine       
+CT         C135      CD2_leucine     
+HC         H140      HCB_leucine          
+HC         H140      HCG_leucine        
+HC         H140      HCD1_leucine      
+HC         H140      HCD2_leucine     
+CTQ        C135      CB_lysine
+HC         H140      HCB_lysine
+CT         C135      CG_lysine
+HC         H140      HCG_lysine
+CT         C135      CD_lysine
+HC         H140      HCD_lysine
+CT         C291      CE_lysine
+HC         H140      HCE_lysine
+NP         N287      N_lysine
+H          H240      HN_lysine
+CTG        C135      CB_methionine    
+HC         H140      HCB_methionine    
+CT         C135      CG_methionine       
+HC         H140      HCG_methionine       
+S          S202      SD_methionine       
+CT         C135      CE_methionine       
+HC         H140      HCE_methionine     
+CT         C135      CB_phenylalanine    
+CA         C145      CG_phenylalanine   
+CA         C145      CD_phenylalanine  
+CA         C145      CE_phenylalanine  
+CA         C145      CZ_phenylalanine  
+HC         H140      HCB_phenylalanine 
+HA         H146      HCD_phenylalanine   
+HA         H146      HCE_phenylalanine  
+HA         H146      HCZ_phenylalanine  
+CT         C135      CB_proline     
+HC         H140      HCB_proline       
+CT         C135      CG_proline         
+HC         H140      HCG_proline         
+CP1        C158      CD_proline         
+HC         H140      HCD_proline       
+CTS	   C135	     CB_threonine
+HC         H140      HCB_threonine
+CT         C135      CG_threonine            
+HC         H140      HCG_threonine        
+OAL        O154      O_threonine    
+HO         H240      HO_threonine  
+CTF        C135      CB_valine              
+HC         H140      HCB_valine          
+CT         C135      CG1_valine            
+CT         C135      CG2_valine              
+HC         H140      HCG1_valine           
+HC         H140      HCG2_valine         
+CA	   C145      C_aromatic_junction
+CT	   C218	     CH2_benzyl
+CT1	   C291	     C_alpha2
+CD	   C190	     C_imine
+CO3	   C271	     C_carboxylate
+CG1	   C302      C_guanidinium
+CO4	   C280      C_ketone
+CTG	   C135      CB_methionine
+CTQ	   C135	     CB_lysine
+CTU	   C135	     CB_serine
+HC         H140      HCB_serine
+OAL        O154      O_serine
+OAL        O154      OG_serine
+HO         H240      HO_serine
+HO         H240      HOG_serine
+CP1	   C158      CD_proline
+CTH	   C135	     CB_tryptophan
+HC         H140      HCB_tryptophan
+C5M	   C500	     CG_tryptophan
+C5N	   C514	     CD1_tryptophan
+HA         H146      HCD1_tryptophan    
+NA	   N503	     NE1_tryptophan
+H          H240      HNE1_tryptophan        
+CN	   C502	     CE2_tryptophan
+CB	   C501      CD2_tryptophan
+CA         C145      CE3_tryptophan    
+HA         H146      HCE3_tryptophan      
+CA         C145      CZ3_tryptophan   
+HA         H146      HCZ3_tryptophan   
+CA         C145      CZ2_tryptophan          
+HA         H146      HCZ2_tryptophan        
+CA         C145      CH2_tryptophan          
+HA         H146      HCH2_tryptophan        
+CT1	   C135      CA_histidine3
+CTC	   C135	     CB_histidine3
+NA5B	   N503	     ND1_histidine3
+CRA	   C602	     CE1_histidine3
+NA5	   N601	     NE2_histidine3
+H          H240      HNE2_histidine3
+H	   H240	     HE2_histidine3
+C5X	   C507	     CD2_histidine3
+C5X	   C600	     CG_histidine3
+CT1	   C135      CA_histidine1
+CTC	   C135      CB_histidine1
+C5A	   C508      CG_histidine1
+C5B        C513	     CD2_histidine1
+N5B        N511      NE2_histidine1
+CRA	   C506      CE1_histidine1
+H          H240      HD1_histidine1
+H          H240      HND1_histidine1
+NA         N503      ND1_histidine1
+C          C267      C_COOH-terminus
+OC3        O269      OE_COOH-terminus
+OH         O268      OL_COOH-terminus
+HO         H240      HO_COOH-terminus
+CO1        C195      C1_a-glucopyranose   
+CT         C157      C2_a-glucopyranose   
+CT         C157      C3_a-glucopyranose  
+CT         C157      C4_a-glucopyranose   
+CT         C181      C5_a-glucopyranose   
+CT         C157      C6_a-glucopyranose   
+OH5        O165      O1_a-glucopyranose  
+OH5        O169      O2_a-glucopyranose  
+OH5        O169      O3_a-glucopyranose     
+OH5        O169      O4_a-glucopyranose     
+OS1        O180      O5_a-glucopyranose     
+OH5        O154      O6_a-glucopyranose   
+HO         H240      HO1_a-glucopyranose    
+HO         H240      HO2_a-glucopyranose    
+HO         H240      HO3_a-glucopyranose   
+HO         H240      HO4_a-glucopyranose      
+HO         H240      HO6_a-glucopyranose      
+HC         H140      HC_a-glucopyranose      
+CAO        C195      C1_a-glucopyranose-O1-C3   
+CT         C135      C2_a-glucopyranose-O1-C3  
+CT         C181      C3_a-glucopyranose-O1-C3  
+CT         C135      C4_a-glucopyranose-O1-C3   
+CT         C181      C5_a-glucopyranose-O1-C3    
+CT         C135      C6_a-glucopyranose-O1-C3     
+OAS        O180      O1_a-glucopyranose-O1-C3     
+OH         O154      O2_a-glucopyranose-O1-C3    
+OH         O154      O4_a-glucopyranose-O1-C3    
+OS         O180      O5_a-glucopyranose-O1-C3    
+OH         O154      O6_a-glucopyranose-O1-C3  
+HO         H240      HO2_a-glucopyranose-O1-C3  
+HO         H240      HO4_a-glucopyranose-O1-C3   
+HO         H240      HO6_a-glucopyranose-O1-C3 
+HC         H140      HC_a-glucopyranose-O1-C3 
+CAO        C195      C1_a-glucopyranose-O1-C4     
+CT         C135      C2_a-glucopyranose-O1-C4     
+CT         C135      C3_a-glucopyranose-O1-C4     
+CT         C181      C4_a-glucopyranose-O1-C4     
+CT         C181      C5_a-glucopyranose-O1-C4     
+CT         C135      C6_a-glucopyranose-O1-C4     
+HC         H140      HC_a-glucopyranose-O1-C4     
+OAS        O180      O1_a-glucopyranose-O1-C4    
+OAL        O154      O2_a-glucopyranose-O1-C4   
+OAL        O154      O3_a-glucopyranose-O1-C4     
+OS         O180      O5_a-glucopyranose-O1-C4   
+OAL        O154      O6_a-glucopyranose-O1-C4   
+HO         H240      HO2_a-glucopyranose-O1-C4
+HO         H240      HO3_a-glucopyranose-O1-C4  
+HO         H240      HO6_a-glucopyranose-O1-C4 
+CBO        C195      C1_b-glucopyranose-O1-C4    
+CT         C135      C2_b-glucopyranose-O1-C4    
+CT         C135      C3_b-glucopyranose-O1-C4     
+CT         C181      C4_b-glucopyranose-O1-C4     
+CT         C181      C5_b-glucopyranose-O1-C4     
+CT         C135      C6_b-glucopyranose-O1-C4     
+HC         H140      HC_b-glucopyranose-O1-C4     
+OBS        O180      O1_b-glucopyranose-O1-C4     
+OAL        O154      O2_b-glucopyranose-O1-C4     
+OAL        O154      O3_b-glucopyranose-O1-C4     
+OS         O180      O5_b-glucopyranose-O1-C4     
+OAL        O154      O6_b-glucopyranose-O1-C4     
+HO         H240      HO2_b-glucopyranose-O1-C4    
+HO         H240      HO3_b-glucopyranose-O1-C4    
+HO         H240      HO6_b-glucopyranose-O1-C4    
+CBO        C195      C1_b-glucopyranose-C4        
+CT         C135      C2_b-glucopyranose-C4      
+CT         C135      C3_b-glucopyranose-C4    
+CT         C181      C4_b-glucopyranose-C4    
+CT         C181      C5_b-glucopyranose-C4    
+CT         C135      C6_b-glucopyranose-C4    
+HC         H140      HC_b-glucopyranose-C4    
+OAL        O154      O1_b-glucopyranose-C4    
+OAL        O154      O2_b-glucopyranose-C4   
+OAL        O154      O3_b-glucopyranose-C4     
+OS         O180      O5_b-glucopyranose-C4     
+OAL        O154      O6_b-glucopyranose-C4    
+HO         H240      HO1_b-glucopyranose-C4    
+HO         H240      HO2_b-glucopyranose-C4   
+HO         H240      HO3_b-glucopyranose-C4   
+HO         H240      HO6_b-glucopyranose-C4   
+CO1        C195      C1_a-glucopyranose-O1    
+CT         C157      C2_a-glucopyranose-O1    
+CT         C157      C3_a-glucopyranose-O1    
+CT         C157      C4_a-glucopyranose-O1   
+CT         C181      C5_a-glucopyranose-O1   
+CT         C157      C6_a-glucopyranose-O1  
+OAS1       O180      O1_a-glucopyranose-O1       
+OH5        O169      O2_a-glucopyranose-O1       
+OH5        O169      O3_a-glucopyranose-O1      
+OH5        O169      O4_a-glucopyranose-O1        
+OS1        O180      O5_a-glucopyranose-O1        
+OH5        O154      O6_a-glucopyranose-O1      
+HO         H240      HO2_a-glucopyranose-O1     
+HO         H240      HO3_a-glucopyranose-O1      
+HO         H240      HO4_a-glucopyranose-O1       
+HO         H240      HO6_a-glucopyranose-O1       
+HC         H140      HC_a-glucopyranose-O1       
+CO1        C195      C1_b-glucopyranose-O1    
+CT         C157      C2_b-glucopyranose-O1    
+CT         C157      C3_b-glucopyranose-O1    
+CT         C157      C4_b-glucopyranose-O1   
+CT         C181      C5_b-glucopyranose-O1   
+CT         C157      C6_b-glucopyranose-O1  
+OAS1       O180      O1_b-glucopyranose-O1       
+OH5        O169      O2_b-glucopyranose-O1       
+OH5        O169      O3_b-glucopyranose-O1      
+OH5        O169      O4_b-glucopyranose-O1        
+OS1        O180      O5_b-glucopyranose-O1        
+OH5        O154      O6_b-glucopyranose-O1      
+HO         H240      HO2_b-glucopyranose-O1     
+HO         H240      HO3_b-glucopyranose-O1      
+HO         H240      HO4_b-glucopyranose-O1       
+HO         H240      HO6_b-glucopyranose-O1       
+HC         H140      HC_b-glucopyranose-O1
+CO1        C195      C1_b-allopyranose-O1        
+CT         C157      C2_b-allopyranose-O1         
+CT         C157      C3_b-allopyranose-O1         
+CT         C157      C4_b-allopyranose-O1         
+CT         C181      C5_b-allopyranose-O1         
+CT         C157      C6_b-allopyranose-O1         
+OBS1       O180      O1_b-allopyranose-O1        
+OH5        O169      O2_b-allopyranose-O1        
+OH5        O169      O3_b-allopyranose-O1       
+OH5        O169      O4_b-allopyranose-O1      
+OS1        O180      O5_b-allopyranose-O1      
+OH5        O154      O6_b-allopyranose-O1      
+HO         H240      HO2_b-allopyranose-O1     
+HO         H240      HO3_b-allopyranose-O1     
+HO         H240      HO4_b-allopyranose-O1     
+HO         H240      HO6_b-allopyranose-O1     
+HC         H140      HC_b-allopyranose-O1     
+CO1        C195      C1_a-idopyranose-O1-C2      
+CT         C181      C2_a-idopyranose-O1-C2    
+CT         C135      C3_a-idopyranose-O1-C2  
+CT         C135      C4_a-idopyranose-O1-C2     
+CT         C181      C5_a-idopyranose-O1-C2    
+OS         O180      O5_a-idopyranose-O1-C2   
+CT         C135      C6_a-idopyranose-O1-C2    
+HC         H140      HC_a-idopyranose-O1-C2    
+OAS        O180      O1_a-idopyranose-O1-C2    
+OH         O154      O3_a-idopyranose-O1-C2    
+HO         H240      HO3_a-idopyranose-O1-C2   
+OH         O154      O4_a-idopyranose-O1-C2    
+HO         H240      HO4_a-idopyranose-O1-C2   
+OH         O154      O6_a-idopyranose-O1-C2    
+HO         H240      HO6_a-idopyranose-O1-C2   
+Si         Si1050    Si_silica       
+OS         O172      O_silica        
+Si         Si1050    Si_siloxane      
+OS         O172      O_siloxane          
+HSi        H140      HSi_siloxane          
+Si         Si1050    Si_silanol           
+OS         O172      O_silanol            
+HO         H240      HO_silanol           
+HE	   H146	     H_alkene
+HC	   H140	     H_alpha
+HMET	   H140	     H_methoxide
+H	   H240      HN_analine
+H	   H240	     H_ammonium
+H	   H240	     H_guanidinium
+H_OH	   H146	     HO_hydroxide
+HCG        H140      H_glycine_neutral 
+O2Z	   O272	     O_carboxylate
+O	   O281	     O_ketone
+OES	   O467	     O_ester
+OM	   O434	     O_hydroxide
+ON	   O788	     O_nitrate
+NE	   N6004     NH_analine
+NI	   N245      N_imine
+NG	   N303	     NH_guanidinium
+NG	   N8003     NH2_guanidinium
+NP	   N287	     N_ammonium
+NOM	   N787	     N_nitrate
+CG         C241      C_iminium 
+TiOH       Ti9000    Ti_metal_hydroxide
+OTH        O9001     O_metal_hydroxide
+HOT        H9002     HO_metal_hydroxide
+H_d        H000      H_diatomic
+O_d        O000      O_diatomic
+N_d        N000      N_diatomic
+Q4         0         Q4_pseudo
+END
+
+--------------------------------
+October 2020
+DL_FIELD   OPLS_CL_P
+C1         C1
+H1         H1
+CT         CT
+HC         HC
+NA         NA
+CR         CR
+HCR        HCR
+HNA        HNA
+CW         CW
+HCW        HCW
+CA         CA
+HA         HA
+NB         NB
+SB         SB
+OB         OB
+CF         CF
+FB         FB
+SO         SO
+OS         OS
+CS3        CS3
+HS3        HS3
+OC         OC
+CS4        CS4
+HS4        HS4
+SK         SK
+CK         CK
+NK         NK
+NC         NC
+CN         CN
+N3         N3
+CZ         CZ
+NZ         NZ
+C3A        C3A
+B          B
+NT         NT
+NG         NG
+CG         CG
+HG         HG
+PT         PT
+P          P
+FP         FP
+F          F
+HN         HN
+CO         CO
+O2         O2
+OH         OH
+HO         HO
+Li+        Li+
+Na+        Na+
+Cl-        Cl-
+Br-        Br-
+END 
+
+
+---------------------------------------
+October 2023
+DL_FIELD   TRAPPE_EH
+C_1        C_1
+END
+
+---------------------------------------
+July 2018
+DL_FIELD   OPLS_AAM
+C135       C135
+C136       C136
+C137       C137
+C145       C145
+C149       C149
+C157       C157
+C158       C158
+C166       C166
+C206       C206
+C209       C209
+C210       C210
+C214       C214
+C223       C223
+C224       C224
+C235       C235
+C242       C242
+C245       C245
+C246       C246
+C267       C267
+C271       C271
+C274       C274
+C283       C283
+C284       C284
+C285       C285
+C292       C292
+C293       C293
+C295       C295
+C296       C296
+C302       C302
+C307       C307
+C308       C308
+C500       C500
+C501       C501
+C502       C502
+C505       C505
+C506       C506
+C507       C507
+C508       C508
+C509       C509
+C510       C510
+C514       C514
+H140       H140
+H146       H146
+H155       H155
+H168       H168
+H204       H204
+H240       H240
+H241       H241
+H270       H270
+H290       H290
+H301       H301
+H304       H304
+H310       H310
+H504       H504
+H513       H513
+N237       N237
+N238       N238
+N239       N239
+N287       N287
+N300       N300
+N303       N303
+N309       N309
+N503       N503
+N511       N511
+N512       N512
+O154       O514
+O167       O167
+O236       O236
+O268       O268
+O269       O269
+O272       O272
+S200       S200
+S202       S202
+S203       S203
+OT         OT
+HT         HT
+END
+
+----------------------------------------
+28/2/2012 C W Yong
+
+DL_FIELD  DREIDING    DL_FIELD name
+C_3       C_3         C_alkane
+C_2       C_2         C_alkene
+CC        C_2         C_carbonyl
+C_2S      C_2         C_alkene_sin
+C_1       C_1         C_alkyne
+CN        C_1         C_nitrile
+C_R       C_R         C_aromatic
+C_RS      C_R         C_aromatic_sin
+C_R       C_R         C_resonance
+COO       C_R         C_carboxylate
+O_3       O_3         O_sp3
+O_2       O_2         O_sp2
+OE        O_3         O_ether
+OS        O_3         O_ester
+OA        O_3         O_alcohol
+OP        O_3         O_phenol
+OCX       O_3         O_carboxylic
+OC        O_2         O_carbonyl
+O_R       O_R         O_aromatic
+O_R       O_R         O_resonance
+OOC       O_R         O_carboxylate
+NAM       N_3         N_amine
+NH4       N_3         N_ammonium
+NAMD      N_3         N_amide
+NIM       N_2         N_imine   
+NNI       N_1         N_nitrile
+S_3       S_3         S_sp3
+SS        S_3         S_disulphide
+ST        S_3         S_thiol
+SO        S_3         S_sulfoxide 
+N_R       N_R         N_aromatic
+H__HB     H__HB       H_polar
+H_        H_          H_nonpolar
+Cl        Cl          Chloride
+CLAL      CLAL        Cl_aldehyde
+END
+
+----------------------------------------
+14/10/2011 C W Yong
+1/11/2013  C W Yong
+
+DL_FIELD  CHARMM19     DL_FILED name
+CT        CT           United_CH0
+CH1E      CH1E         United_CH1
+CH2E      CH2E         United_CH2
+CH3E      CH3E         United_CH3
+C         C            C_carbonyl
+H         H            H_polar
+HA        HA           H_aliphatic
+HC        HC           H_polar2
+CR1E      CR1E         United_CR
+N         N            NH0_peptide
+NH1       NH1          NH1_peptide
+NH2       NH2          NH2_peptide
+NH3       NH3          NH3_peptide
+NC2       NC2          NH2_guanidinium
+NR        NR           N_aromatic
+NP        NP           N_pyrole
+O         O            O_carbonyl
+OC        OC           O_carboxylate
+OS        OS           O_ester
+OH1       OH1          O_hydroxyl
+OH2       OH2          ST2_water_O
+SH1E      SH1E         United_SH
+S         S            Sulphur
+LP        LP           ST2_lone_pair
+END
+
+---------------------------------------
+27/10/2011 C W Yong
+
+DL_FIELD   PCFF       DL_FIELD name
+c          c 
+c+         c+
+c-         c-
+c1         c1
+c2         c2
+c3         c3
+c5         c5
+c=         c=
+c=1        c=1
+c=2        c=2
+c_0        c_0
+c_1        c_1
+c_2        c_2
+c_a        c_a
+cg         cg
+ci         ci
+cp         cp
+ct         ct
+cz         cz
+h          h
+h*         h*
+hw         hw     H_water
+h+         h+
+hc         hc
+hi         hi
+hn         hn
+hn2        hn2
+ho         ho
+ho2        ho2
+hs         hs
+n+         n+
+n1         n1
+n2         n2
+n_2        n_2
+na         na
+n          n
+nb         nb
+nh         nh
+ni         ni
+np         np
+nr         nr
+nt         nt
+n=         n=
+o          o
+oh         oh
+o*         o*
+o-         o-
+o_1        o_1
+o_2        o_2
+oc         oc
+op         op
+p=         p=
+s          s
+s1         s1
+sc         sc
+sh         sh
+si         si
+sp         sp
+SOD        SOD     Sodium,original is Na
+END
+
+---------------------------------------
+5/4/2022 C W Yong
+This is redundant. Put it here as a reference.
+
+DL_FIELD   COMPASS    DL_FIELD name
+ar         ar         
+c3a        c3a
+c1o        c1o 
+c2=        c2=
+c3'        c3'
+c4         c4
+c41o       c41o
+c43o       c43o
+c43        c43
+c44        c44
+c4o        c4o
+c4z        c4z
+h1         h1
+h1h        h1h
+h1o        h1o
+he         he
+kr         kr
+n1n        n1n
+n1o        n1o
+n1z        n1z
+n2=        n2=
+n2o        n2o
+n2t        n2t
+n2z        n2z
+n3m        n3m
+n3o        n3o
+ne         ne
+o1=        o1=
+o1=*       o1=*
+o12        o12
+o1c        o1c
+o1n        o1n
+o1o        o1o
+o2         o2
+o2e        o2e
+o2h        o2h
+o2n        o2n
+o2s        o2s
+o2z        o2z
+p4=        p4=
+s1=        s1=
+s2=        s2=
+si4        si4
+si4c       si4c
+xe         xe
+END
+
+
+---------------------------------------
+7/10/2015 C W Yong
+5/4/2022 C W Yong - this looks like it is redundant.
+
+DL_FIELD   CVFF       DL_FIELD name
+c3         c3
+c2         c2
+c1         c1
+h          h
+ct         ct
+nt         nt
+c'         c'
+o'         o'
+o          o
+o-         o-
+op         op
+c          c
+cp         cp
+n2         n2
+hn         hn
+n=         n=
+s          s
+c=         c=
+oh         oh
+ho         ho
+cl         cl
+np         np
+no         no
+n          n
+f          f
+br         br
+cg         cg
+n3         n3
+n2         n2
+n4         n4
+p          p
+c5         c5
+Cl-        Cl     Cl-_anion 
+lp         lp
+END
+
+------------------------------------------
+10/10/2012 C W Yong
+
+DL_FIELD   INORGANIC       DL_FIELD name
+Na_1       Na_1            Sodium_ion_1
+Cl_1       Cl_1            Chloride_ion_1
+Mg_1       Mg_1            Magnesium_ion_1
+O_1        O_1             Oxide_ion_1 
+O_2        O_2             Oxide_ion_2  
+Ti_1       Ti_1            Titanium_4ion_1 
+END
+
+--------------------------------------------
+March 2019 C W Yong - note labels reversed.
+April 2021 C W Yong - no longer needed.
+MISC_FF    DL_FIELD    DL_FIELD name
+# Empty, not needed. 
+END
+
