@@ -1,7 +1,7 @@
 # copied from dl-poly-data/data/5.1.0/
 # TEST 42 - NPT ensemble, Langevin thermostat-barostat
 
-temperature  500.0 K
+temperature  300.0 K
 print_frequency  2.0 steps
 stats_frequency  2.0 steps
 vdw_cutoff  12.0 ang
