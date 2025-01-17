@@ -1,0 +1,48 @@
+Title: Generic control file.
+# This is a generic CONTROL file. Please adjust to your requirement.
+# Directives which are commented are some useful options.
+
+ensemble nve
+temperature 100.0
+
+# Perform zero temperature run (really set to 10K)
+#zero
+
+# Cap forces during equilibration, in unit kT/angstrom.
+# (useful if your system is far from equilibrium)
+#cap 1000.0
+
+# Increase array size per domain
+#densvar 10 %
+
+# Bypass checking restrictions and reporting
+#no index
+#no strict
+#no topolgy
+
+steps 10000
+equilibration steps 1000
+scale every 2
+timestep 0.0005
+
+# Suggested cut off - zeolites: ~10.0, condensed phase: ~12.0
+cutoff 10.0
+ewald precision 1e-6
+
+# Need these for bond constrains
+#mxshak 100
+#shake 1.0e-6
+
+# May need this for biological force field like CHARMM, OPLS, etc.
+# May not affect atomistic model too much, if cut off is large (> 10.0).
+# vdw shift
+
+# Continue MD simulation
+#restart
+
+traj 1 200 0
+print every 1000
+stats every 1000
+job time 100000
+close time 200
+finish

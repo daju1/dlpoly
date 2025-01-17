@@ -1,0 +1,1291 @@
+# List of ATOM_TYPEs in DL_F Notation
+Atom_index   ATOM_TYPE   imp_flag    neighbour_number   neighbour1  neighbour2 ...
+MOLECULAR_GROUP XYZ  POTENTIAL opls2005
+1      C6_aromatic                     1  3      2    107    115
+2      C6_aromatic                     1  3      1      3    193
+3      C6_aromatic                     1  3      2      4     54
+4      C6_aromatic                     1  3      3      5    237
+5      C6_aromatic                     1  3      4      6    209
+6      C6_aromatic                     1  3      5      7    238
+7      C6_aromatic                     1  3      6      8    191
+8      C6_aromatic                     1  3      7      9    210
+9      C6_aromatic                     1  3      8     10     41
+10     C6_aromatic                     1  3      9     11    190
+11     C6_aromatic                     1  3     10     12     37
+12     C6_aromatic                     1  3     11     13     35
+13     C6_aromatic                     1  3     12     14     21
+14     C6_aromatic                     1  3     13     15     22
+15     C6_aromatic                     1  3     14     16     37
+16     C6_aromatic                     1  3     15     17     38
+17     C6_aromatic                     1  3     16     18     19
+18     C6_aromatic                     1  3     17     51    205
+19     C6_aromatic                     1  3     17     20    239
+20     C6_aromatic                     1  3     19     36     37
+21     C6_aromatic                     1  3     13     24     96
+22     C6_aromatic                     1  3     14     23     95
+23     C6_aromatic                     1  3     22     38     90
+24     C6_aromatic                     1  3     21     25    101
+25     C6_aromatic                     1  3     24     26     35
+26     C6_aromatic                     1  3     25     27     34
+27     C6_aromatic                     1  3     26     28     39
+28     C6_aromatic                     1  3     27     29     47
+29     C6_aromatic                     1  3     28     30     33
+30     C6_aromatic                     1  3     29     31    157
+31     C6_aromatic                     1  3     30     32     46
+32     C6_aromatic                     1  3     31     56    116
+33     C6_aromatic                     1  3     29     34    135
+34     C6_aromatic                     1  3     26     33    102
+35     C6_aromatic                     1  3     12     25     41
+36     C6_aromatic                     1  3     20    190    240
+37     C6_aromatic                     1  3     11     15     20
+38     C6_aromatic                     1  3     16     23     48
+39     C6_aromatic                     1  3     27     40     41
+40     C6_aromatic                     1  3     39     42    210
+41     C6_aromatic                     1  3      9     35     39
+42     C6_aromatic                     1  3     40     43     47
+43     C6_aromatic                     1  3     42     44     55
+44     C6_aromatic                     1  3     43     45    105
+45     C6_aromatic                     1  3     44     46     74
+46     C6_aromatic                     1  3     31     45     47
+47     C6_aromatic                     1  3     28     42     46
+48     C6_aromatic                     1  3     38     49     51
+49     C6_aromatic                     1  3     48     50     89
+50     C6_aromatic                     1  3     49     53     77
+51     C6_aromatic                     1  3     18     48     52
+52     C6_aromatic                     1  3     51     53    241
+53     C6_aromatic                     1  3     50     52    114
+54     C6_aromatic                     1  3      3     55    106
+55     C6_aromatic                     1  3     43     54    209
+56     C6_aromatic                     1  3     32     57     74
+57     C6_aromatic                     1  3     56     58    122
+58     C6_aromatic                     1  3     57     59     76
+59     C6_aromatic                     1  3     58     60    124
+60     C6_aromatic                     1  3     59     61     69
+61     C6_aromatic                     1  3     60     62    127
+62     C6_aromatic                     1  3     61     63     66
+63     C6_aromatic                     1  3     62     64     68
+64     C6_aromatic                     1  3     63     65     86
+65     C6_aromatic                     1  3     64     67     93
+66     C6_aromatic                     1  3     62     67    129
+67     C6_aromatic                     1  3     65     66     71
+68     C6_aromatic                     1  3     63     69    111
+69     C6_aromatic                     1  3     60     68     70
+70     C6_aromatic                     1  3     69     76    109
+71     C6_aromatic                     1  3     67     72    151
+72     C6_aromatic                     1  3     71     73     92
+73     C6_aromatic                     1  3     72     99    149
+74     C6_aromatic                     1  3     45     56     75
+75     C6_aromatic                     1  3     74     76    103
+76     C6_aromatic                     1  3     58     70     75
+77     C6_aromatic                     1  3     50     78     85
+78     C6_aromatic                     1  3     77     79    112
+79     C6_aromatic                     1  3     78     80     87
+80     C6_aromatic                     1  3     79     81     82
+81     C6_aromatic                     1  3     80    113    194
+82     C6_aromatic                     1  3     80     83    110
+83     C6_aromatic                     1  3     82     84    108
+84     C6_aromatic                     1  3     83    115    194
+85     C6_aromatic                     1  3     77     86     88
+86     C6_aromatic                     1  3     64     85     87
+87     C6_aromatic                     1  3     79     86    111
+88     C6_aromatic                     1  3     85     89     93
+89     C6_aromatic                     1  3     49     88     90
+90     C6_aromatic                     1  3     23     89     91
+91     C6_aromatic                     1  3     90     92     94
+92     C6_aromatic                     1  3     72     91     93
+93     C6_aromatic                     1  3     65     88     92
+94     C6_aromatic                     1  3     91     95     99
+95     C6_aromatic                     1  3     22     94     96
+96     C6_aromatic                     1  3     21     95     97
+97     C6_aromatic                     1  3     96     98    100
+98     C6_aromatic                     1  3     97     99    144
+99     C6_aromatic                     1  3     73     94     98
+100    C6_aromatic                     1  3     97    101    143
+101    C6_aromatic                     1  3     24    100    102
+102    C6_aromatic                     1  3     34    101    141
+103    C6_aromatic                     1  3     75    104    105
+104    C6_aromatic                     1  3    103    108    109
+105    C6_aromatic                     1  3     44    103    106
+106    C6_aromatic                     1  3     54    105    107
+107    C6_aromatic                     1  3      1    106    108
+108    C6_aromatic                     1  3     83    104    107
+109    C6_aromatic                     1  3     70    104    110
+110    C6_aromatic                     1  3     82    109    111
+111    C6_aromatic                     1  3     68     87    110
+112    C6_aromatic                     1  3     78    113    114
+113    C6_aromatic                     1  3     81    112    201
+114    C6_aromatic                     1  3     53    112    242
+115    C6_aromatic                     1  3      1     84    243
+116    C6_aromatic                     1  3     32    117    121
+117    C6_aromatic                     1  3    116    118    123
+118    C6_aromatic                     1  3    117    119    172
+119    C6_aromatic                     1  3    118    120    169
+120    C6_aromatic                     1  3    119    121    160
+121    C6_aromatic                     1  3    116    120    157
+122    C6_aromatic                     1  3     57    123    125
+123    C6_aromatic                     1  3    117    122    161
+124    C6_aromatic                     1  3     59    125    126
+125    C6_aromatic                     1  3    122    124    211
+126    C6_aromatic                     1  3    124    128    215
+127    C6_aromatic                     1  3     61    128    130
+128    C6_aromatic                     1  3    126    127    163
+129    C6_aromatic                     1  3     66    130    134
+130    C6_aromatic                     1  3    127    129    131
+131    C6_aromatic                     1  3    130    132    168
+132    C6_aromatic                     1  3    131    133    467
+133    C6_aromatic                     1  3    132    134    466
+134    C6_aromatic                     1  3    129    133    152
+135    C6_aromatic                     1  3     33    136    140
+136    C6_aromatic                     1  3    135    137    158
+137    C6_aromatic                     1  3    136    138    221
+138    C6_aromatic                     1  3    137    139    179
+139    C6_aromatic                     1  3    138    140    181
+140    C6_aromatic                     1  3    135    139    141
+141    C6_aromatic                     1  3    102    140    142
+142    C6_aromatic                     1  3    141    187    188
+143    C6_aromatic                     1  3    100    145    188
+144    C6_aromatic                     1  3     98    145    148
+145    C6_aromatic                     1  3    143    144    146
+146    C6_aromatic                     1  3    145    147    218
+147    C6_aromatic                     1  3    146    217    944
+148    C6_aromatic                     1  3    144    150    217
+149    C6_aromatic                     1  3     73    150    156
+150    C6_aromatic                     1  3    148    149    174
+151    C6_aromatic                     1  3     71    152    156
+152    C6_aromatic                     1  3    134    151    153
+153    C6_aromatic                     1  3    152    154    465
+154    C6_aromatic                     1  3    153    155    423
+155    C6_aromatic                     1  3    154    156    175
+156    C6_aromatic                     1  3    149    151    155
+157    C6_aromatic                     1  3     30    121    158
+158    C6_aromatic                     1  3    136    157    159
+159    C6_aromatic                     1  3    158    160    222
+160    C6_aromatic                     1  3    120    159    223
+161    C6_aromatic                     1  3    123    162    213
+162    C6_aromatic                     1  3    161    172    952
+163    C6_aromatic                     1  3    128    164    168
+164    C6_aromatic                     1  3    163    165    214
+165    C6_aromatic                     1  3    164    166    910
+166    C6_aromatic                     1  3    165    167    415
+167    C6_aromatic                     1  3    166    168    468
+168    C6_aromatic                     1  3    131    163    167
+169    C6_aromatic                     1  3    119    170    224
+170    C6_aromatic                     1  3    169    171    173
+171    C6_aromatic                     1  3    170    410    916
+172    C6_aromatic                     1  3    118    162    173
+173    C6_aromatic                     1  3    170    172    917
+174    C6_aromatic                     1  3    150    175    189
+175    C6_aromatic                     1  3    155    174    176
+176    C6_aromatic                     1  3    175    177    424
+177    C6_aromatic                     1  3    176    178    428
+178    C6_aromatic                     1  3    177    189    897
+179    C6_aromatic                     1  3    138    180    398
+180    C6_aromatic                     1  3    179    182    420
+181    C6_aromatic                     1  3    139    182    187
+182    C6_aromatic                     1  3    180    181    183
+183    C6_aromatic                     1  3    182    184    185
+184    C6_aromatic                     1  3    183    421    903
+185    C6_aromatic                     1  3    183    186    905
+186    C6_aromatic                     1  3    185    187    220
+187    C6_aromatic                     1  3    142    181    186
+188    C6_aromatic                     1  3    142    143    219
+189    C6_aromatic                     1  3    174    178    216
+190    C6_aromatic                     1  3     10     36    191
+191    C6_aromatic                     1  3      7    190    192
+192    Cq_alkane                       0  4    191    195    196    197
+193    Cq_alkane                       0  4      2    198    199    200
+194    C6_aromatic                     1  3     81     84    244
+195    C_nitrile                       0  2    192    235
+196    C_nitrile                       0  2    192    230
+197    C_nitrile                       0  2    192    231
+198    C_nitrile                       0  2    193    229
+199    C_nitrile                       0  2    193    226
+200    C_nitrile                       0  2    193    225
+201    Cq_alkane                       0  4    113    202    203    204
+202    C_nitrile                       0  2    201    227
+203    C_nitrile                       0  2    201    228
+204    C_nitrile                       0  2    201    236
+205    Cq_alkane                       0  4     18    206    207    208
+206    C_nitrile                       0  2    205    234
+207    C_nitrile                       0  2    205    232
+208    C_nitrile                       0  2    205    233
+209    C6_aromatic                     1  3      5     55    210
+210    C6_aromatic                     1  3      8     40    209
+211    C6_aromatic                     1  3    125    212    213
+212    C6_aromatic                     1  3    211    215    879
+213    C6_aromatic                     1  3    161    211    950
+214    C6_aromatic                     1  3    164    215    948
+215    C6_aromatic                     1  3    126    212    214
+216    C6_aromatic                     1  3    189    217    946
+217    C6_aromatic                     1  3    147    148    216
+218    C6_aromatic                     1  3    146    219    945
+219    C6_aromatic                     1  3    188    218    220
+220    C6_aromatic                     1  3    186    219    894
+221    C6_aromatic                     1  3    137    222    397
+222    C6_aromatic                     1  3    159    221    377
+223    C6_aromatic                     1  3    160    224    376
+224    C6_aromatic                     1  3    169    223    411
+225    N_nitrile                       0  1    200
+226    N_nitrile                       0  1    199
+227    N_nitrile                       0  1    202
+228    N_nitrile                       0  1    203
+229    N_nitrile                       0  1    198
+230    N_nitrile                       0  1    196
+231    N_nitrile                       0  1    197
+232    N_nitrile                       0  1    207
+233    N_nitrile                       0  1    208
+234    N_nitrile                       0  1    206
+235    N_nitrile                       0  1    195
+236    N_nitrile                       0  1    204
+237    HC_aromatic                     0  1      4
+238    HC_aromatic                     0  1      6
+239    HC_aromatic                     0  1     19
+240    HC_aromatic                     0  1     36
+241    HC_aromatic                     0  1     52
+242    HC_aromatic                     0  1    114
+243    HC_aromatic                     0  1    115
+244    HC_aromatic                     0  1    194
+245    C6_aromatic                     1  3    246    351    359
+246    C6_aromatic                     1  3    245    247    437
+247    C6_aromatic                     1  3    246    248    298
+248    C6_aromatic                     1  3    247    249    481
+249    C6_aromatic                     1  3    248    250    453
+250    C6_aromatic                     1  3    249    251    482
+251    C6_aromatic                     1  3    250    252    435
+252    C6_aromatic                     1  3    251    253    454
+253    C6_aromatic                     1  3    252    254    285
+254    C6_aromatic                     1  3    253    255    434
+255    C6_aromatic                     1  3    254    256    281
+256    C6_aromatic                     1  3    255    257    279
+257    C6_aromatic                     1  3    256    258    265
+258    C6_aromatic                     1  3    257    259    266
+259    C6_aromatic                     1  3    258    260    281
+260    C6_aromatic                     1  3    259    261    282
+261    C6_aromatic                     1  3    260    262    263
+262    C6_aromatic                     1  3    261    295    449
+263    C6_aromatic                     1  3    261    264    483
+264    C6_aromatic                     1  3    263    280    281
+265    C6_aromatic                     1  3    257    268    340
+266    C6_aromatic                     1  3    258    267    339
+267    C6_aromatic                     1  3    266    282    334
+268    C6_aromatic                     1  3    265    269    345
+269    C6_aromatic                     1  3    268    270    279
+270    C6_aromatic                     1  3    269    271    278
+271    C6_aromatic                     1  3    270    272    283
+272    C6_aromatic                     1  3    271    273    291
+273    C6_aromatic                     1  3    272    274    277
+274    C6_aromatic                     1  3    273    275    401
+275    C6_aromatic                     1  3    274    276    290
+276    C6_aromatic                     1  3    275    300    360
+277    C6_aromatic                     1  3    273    278    379
+278    C6_aromatic                     1  3    270    277    346
+279    C6_aromatic                     1  3    256    269    285
+280    C6_aromatic                     1  3    264    434    484
+281    C6_aromatic                     1  3    255    259    264
+282    C6_aromatic                     1  3    260    267    292
+283    C6_aromatic                     1  3    271    284    285
+284    C6_aromatic                     1  3    283    286    454
+285    C6_aromatic                     1  3    253    279    283
+286    C6_aromatic                     1  3    284    287    291
+287    C6_aromatic                     1  3    286    288    299
+288    C6_aromatic                     1  3    287    289    349
+289    C6_aromatic                     1  3    288    290    318
+290    C6_aromatic                     1  3    275    289    291
+291    C6_aromatic                     1  3    272    286    290
+292    C6_aromatic                     1  3    282    293    295
+293    C6_aromatic                     1  3    292    294    333
+294    C6_aromatic                     1  3    293    297    321
+295    C6_aromatic                     1  3    262    292    296
+296    C6_aromatic                     1  3    295    297    485
+297    C6_aromatic                     1  3    294    296    358
+298    C6_aromatic                     1  3    247    299    350
+299    C6_aromatic                     1  3    287    298    453
+300    C6_aromatic                     1  3    276    301    318
+301    C6_aromatic                     1  3    300    302    366
+302    C6_aromatic                     1  3    301    303    320
+303    C6_aromatic                     1  3    302    304    368
+304    C6_aromatic                     1  3    303    305    313
+305    C6_aromatic                     1  3    304    306    371
+306    C6_aromatic                     1  3    305    307    310
+307    C6_aromatic                     1  3    306    308    312
+308    C6_aromatic                     1  3    307    309    330
+309    C6_aromatic                     1  3    308    311    337
+310    C6_aromatic                     1  3    306    311    373
+311    C6_aromatic                     1  3    309    310    315
+312    C6_aromatic                     1  3    307    313    355
+313    C6_aromatic                     1  3    304    312    314
+314    C6_aromatic                     1  3    313    320    353
+315    C6_aromatic                     1  3    311    316    395
+316    C6_aromatic                     1  3    315    317    336
+317    C6_aromatic                     1  3    316    343    393
+318    C6_aromatic                     1  3    289    300    319
+319    C6_aromatic                     1  3    318    320    347
+320    C6_aromatic                     1  3    302    314    319
+321    C6_aromatic                     1  3    294    322    329
+322    C6_aromatic                     1  3    321    323    356
+323    C6_aromatic                     1  3    322    324    331
+324    C6_aromatic                     1  3    323    325    326
+325    C6_aromatic                     1  3    324    357    438
+326    C6_aromatic                     1  3    324    327    354
+327    C6_aromatic                     1  3    326    328    352
+328    C6_aromatic                     1  3    327    359    438
+329    C6_aromatic                     1  3    321    330    332
+330    C6_aromatic                     1  3    308    329    331
+331    C6_aromatic                     1  3    323    330    355
+332    C6_aromatic                     1  3    329    333    337
+333    C6_aromatic                     1  3    293    332    334
+334    C6_aromatic                     1  3    267    333    335
+335    C6_aromatic                     1  3    334    336    338
+336    C6_aromatic                     1  3    316    335    337
+337    C6_aromatic                     1  3    309    332    336
+338    C6_aromatic                     1  3    335    339    343
+339    C6_aromatic                     1  3    266    338    340
+340    C6_aromatic                     1  3    265    339    341
+341    C6_aromatic                     1  3    340    342    344
+342    C6_aromatic                     1  3    341    343    388
+343    C6_aromatic                     1  3    317    338    342
+344    C6_aromatic                     1  3    341    345    387
+345    C6_aromatic                     1  3    268    344    346
+346    C6_aromatic                     1  3    278    345    385
+347    C6_aromatic                     1  3    319    348    349
+348    C6_aromatic                     1  3    347    352    353
+349    C6_aromatic                     1  3    288    347    350
+350    C6_aromatic                     1  3    298    349    351
+351    C6_aromatic                     1  3    245    350    352
+352    C6_aromatic                     1  3    327    348    351
+353    C6_aromatic                     1  3    314    348    354
+354    C6_aromatic                     1  3    326    353    355
+355    C6_aromatic                     1  3    312    331    354
+356    C6_aromatic                     1  3    322    357    358
+357    C6_aromatic                     1  3    325    356    445
+358    C6_aromatic                     1  3    297    356    486
+359    C6_aromatic                     1  3    245    328    487
+360    C6_aromatic                     1  3    276    361    365
+361    C6_aromatic                     1  3    360    362    367
+362    C6_aromatic                     1  3    361    363    416
+363    C6_aromatic                     1  3    362    364    413
+364    C6_aromatic                     1  3    363    365    404
+365    C6_aromatic                     1  3    360    364    401
+366    C6_aromatic                     1  3    301    367    369
+367    C6_aromatic                     1  3    361    366    405
+368    C6_aromatic                     1  3    303    369    370
+369    C6_aromatic                     1  3    366    368    455
+370    C6_aromatic                     1  3    368    372    459
+371    C6_aromatic                     1  3    305    372    374
+372    C6_aromatic                     1  3    370    371    407
+373    C6_aromatic                     1  3    310    374    378
+374    C6_aromatic                     1  3    371    373    375
+375    C6_aromatic                     1  3    374    376    412
+376    C6_aromatic                     1  3    223    375    377
+377    C6_aromatic                     1  3    222    376    378
+378    C6_aromatic                     1  3    373    377    396
+379    C6_aromatic                     1  3    277    380    384
+380    C6_aromatic                     1  3    379    381    402
+381    C6_aromatic                     1  3    380    382    465
+382    C6_aromatic                     1  3    381    383    423
+383    C6_aromatic                     1  3    382    384    425
+384    C6_aromatic                     1  3    379    383    385
+385    C6_aromatic                     1  3    346    384    386
+386    C6_aromatic                     1  3    385    431    432
+387    C6_aromatic                     1  3    344    389    432
+388    C6_aromatic                     1  3    342    389    392
+389    C6_aromatic                     1  3    387    388    390
+390    C6_aromatic                     1  3    389    391    462
+391    C6_aromatic                     1  3    390    461    700
+392    C6_aromatic                     1  3    388    394    461
+393    C6_aromatic                     1  3    317    394    400
+394    C6_aromatic                     1  3    392    393    418
+395    C6_aromatic                     1  3    315    396    400
+396    C6_aromatic                     1  3    378    395    397
+397    C6_aromatic                     1  3    221    396    398
+398    C6_aromatic                     1  3    179    397    399
+399    C6_aromatic                     1  3    398    400    419
+400    C6_aromatic                     1  3    393    395    399
+401    C6_aromatic                     1  3    274    365    402
+402    C6_aromatic                     1  3    380    401    403
+403    C6_aromatic                     1  3    402    404    466
+404    C6_aromatic                     1  3    364    403    467
+405    C6_aromatic                     1  3    367    406    457
+406    C6_aromatic                     1  3    405    416    708
+407    C6_aromatic                     1  3    372    408    412
+408    C6_aromatic                     1  3    407    409    458
+409    C6_aromatic                     1  3    408    410    666
+410    C6_aromatic                     1  3    171    409    411
+411    C6_aromatic                     1  3    224    410    412
+412    C6_aromatic                     1  3    375    407    411
+413    C6_aromatic                     1  3    363    414    468
+414    C6_aromatic                     1  3    413    415    417
+415    C6_aromatic                     1  3    166    414    672
+416    C6_aromatic                     1  3    362    406    417
+417    C6_aromatic                     1  3    414    416    673
+418    C6_aromatic                     1  3    394    419    433
+419    C6_aromatic                     1  3    399    418    420
+420    C6_aromatic                     1  3    180    419    421
+421    C6_aromatic                     1  3    184    420    422
+422    C6_aromatic                     1  3    421    433    653
+423    C6_aromatic                     1  3    154    382    424
+424    C6_aromatic                     1  3    176    423    426
+425    C6_aromatic                     1  3    383    426    431
+426    C6_aromatic                     1  3    424    425    427
+427    C6_aromatic                     1  3    426    428    429
+428    C6_aromatic                     1  3    177    427    659
+429    C6_aromatic                     1  3    427    430    661
+430    C6_aromatic                     1  3    429    431    464
+431    C6_aromatic                     1  3    386    425    430
+432    C6_aromatic                     1  3    386    387    463
+433    C6_aromatic                     1  3    418    422    460
+434    C6_aromatic                     1  3    254    280    435
+435    C6_aromatic                     1  3    251    434    436
+436    Cq_alkane                       0  4    435    439    440    441
+437    Cq_alkane                       0  4    246    442    443    444
+438    C6_aromatic                     1  3    325    328    488
+439    C_nitrile                       0  2    436    479
+440    C_nitrile                       0  2    436    474
+441    C_nitrile                       0  2    436    475
+442    C_nitrile                       0  2    437    473
+443    C_nitrile                       0  2    437    470
+444    C_nitrile                       0  2    437    469
+445    Cq_alkane                       0  4    357    446    447    448
+446    C_nitrile                       0  2    445    471
+447    C_nitrile                       0  2    445    472
+448    C_nitrile                       0  2    445    480
+449    Cq_alkane                       0  4    262    450    451    452
+450    C_nitrile                       0  2    449    478
+451    C_nitrile                       0  2    449    476
+452    C_nitrile                       0  2    449    477
+453    C6_aromatic                     1  3    249    299    454
+454    C6_aromatic                     1  3    252    284    453
+455    C6_aromatic                     1  3    369    456    457
+456    C6_aromatic                     1  3    455    459    635
+457    C6_aromatic                     1  3    405    455    706
+458    C6_aromatic                     1  3    408    459    704
+459    C6_aromatic                     1  3    370    456    458
+460    C6_aromatic                     1  3    433    461    702
+461    C6_aromatic                     1  3    391    392    460
+462    C6_aromatic                     1  3    390    463    701
+463    C6_aromatic                     1  3    432    462    464
+464    C6_aromatic                     1  3    430    463    650
+465    C6_aromatic                     1  3    153    381    466
+466    C6_aromatic                     1  3    133    403    465
+467    C6_aromatic                     1  3    132    404    468
+468    C6_aromatic                     1  3    167    413    467
+469    N_nitrile                       0  1    444
+470    N_nitrile                       0  1    443
+471    N_nitrile                       0  1    446
+472    N_nitrile                       0  1    447
+473    N_nitrile                       0  1    442
+474    N_nitrile                       0  1    440
+475    N_nitrile                       0  1    441
+476    N_nitrile                       0  1    451
+477    N_nitrile                       0  1    452
+478    N_nitrile                       0  1    450
+479    N_nitrile                       0  1    439
+480    N_nitrile                       0  1    448
+481    HC_aromatic                     0  1    248
+482    HC_aromatic                     0  1    250
+483    HC_aromatic                     0  1    263
+484    HC_aromatic                     0  1    280
+485    HC_aromatic                     0  1    296
+486    HC_aromatic                     0  1    358
+487    HC_aromatic                     0  1    359
+488    HC_aromatic                     0  1    438
+489    C6_aromatic                     1  3    490    595    603
+490    C6_aromatic                     1  3    489    491    681
+491    C6_aromatic                     1  3    490    492    542
+492    C6_aromatic                     1  3    491    493    725
+493    C6_aromatic                     1  3    492    494    697
+494    C6_aromatic                     1  3    493    495    726
+495    C6_aromatic                     1  3    494    496    679
+496    C6_aromatic                     1  3    495    497    698
+497    C6_aromatic                     1  3    496    498    529
+498    C6_aromatic                     1  3    497    499    678
+499    C6_aromatic                     1  3    498    500    525
+500    C6_aromatic                     1  3    499    501    523
+501    C6_aromatic                     1  3    500    502    509
+502    C6_aromatic                     1  3    501    503    510
+503    C6_aromatic                     1  3    502    504    525
+504    C6_aromatic                     1  3    503    505    526
+505    C6_aromatic                     1  3    504    506    507
+506    C6_aromatic                     1  3    505    539    693
+507    C6_aromatic                     1  3    505    508    727
+508    C6_aromatic                     1  3    507    524    525
+509    C6_aromatic                     1  3    501    512    584
+510    C6_aromatic                     1  3    502    511    583
+511    C6_aromatic                     1  3    510    526    578
+512    C6_aromatic                     1  3    509    513    589
+513    C6_aromatic                     1  3    512    514    523
+514    C6_aromatic                     1  3    513    515    522
+515    C6_aromatic                     1  3    514    516    527
+516    C6_aromatic                     1  3    515    517    535
+517    C6_aromatic                     1  3    516    518    521
+518    C6_aromatic                     1  3    517    519    645
+519    C6_aromatic                     1  3    518    520    534
+520    C6_aromatic                     1  3    519    544    604
+521    C6_aromatic                     1  3    517    522    623
+522    C6_aromatic                     1  3    514    521    590
+523    C6_aromatic                     1  3    500    513    529
+524    C6_aromatic                     1  3    508    678    728
+525    C6_aromatic                     1  3    499    503    508
+526    C6_aromatic                     1  3    504    511    536
+527    C6_aromatic                     1  3    515    528    529
+528    C6_aromatic                     1  3    527    530    698
+529    C6_aromatic                     1  3    497    523    527
+530    C6_aromatic                     1  3    528    531    535
+531    C6_aromatic                     1  3    530    532    543
+532    C6_aromatic                     1  3    531    533    593
+533    C6_aromatic                     1  3    532    534    562
+534    C6_aromatic                     1  3    519    533    535
+535    C6_aromatic                     1  3    516    530    534
+536    C6_aromatic                     1  3    526    537    539
+537    C6_aromatic                     1  3    536    538    577
+538    C6_aromatic                     1  3    537    541    565
+539    C6_aromatic                     1  3    506    536    540
+540    C6_aromatic                     1  3    539    541    729
+541    C6_aromatic                     1  3    538    540    602
+542    C6_aromatic                     1  3    491    543    594
+543    C6_aromatic                     1  3    531    542    697
+544    C6_aromatic                     1  3    520    545    562
+545    C6_aromatic                     1  3    544    546    610
+546    C6_aromatic                     1  3    545    547    564
+547    C6_aromatic                     1  3    546    548    612
+548    C6_aromatic                     1  3    547    549    557
+549    C6_aromatic                     1  3    548    550    615
+550    C6_aromatic                     1  3    549    551    554
+551    C6_aromatic                     1  3    550    552    556
+552    C6_aromatic                     1  3    551    553    574
+553    C6_aromatic                     1  3    552    555    581
+554    C6_aromatic                     1  3    550    555    617
+555    C6_aromatic                     1  3    553    554    559
+556    C6_aromatic                     1  3    551    557    599
+557    C6_aromatic                     1  3    548    556    558
+558    C6_aromatic                     1  3    557    564    597
+559    C6_aromatic                     1  3    555    560    639
+560    C6_aromatic                     1  3    559    561    580
+561    C6_aromatic                     1  3    560    587    637
+562    C6_aromatic                     1  3    533    544    563
+563    C6_aromatic                     1  3    562    564    591
+564    C6_aromatic                     1  3    546    558    563
+565    C6_aromatic                     1  3    538    566    573
+566    C6_aromatic                     1  3    565    567    600
+567    C6_aromatic                     1  3    566    568    575
+568    C6_aromatic                     1  3    567    569    570
+569    C6_aromatic                     1  3    568    601    682
+570    C6_aromatic                     1  3    568    571    598
+571    C6_aromatic                     1  3    570    572    596
+572    C6_aromatic                     1  3    571    603    682
+573    C6_aromatic                     1  3    565    574    576
+574    C6_aromatic                     1  3    552    573    575
+575    C6_aromatic                     1  3    567    574    599
+576    C6_aromatic                     1  3    573    577    581
+577    C6_aromatic                     1  3    537    576    578
+578    C6_aromatic                     1  3    511    577    579
+579    C6_aromatic                     1  3    578    580    582
+580    C6_aromatic                     1  3    560    579    581
+581    C6_aromatic                     1  3    553    576    580
+582    C6_aromatic                     1  3    579    583    587
+583    C6_aromatic                     1  3    510    582    584
+584    C6_aromatic                     1  3    509    583    585
+585    C6_aromatic                     1  3    584    586    588
+586    C6_aromatic                     1  3    585    587    632
+587    C6_aromatic                     1  3    561    582    586
+588    C6_aromatic                     1  3    585    589    631
+589    C6_aromatic                     1  3    512    588    590
+590    C6_aromatic                     1  3    522    589    629
+591    C6_aromatic                     1  3    563    592    593
+592    C6_aromatic                     1  3    591    596    597
+593    C6_aromatic                     1  3    532    591    594
+594    C6_aromatic                     1  3    542    593    595
+595    C6_aromatic                     1  3    489    594    596
+596    C6_aromatic                     1  3    571    592    595
+597    C6_aromatic                     1  3    558    592    598
+598    C6_aromatic                     1  3    570    597    599
+599    C6_aromatic                     1  3    556    575    598
+600    C6_aromatic                     1  3    566    601    602
+601    C6_aromatic                     1  3    569    600    689
+602    C6_aromatic                     1  3    541    600    730
+603    C6_aromatic                     1  3    489    572    731
+604    C6_aromatic                     1  3    520    605    609
+605    C6_aromatic                     1  3    604    606    611
+606    C6_aromatic                     1  3    605    607    660
+607    C6_aromatic                     1  3    606    608    657
+608    C6_aromatic                     1  3    607    609    648
+609    C6_aromatic                     1  3    604    608    645
+610    C6_aromatic                     1  3    545    611    613
+611    C6_aromatic                     1  3    605    610    649
+612    C6_aromatic                     1  3    547    613    614
+613    C6_aromatic                     1  3    610    612    699
+614    C6_aromatic                     1  3    612    616    703
+615    C6_aromatic                     1  3    549    616    618
+616    C6_aromatic                     1  3    614    615    651
+617    C6_aromatic                     1  3    554    618    622
+618    C6_aromatic                     1  3    615    617    619
+619    C6_aromatic                     1  3    618    620    656
+620    C6_aromatic                     1  3    619    621    955
+621    C6_aromatic                     1  3    620    622    954
+622    C6_aromatic                     1  3    617    621    640
+623    C6_aromatic                     1  3    521    624    628
+624    C6_aromatic                     1  3    623    625    646
+625    C6_aromatic                     1  3    624    626    709
+626    C6_aromatic                     1  3    625    627    667
+627    C6_aromatic                     1  3    626    628    669
+628    C6_aromatic                     1  3    623    627    629
+629    C6_aromatic                     1  3    590    628    630
+630    C6_aromatic                     1  3    629    675    676
+631    C6_aromatic                     1  3    588    633    676
+632    C6_aromatic                     1  3    586    633    636
+633    C6_aromatic                     1  3    631    632    634
+634    C6_aromatic                     1  3    633    635    706
+635    C6_aromatic                     1  3    456    634    705
+636    C6_aromatic                     1  3    632    638    705
+637    C6_aromatic                     1  3    561    638    644
+638    C6_aromatic                     1  3    636    637    662
+639    C6_aromatic                     1  3    559    640    644
+640    C6_aromatic                     1  3    622    639    641
+641    C6_aromatic                     1  3    640    642    953
+642    C6_aromatic                     1  3    641    643    911
+643    C6_aromatic                     1  3    642    644    663
+644    C6_aromatic                     1  3    637    639    643
+645    C6_aromatic                     1  3    518    609    646
+646    C6_aromatic                     1  3    624    645    647
+647    C6_aromatic                     1  3    646    648    710
+648    C6_aromatic                     1  3    608    647    711
+649    C6_aromatic                     1  3    611    650    701
+650    C6_aromatic                     1  3    464    649    660
+651    C6_aromatic                     1  3    616    652    656
+652    C6_aromatic                     1  3    651    653    702
+653    C6_aromatic                     1  3    422    652    654
+654    C6_aromatic                     1  3    653    655    903
+655    C6_aromatic                     1  3    654    656    956
+656    C6_aromatic                     1  3    619    651    655
+657    C6_aromatic                     1  3    607    658    712
+658    C6_aromatic                     1  3    657    659    661
+659    C6_aromatic                     1  3    428    658    898
+660    C6_aromatic                     1  3    606    650    661
+661    C6_aromatic                     1  3    429    658    660
+662    C6_aromatic                     1  3    638    663    677
+663    C6_aromatic                     1  3    643    662    664
+664    C6_aromatic                     1  3    663    665    912
+665    C6_aromatic                     1  3    664    666    916
+666    C6_aromatic                     1  3    409    665    677
+667    C6_aromatic                     1  3    626    668    886
+668    C6_aromatic                     1  3    667    670    908
+669    C6_aromatic                     1  3    627    670    675
+670    C6_aromatic                     1  3    668    669    671
+671    C6_aromatic                     1  3    670    672    673
+672    C6_aromatic                     1  3    415    671    909
+673    C6_aromatic                     1  3    417    671    674
+674    C6_aromatic                     1  3    673    675    708
+675    C6_aromatic                     1  3    630    669    674
+676    C6_aromatic                     1  3    630    631    707
+677    C6_aromatic                     1  3    662    666    704
+678    C6_aromatic                     1  3    498    524    679
+679    C6_aromatic                     1  3    495    678    680
+680    Cq_alkane                       0  4    679    683    684    685
+681    Cq_alkane                       0  4    490    686    687    688
+682    C6_aromatic                     1  3    569    572    732
+683    C_nitrile                       0  2    680    723
+684    C_nitrile                       0  2    680    718
+685    C_nitrile                       0  2    680    719
+686    C_nitrile                       0  2    681    717
+687    C_nitrile                       0  2    681    714
+688    C_nitrile                       0  2    681    713
+689    Cq_alkane                       0  4    601    690    691    692
+690    C_nitrile                       0  2    689    715
+691    C_nitrile                       0  2    689    716
+692    C_nitrile                       0  2    689    724
+693    Cq_alkane                       0  4    506    694    695    696
+694    C_nitrile                       0  2    693    722
+695    C_nitrile                       0  2    693    720
+696    C_nitrile                       0  2    693    721
+697    C6_aromatic                     1  3    493    543    698
+698    C6_aromatic                     1  3    496    528    697
+699    C6_aromatic                     1  3    613    700    701
+700    C6_aromatic                     1  3    391    699    703
+701    C6_aromatic                     1  3    462    649    699
+702    C6_aromatic                     1  3    460    652    703
+703    C6_aromatic                     1  3    614    700    702
+704    C6_aromatic                     1  3    458    677    705
+705    C6_aromatic                     1  3    635    636    704
+706    C6_aromatic                     1  3    457    634    707
+707    C6_aromatic                     1  3    676    706    708
+708    C6_aromatic                     1  3    406    674    707
+709    C6_aromatic                     1  3    625    710    885
+710    C6_aromatic                     1  3    647    709    865
+711    C6_aromatic                     1  3    648    712    864
+712    C6_aromatic                     1  3    657    711    899
+713    N_nitrile                       0  1    688
+714    N_nitrile                       0  1    687
+715    N_nitrile                       0  1    690
+716    N_nitrile                       0  1    691
+717    N_nitrile                       0  1    686
+718    N_nitrile                       0  1    684
+719    N_nitrile                       0  1    685
+720    N_nitrile                       0  1    695
+721    N_nitrile                       0  1    696
+722    N_nitrile                       0  1    694
+723    N_nitrile                       0  1    683
+724    N_nitrile                       0  1    692
+725    HC_aromatic                     0  1    492
+726    HC_aromatic                     0  1    494
+727    HC_aromatic                     0  1    507
+728    HC_aromatic                     0  1    524
+729    HC_aromatic                     0  1    540
+730    HC_aromatic                     0  1    602
+731    HC_aromatic                     0  1    603
+732    HC_aromatic                     0  1    682
+733    C6_aromatic                     1  3    734    839    847
+734    C6_aromatic                     1  3    733    735    925
+735    C6_aromatic                     1  3    734    736    786
+736    C6_aromatic                     1  3    735    737    969
+737    C6_aromatic                     1  3    736    738    941
+738    C6_aromatic                     1  3    737    739    970
+739    C6_aromatic                     1  3    738    740    923
+740    C6_aromatic                     1  3    739    741    942
+741    C6_aromatic                     1  3    740    742    773
+742    C6_aromatic                     1  3    741    743    922
+743    C6_aromatic                     1  3    742    744    769
+744    C6_aromatic                     1  3    743    745    767
+745    C6_aromatic                     1  3    744    746    753
+746    C6_aromatic                     1  3    745    747    754
+747    C6_aromatic                     1  3    746    748    769
+748    C6_aromatic                     1  3    747    749    770
+749    C6_aromatic                     1  3    748    750    751
+750    C6_aromatic                     1  3    749    783    937
+751    C6_aromatic                     1  3    749    752    971
+752    C6_aromatic                     1  3    751    768    769
+753    C6_aromatic                     1  3    745    756    828
+754    C6_aromatic                     1  3    746    755    827
+755    C6_aromatic                     1  3    754    770    822
+756    C6_aromatic                     1  3    753    757    833
+757    C6_aromatic                     1  3    756    758    767
+758    C6_aromatic                     1  3    757    759    766
+759    C6_aromatic                     1  3    758    760    771
+760    C6_aromatic                     1  3    759    761    779
+761    C6_aromatic                     1  3    760    762    765
+762    C6_aromatic                     1  3    761    763    889
+763    C6_aromatic                     1  3    762    764    778
+764    C6_aromatic                     1  3    763    788    848
+765    C6_aromatic                     1  3    761    766    867
+766    C6_aromatic                     1  3    758    765    834
+767    C6_aromatic                     1  3    744    757    773
+768    C6_aromatic                     1  3    752    922    972
+769    C6_aromatic                     1  3    743    747    752
+770    C6_aromatic                     1  3    748    755    780
+771    C6_aromatic                     1  3    759    772    773
+772    C6_aromatic                     1  3    771    774    942
+773    C6_aromatic                     1  3    741    767    771
+774    C6_aromatic                     1  3    772    775    779
+775    C6_aromatic                     1  3    774    776    787
+776    C6_aromatic                     1  3    775    777    837
+777    C6_aromatic                     1  3    776    778    806
+778    C6_aromatic                     1  3    763    777    779
+779    C6_aromatic                     1  3    760    774    778
+780    C6_aromatic                     1  3    770    781    783
+781    C6_aromatic                     1  3    780    782    821
+782    C6_aromatic                     1  3    781    785    809
+783    C6_aromatic                     1  3    750    780    784
+784    C6_aromatic                     1  3    783    785    973
+785    C6_aromatic                     1  3    782    784    846
+786    C6_aromatic                     1  3    735    787    838
+787    C6_aromatic                     1  3    775    786    941
+788    C6_aromatic                     1  3    764    789    806
+789    C6_aromatic                     1  3    788    790    854
+790    C6_aromatic                     1  3    789    791    808
+791    C6_aromatic                     1  3    790    792    856
+792    C6_aromatic                     1  3    791    793    801
+793    C6_aromatic                     1  3    792    794    859
+794    C6_aromatic                     1  3    793    795    798
+795    C6_aromatic                     1  3    794    796    800
+796    C6_aromatic                     1  3    795    797    818
+797    C6_aromatic                     1  3    796    799    825
+798    C6_aromatic                     1  3    794    799    861
+799    C6_aromatic                     1  3    797    798    803
+800    C6_aromatic                     1  3    795    801    843
+801    C6_aromatic                     1  3    792    800    802
+802    C6_aromatic                     1  3    801    808    841
+803    C6_aromatic                     1  3    799    804    883
+804    C6_aromatic                     1  3    803    805    824
+805    C6_aromatic                     1  3    804    831    881
+806    C6_aromatic                     1  3    777    788    807
+807    C6_aromatic                     1  3    806    808    835
+808    C6_aromatic                     1  3    790    802    807
+809    C6_aromatic                     1  3    782    810    817
+810    C6_aromatic                     1  3    809    811    844
+811    C6_aromatic                     1  3    810    812    819
+812    C6_aromatic                     1  3    811    813    814
+813    C6_aromatic                     1  3    812    845    926
+814    C6_aromatic                     1  3    812    815    842
+815    C6_aromatic                     1  3    814    816    840
+816    C6_aromatic                     1  3    815    847    926
+817    C6_aromatic                     1  3    809    818    820
+818    C6_aromatic                     1  3    796    817    819
+819    C6_aromatic                     1  3    811    818    843
+820    C6_aromatic                     1  3    817    821    825
+821    C6_aromatic                     1  3    781    820    822
+822    C6_aromatic                     1  3    755    821    823
+823    C6_aromatic                     1  3    822    824    826
+824    C6_aromatic                     1  3    804    823    825
+825    C6_aromatic                     1  3    797    820    824
+826    C6_aromatic                     1  3    823    827    831
+827    C6_aromatic                     1  3    754    826    828
+828    C6_aromatic                     1  3    753    827    829
+829    C6_aromatic                     1  3    828    830    832
+830    C6_aromatic                     1  3    829    831    876
+831    C6_aromatic                     1  3    805    826    830
+832    C6_aromatic                     1  3    829    833    875
+833    C6_aromatic                     1  3    756    832    834
+834    C6_aromatic                     1  3    766    833    873
+835    C6_aromatic                     1  3    807    836    837
+836    C6_aromatic                     1  3    835    840    841
+837    C6_aromatic                     1  3    776    835    838
+838    C6_aromatic                     1  3    786    837    839
+839    C6_aromatic                     1  3    733    838    840
+840    C6_aromatic                     1  3    815    836    839
+841    C6_aromatic                     1  3    802    836    842
+842    C6_aromatic                     1  3    814    841    843
+843    C6_aromatic                     1  3    800    819    842
+844    C6_aromatic                     1  3    810    845    846
+845    C6_aromatic                     1  3    813    844    933
+846    C6_aromatic                     1  3    785    844    974
+847    C6_aromatic                     1  3    733    816    975
+848    C6_aromatic                     1  3    764    849    853
+849    C6_aromatic                     1  3    848    850    855
+850    C6_aromatic                     1  3    849    851    904
+851    C6_aromatic                     1  3    850    852    901
+852    C6_aromatic                     1  3    851    853    892
+853    C6_aromatic                     1  3    848    852    889
+854    C6_aromatic                     1  3    789    855    857
+855    C6_aromatic                     1  3    849    854    893
+856    C6_aromatic                     1  3    791    857    858
+857    C6_aromatic                     1  3    854    856    943
+858    C6_aromatic                     1  3    856    860    947
+859    C6_aromatic                     1  3    793    860    862
+860    C6_aromatic                     1  3    858    859    895
+861    C6_aromatic                     1  3    798    862    866
+862    C6_aromatic                     1  3    859    861    863
+863    C6_aromatic                     1  3    862    864    900
+864    C6_aromatic                     1  3    711    863    865
+865    C6_aromatic                     1  3    710    864    866
+866    C6_aromatic                     1  3    861    865    884
+867    C6_aromatic                     1  3    765    868    872
+868    C6_aromatic                     1  3    867    869    890
+869    C6_aromatic                     1  3    868    870    953
+870    C6_aromatic                     1  3    869    871    911
+871    C6_aromatic                     1  3    870    872    913
+872    C6_aromatic                     1  3    867    871    873
+873    C6_aromatic                     1  3    834    872    874
+874    C6_aromatic                     1  3    873    919    920
+875    C6_aromatic                     1  3    832    877    920
+876    C6_aromatic                     1  3    830    877    880
+877    C6_aromatic                     1  3    875    876    878
+878    C6_aromatic                     1  3    877    879    950
+879    C6_aromatic                     1  3    212    878    949
+880    C6_aromatic                     1  3    876    882    949
+881    C6_aromatic                     1  3    805    882    888
+882    C6_aromatic                     1  3    880    881    906
+883    C6_aromatic                     1  3    803    884    888
+884    C6_aromatic                     1  3    866    883    885
+885    C6_aromatic                     1  3    709    884    886
+886    C6_aromatic                     1  3    667    885    887
+887    C6_aromatic                     1  3    886    888    907
+888    C6_aromatic                     1  3    881    883    887
+889    C6_aromatic                     1  3    762    853    890
+890    C6_aromatic                     1  3    868    889    891
+891    C6_aromatic                     1  3    890    892    954
+892    C6_aromatic                     1  3    852    891    955
+893    C6_aromatic                     1  3    855    894    945
+894    C6_aromatic                     1  3    220    893    904
+895    C6_aromatic                     1  3    860    896    900
+896    C6_aromatic                     1  3    895    897    946
+897    C6_aromatic                     1  3    178    896    898
+898    C6_aromatic                     1  3    659    897    899
+899    C6_aromatic                     1  3    712    898    900
+900    C6_aromatic                     1  3    863    895    899
+901    C6_aromatic                     1  3    851    902    956
+902    C6_aromatic                     1  3    901    903    905
+903    C6_aromatic                     1  3    184    654    902
+904    C6_aromatic                     1  3    850    894    905
+905    C6_aromatic                     1  3    185    902    904
+906    C6_aromatic                     1  3    882    907    921
+907    C6_aromatic                     1  3    887    906    908
+908    C6_aromatic                     1  3    668    907    909
+909    C6_aromatic                     1  3    672    908    910
+910    C6_aromatic                     1  3    165    909    921
+911    C6_aromatic                     1  3    642    870    912
+912    C6_aromatic                     1  3    664    911    914
+913    C6_aromatic                     1  3    871    914    919
+914    C6_aromatic                     1  3    912    913    915
+915    C6_aromatic                     1  3    914    916    917
+916    C6_aromatic                     1  3    171    665    915
+917    C6_aromatic                     1  3    173    915    918
+918    C6_aromatic                     1  3    917    919    952
+919    C6_aromatic                     1  3    874    913    918
+920    C6_aromatic                     1  3    874    875    951
+921    C6_aromatic                     1  3    906    910    948
+922    C6_aromatic                     1  3    742    768    923
+923    C6_aromatic                     1  3    739    922    924
+924    Cq_alkane                       0  4    923    927    928    929
+925    Cq_alkane                       0  4    734    930    931    932
+926    C6_aromatic                     1  3    813    816    976
+927    C_nitrile                       0  2    924    967
+928    C_nitrile                       0  2    924    962
+929    C_nitrile                       0  2    924    963
+930    C_nitrile                       0  2    925    961
+931    C_nitrile                       0  2    925    958
+932    C_nitrile                       0  2    925    957
+933    Cq_alkane                       0  4    845    934    935    936
+934    C_nitrile                       0  2    933    959
+935    C_nitrile                       0  2    933    960
+936    C_nitrile                       0  2    933    968
+937    Cq_alkane                       0  4    750    938    939    940
+938    C_nitrile                       0  2    937    966
+939    C_nitrile                       0  2    937    964
+940    C_nitrile                       0  2    937    965
+941    C6_aromatic                     1  3    737    787    942
+942    C6_aromatic                     1  3    740    772    941
+943    C6_aromatic                     1  3    857    944    945
+944    C6_aromatic                     1  3    147    943    947
+945    C6_aromatic                     1  3    218    893    943
+946    C6_aromatic                     1  3    216    896    947
+947    C6_aromatic                     1  3    858    944    946
+948    C6_aromatic                     1  3    214    921    949
+949    C6_aromatic                     1  3    879    880    948
+950    C6_aromatic                     1  3    213    878    951
+951    C6_aromatic                     1  3    920    950    952
+952    C6_aromatic                     1  3    162    918    951
+953    C6_aromatic                     1  3    641    869    954
+954    C6_aromatic                     1  3    621    891    953
+955    C6_aromatic                     1  3    620    892    956
+956    C6_aromatic                     1  3    655    901    955
+957    N_nitrile                       0  1    932
+958    N_nitrile                       0  1    931
+959    N_nitrile                       0  1    934
+960    N_nitrile                       0  1    935
+961    N_nitrile                       0  1    930
+962    N_nitrile                       0  1    928
+963    N_nitrile                       0  1    929
+964    N_nitrile                       0  1    939
+965    N_nitrile                       0  1    940
+966    N_nitrile                       0  1    938
+967    N_nitrile                       0  1    927
+968    N_nitrile                       0  1    936
+969    HC_aromatic                     0  1    736
+970    HC_aromatic                     0  1    738
+971    HC_aromatic                     0  1    751
+972    HC_aromatic                     0  1    768
+973    HC_aromatic                     0  1    784
+974    HC_aromatic                     0  1    846
+975    HC_aromatic                     0  1    847
+976    HC_aromatic                     0  1    926
+977    O_diatomic                      0  1    978
+978    O_diatomic                      0  1    977
+979    O_diatomic                      0  1    980
+980    O_diatomic                      0  1    979
+981    O_diatomic                      0  1    982
+982    O_diatomic                      0  1    981
+983    O_diatomic                      0  1    984
+984    O_diatomic                      0  1    983
+985    O_diatomic                      0  1    986
+986    O_diatomic                      0  1    985
+987    O_diatomic                      0  1    988
+988    O_diatomic                      0  1    987
+989    O_diatomic                      0  1    990
+990    O_diatomic                      0  1    989
+991    O_diatomic                      0  1    992
+992    O_diatomic                      0  1    991
+993    O_diatomic                      0  1    994
+994    O_diatomic                      0  1    993
+995    O_diatomic                      0  1    996
+996    O_diatomic                      0  1    995
+997    O_diatomic                      0  1    998
+998    O_diatomic                      0  1    997
+999    O_diatomic                      0  1   1000
+1000   O_diatomic                      0  1    999
+1001   O_diatomic                      0  1   1002
+1002   O_diatomic                      0  1   1001
+1003   O_diatomic                      0  1   1004
+1004   O_diatomic                      0  1   1003
+1005   O_diatomic                      0  1   1006
+1006   O_diatomic                      0  1   1005
+1007   O_diatomic                      0  1   1008
+1008   O_diatomic                      0  1   1007
+1009   O_diatomic                      0  1   1010
+1010   O_diatomic                      0  1   1009
+1011   O_diatomic                      0  1   1012
+1012   O_diatomic                      0  1   1011
+1013   O_diatomic                      0  1   1014
+1014   O_diatomic                      0  1   1013
+1015   O_diatomic                      0  1   1016
+1016   O_diatomic                      0  1   1015
+1017   O_diatomic                      0  1   1018
+1018   O_diatomic                      0  1   1017
+1019   O_diatomic                      0  1   1020
+1020   O_diatomic                      0  1   1019
+1021   O_diatomic                      0  1   1022
+1022   O_diatomic                      0  1   1021
+1023   O_diatomic                      0  1   1024
+1024   O_diatomic                      0  1   1023
+1025   O_diatomic                      0  1   1026
+1026   O_diatomic                      0  1   1025
+1027   O_diatomic                      0  1   1028
+1028   O_diatomic                      0  1   1027
+1029   O_diatomic                      0  1   1030
+1030   O_diatomic                      0  1   1029
+1031   O_diatomic                      0  1   1032
+1032   O_diatomic                      0  1   1031
+1033   O_diatomic                      0  1   1034
+1034   O_diatomic                      0  1   1033
+1035   O_diatomic                      0  1   1036
+1036   O_diatomic                      0  1   1035
+1037   O_diatomic                      0  1   1038
+1038   O_diatomic                      0  1   1037
+1039   O_diatomic                      0  1   1040
+1040   O_diatomic                      0  1   1039
+1041   O_diatomic                      0  1   1042
+1042   O_diatomic                      0  1   1041
+1043   O_diatomic                      0  1   1044
+1044   O_diatomic                      0  1   1043
+1045   O_diatomic                      0  1   1046
+1046   O_diatomic                      0  1   1045
+1047   O_diatomic                      0  1   1048
+1048   O_diatomic                      0  1   1047
+1049   O_diatomic                      0  1   1050
+1050   O_diatomic                      0  1   1049
+1051   O_diatomic                      0  1   1052
+1052   O_diatomic                      0  1   1051
+1053   O_diatomic                      0  1   1054
+1054   O_diatomic                      0  1   1053
+1055   O_diatomic                      0  1   1056
+1056   O_diatomic                      0  1   1055
+1057   O_diatomic                      0  1   1058
+1058   O_diatomic                      0  1   1057
+1059   O_diatomic                      0  1   1060
+1060   O_diatomic                      0  1   1059
+1061   O_diatomic                      0  1   1062
+1062   O_diatomic                      0  1   1061
+1063   O_diatomic                      0  1   1064
+1064   O_diatomic                      0  1   1063
+1065   O_diatomic                      0  1   1066
+1066   O_diatomic                      0  1   1065
+1067   O_diatomic                      0  1   1068
+1068   O_diatomic                      0  1   1067
+1069   O_diatomic                      0  1   1070
+1070   O_diatomic                      0  1   1069
+1071   O_diatomic                      0  1   1072
+1072   O_diatomic                      0  1   1071
+1073   O_diatomic                      0  1   1074
+1074   O_diatomic                      0  1   1073
+1075   O_diatomic                      0  1   1076
+1076   O_diatomic                      0  1   1075
+1077   O_diatomic                      0  1   1078
+1078   O_diatomic                      0  1   1077
+1079   O_diatomic                      0  1   1080
+1080   O_diatomic                      0  1   1079
+1081   O_diatomic                      0  1   1082
+1082   O_diatomic                      0  1   1081
+1083   O_diatomic                      0  1   1084
+1084   O_diatomic                      0  1   1083
+1085   O_diatomic                      0  1   1086
+1086   O_diatomic                      0  1   1085
+1087   O_diatomic                      0  1   1088
+1088   O_diatomic                      0  1   1087
+1089   O_diatomic                      0  1   1090
+1090   O_diatomic                      0  1   1089
+1091   O_diatomic                      0  1   1092
+1092   O_diatomic                      0  1   1091
+1093   O_diatomic                      0  1   1094
+1094   O_diatomic                      0  1   1093
+1095   O_diatomic                      0  1   1096
+1096   O_diatomic                      0  1   1095
+1097   O_diatomic                      0  1   1098
+1098   O_diatomic                      0  1   1097
+1099   O_diatomic                      0  1   1100
+1100   O_diatomic                      0  1   1099
+1101   O_diatomic                      0  1   1102
+1102   O_diatomic                      0  1   1101
+1103   O_diatomic                      0  1   1104
+1104   O_diatomic                      0  1   1103
+1105   O_diatomic                      0  1   1106
+1106   O_diatomic                      0  1   1105
+1107   O_diatomic                      0  1   1108
+1108   O_diatomic                      0  1   1107
+1109   O_diatomic                      0  1   1110
+1110   O_diatomic                      0  1   1109
+1111   O_diatomic                      0  1   1112
+1112   O_diatomic                      0  1   1111
+1113   O_diatomic                      0  1   1114
+1114   O_diatomic                      0  1   1113
+1115   O_diatomic                      0  1   1116
+1116   O_diatomic                      0  1   1115
+1117   O_diatomic                      0  1   1118
+1118   O_diatomic                      0  1   1117
+1119   O_diatomic                      0  1   1120
+1120   O_diatomic                      0  1   1119
+1121   O_diatomic                      0  1   1122
+1122   O_diatomic                      0  1   1121
+1123   O_diatomic                      0  1   1124
+1124   O_diatomic                      0  1   1123
+1125   O_diatomic                      0  1   1126
+1126   O_diatomic                      0  1   1125
+1127   O_diatomic                      0  1   1128
+1128   O_diatomic                      0  1   1127
+1129   O_diatomic                      0  1   1130
+1130   O_diatomic                      0  1   1129
+1131   O_diatomic                      0  1   1132
+1132   O_diatomic                      0  1   1131
+1133   O_diatomic                      0  1   1134
+1134   O_diatomic                      0  1   1133
+1135   O_diatomic                      0  1   1136
+1136   O_diatomic                      0  1   1135
+1137   O_diatomic                      0  1   1138
+1138   O_diatomic                      0  1   1137
+1139   O_diatomic                      0  1   1140
+1140   O_diatomic                      0  1   1139
+1141   O_diatomic                      0  1   1142
+1142   O_diatomic                      0  1   1141
+1143   O_diatomic                      0  1   1144
+1144   O_diatomic                      0  1   1143
+1145   O_diatomic                      0  1   1146
+1146   O_diatomic                      0  1   1145
+1147   O_diatomic                      0  1   1148
+1148   O_diatomic                      0  1   1147
+1149   O_diatomic                      0  1   1150
+1150   O_diatomic                      0  1   1149
+1151   O_diatomic                      0  1   1152
+1152   O_diatomic                      0  1   1151
+1153   O_diatomic                      0  1   1154
+1154   O_diatomic                      0  1   1153
+1155   O_diatomic                      0  1   1156
+1156   O_diatomic                      0  1   1155
+1157   O_diatomic                      0  1   1158
+1158   O_diatomic                      0  1   1157
+1159   O_diatomic                      0  1   1160
+1160   O_diatomic                      0  1   1159
+1161   O_diatomic                      0  1   1162
+1162   O_diatomic                      0  1   1161
+1163   O_diatomic                      0  1   1164
+1164   O_diatomic                      0  1   1163
+1165   O_diatomic                      0  1   1166
+1166   O_diatomic                      0  1   1165
+1167   O_diatomic                      0  1   1168
+1168   O_diatomic                      0  1   1167
+1169   O_diatomic                      0  1   1170
+1170   O_diatomic                      0  1   1169
+1171   O_diatomic                      0  1   1172
+1172   O_diatomic                      0  1   1171
+1173   O_diatomic                      0  1   1174
+1174   O_diatomic                      0  1   1173
+1175   O_diatomic                      0  1   1176
+1176   O_diatomic                      0  1   1175
+1177   O_diatomic                      0  1   1178
+1178   O_diatomic                      0  1   1177
+1179   O_diatomic                      0  1   1180
+1180   O_diatomic                      0  1   1179
+1181   O_diatomic                      0  1   1182
+1182   O_diatomic                      0  1   1181
+1183   O_diatomic                      0  1   1184
+1184   O_diatomic                      0  1   1183
+1185   O_diatomic                      0  1   1186
+1186   O_diatomic                      0  1   1185
+1187   O_diatomic                      0  1   1188
+1188   O_diatomic                      0  1   1187
+1189   O_diatomic                      0  1   1190
+1190   O_diatomic                      0  1   1189
+1191   O_diatomic                      0  1   1192
+1192   O_diatomic                      0  1   1191
+1193   O_diatomic                      0  1   1194
+1194   O_diatomic                      0  1   1193
+1195   O_diatomic                      0  1   1196
+1196   O_diatomic                      0  1   1195
+1197   O_diatomic                      0  1   1198
+1198   O_diatomic                      0  1   1197
+1199   O_diatomic                      0  1   1200
+1200   O_diatomic                      0  1   1199
+1201   O_diatomic                      0  1   1202
+1202   O_diatomic                      0  1   1201
+1203   O_diatomic                      0  1   1204
+1204   O_diatomic                      0  1   1203
+1205   O_diatomic                      0  1   1206
+1206   O_diatomic                      0  1   1205
+1207   O_diatomic                      0  1   1208
+1208   O_diatomic                      0  1   1207
+1209   O_diatomic                      0  1   1210
+1210   O_diatomic                      0  1   1209
+1211   O_diatomic                      0  1   1212
+1212   O_diatomic                      0  1   1211
+1213   O_diatomic                      0  1   1214
+1214   O_diatomic                      0  1   1213
+1215   O_diatomic                      0  1   1216
+1216   O_diatomic                      0  1   1215
+1217   O_diatomic                      0  1   1218
+1218   O_diatomic                      0  1   1217
+1219   O_diatomic                      0  1   1220
+1220   O_diatomic                      0  1   1219
+1221   O_diatomic                      0  1   1222
+1222   O_diatomic                      0  1   1221
+1223   O_diatomic                      0  1   1224
+1224   O_diatomic                      0  1   1223
+1225   O_diatomic                      0  1   1226
+1226   O_diatomic                      0  1   1225
+1227   O_diatomic                      0  1   1228
+1228   O_diatomic                      0  1   1227
+1229   O_diatomic                      0  1   1230
+1230   O_diatomic                      0  1   1229
+1231   O_diatomic                      0  1   1232
+1232   O_diatomic                      0  1   1231
+1233   O_diatomic                      0  1   1234
+1234   O_diatomic                      0  1   1233
+1235   O_diatomic                      0  1   1236
+1236   O_diatomic                      0  1   1235
+1237   O_diatomic                      0  1   1238
+1238   O_diatomic                      0  1   1237
+1239   O_diatomic                      0  1   1240
+1240   O_diatomic                      0  1   1239
+1241   O_diatomic                      0  1   1242
+1242   O_diatomic                      0  1   1241
+1243   O_diatomic                      0  1   1244
+1244   O_diatomic                      0  1   1243
+1245   O_diatomic                      0  1   1246
+1246   O_diatomic                      0  1   1245
+1247   O_diatomic                      0  1   1248
+1248   O_diatomic                      0  1   1247
+1249   O_diatomic                      0  1   1250
+1250   O_diatomic                      0  1   1249
+1251   O_diatomic                      0  1   1252
+1252   O_diatomic                      0  1   1251
+1253   O_diatomic                      0  1   1254
+1254   O_diatomic                      0  1   1253
+1255   O_diatomic                      0  1   1256
+1256   O_diatomic                      0  1   1255
+1257   O_diatomic                      0  1   1258
+1258   O_diatomic                      0  1   1257
+1259   O_diatomic                      0  1   1260
+1260   O_diatomic                      0  1   1259
+1261   O_diatomic                      0  1   1262
+1262   O_diatomic                      0  1   1261
+1263   O_diatomic                      0  1   1264
+1264   O_diatomic                      0  1   1263
+1265   O_diatomic                      0  1   1266
+1266   O_diatomic                      0  1   1265
+1267   O_diatomic                      0  1   1268
+1268   O_diatomic                      0  1   1267
+1269   O_diatomic                      0  1   1270
+1270   O_diatomic                      0  1   1269
+1271   O_diatomic                      0  1   1272
+1272   O_diatomic                      0  1   1271
+1273   O_diatomic                      0  1   1274
+1274   O_diatomic                      0  1   1273
+1275   O_diatomic                      0  1   1276
+1276   O_diatomic                      0  1   1275
+1277   O_diatomic                      0  1   1278
+1278   O_diatomic                      0  1   1277
+1279   O_diatomic                      0  1   1280
+1280   O_diatomic                      0  1   1279
+1281   O_diatomic                      0  1   1282
+1282   O_diatomic                      0  1   1281
+1283   O_diatomic                      0  1   1284
+1284   O_diatomic                      0  1   1283
+1285   O_diatomic                      0  1   1286
+1286   O_diatomic                      0  1   1285
+1287   O_diatomic                      0  1   1288
+1288   O_diatomic                      0  1   1287
