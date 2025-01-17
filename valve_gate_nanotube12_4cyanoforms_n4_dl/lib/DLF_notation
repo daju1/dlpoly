@@ -1,0 +1,970 @@
+#  DLF Standard notation list.
+# Version 4.1, September 2016, C W Yong
+# Warning: DO NOT edit or alter the content of this file.
+# Warning: These is a major renumbering of CGs since version 4.1, to accommodate future members.
+#          I promise that these numbers will not change from now on!!
+
+VALID_ATOM = H C O N S P B F Cl Br I
+VALID PAT = p s t q E L + - 1 2 3 4 5 6 7 8 9 10 11 12 4a 8a
+VALID SAT = A B N+
+
+DLF_notation
+# carbon
+1	alkane
+2	alkene
+3	alkyne
+4	cyclopropyl
+5	cyclobutyl
+6	benzene
+7	benzyl
+8	phenol
+9	biphenyl
+10	allene
+11	aromatic
+12      cyclopropene
+13      aliphatic
+14      cycloalkane
+# oxygen
+15	alcohol
+16	ketone
+17	aldehyde
+18	acylhalide
+19	ester
+20      carboxylic
+21	carboxylate
+22	carbonate_ester
+23	ether
+24	acetal
+25	hemiacetal
+26	ketal
+27	hemiketal
+28	carbodiimide
+29	acid_anhydride
+30      peroxide
+31      hydroperoxide
+32      enol
+33      thioester
+34      alkoxide
+35      perester
+36      orthoester
+37      ketene
+38      epoxide
+39      benzoyl
+350     peroxycarboxylic
+351     ester_halogen
+355     lactone
+356     alpha_lactone
+357     beta_lactone
+358     gamma_lactone
+359     delta_lactone
+360     dihaloacetal
+361     monohaloacetal
+# nitrogen
+40	carbamate
+41      carbamic_acid
+42	urea
+43 	carbamoyl_chloride
+44	amide
+45	amine
+46	aniline
+47	ammonium
+48	ketimine
+49	aldimine
+50	hydrazone
+51	amidine
+52	aldoxime
+53	ketoxime
+54	imide
+55	cyanate
+56	isocyanate
+57	nitrate
+58	nitrile
+59	isonitrile
+60	nitrite
+61	nitro
+62	nitroso
+63      nitrosamine
+64	azo
+65	azide
+66      enamine
+67      guanidine
+68      hydroxylamine
+69      alkoxyamine
+70      aminoacetal
+71      hydrazine
+72      carbonyl_guanidine
+73      thionitrite
+74      cyanimide
+75      aziridine
+76      cyanohydrin
+77      hydroxamic_acid
+78      nitroamine
+79      amide_guanidine
+80      benzonitrile
+81      oxaziridine
+82      N_sulfonyloxaziridine
+83      imidate
+84      lactam
+85      alpha_lactam
+86      beta_lactam
+87      gamma_lactam
+88      delta_lactam
+89      amine_oxide
+90      N_oxide
+# sulphur
+100	thiol
+101	sulphide
+102	disulphide
+103	thione
+104	thial
+105	sulphoxide
+106	sulphone
+107	sulphate
+108	thiocyanate
+109	isothiocyanate
+110     sulphinic_acid
+111     sulphonic_acid
+112     thionoester
+113     sulphonamide
+114     thioacyl_chloride
+115     sulfinamide
+116     sulphamide
+117     sulfite_ester
+118     thioamide
+119     trisulfide
+120     thiourea
+121     sulphuric_acid
+122     disulfonyl_azanide 
+123     sulfonate
+124     triflate
+125     triflic_acid
+126     pyrosulphate
+127     sulphamate
+# phosphorus
+150	phosphine
+151	phosphate
+152	phosphonate
+153	phosphinite
+154     phosphoramidite
+155     phosphoramide
+156     phosphoramidate
+157     phosphonite
+158     phosphonic_acid
+159     phosphine_oxide
+160     phosphonofluoridate
+161     phosphonothioate
+162     phosphoramidothioate
+163     phosphorodithioate
+164     phosphite_ester
+165     phosphoryl_amino
+166     phosphine_imide
+167     pyrophosphate
+168     phosphorane
+169     phosphate2
+# boron
+170     boroxine
+171     boronate_ester
+172     boronic_acid
+173     borinate_ester
+174     borinic_acid
+175     borate
+# halo-base groups
+180     monohaloalkane
+181     dihaloalkane
+182     trihaloalkane
+183     tetrahaloalkane
+184     monohaloalkene
+185     dihaloalkene
+186     haloalkyne
+187     monohalogenated_ether
+188     dihalogenated_ether
+189     trihalogenated_ether
+190     halogenated_ether
+191     monohalogenated_aryl_ether
+192     dihalogenated_aryl_ether
+193     trihalogenated_aryl_ether
+194     halogenated_aryl_ether 
+195     m_dihalobenzene 
+# general ions
+250     guanidinium
+251     imidazolium
+252     pyridinium
+253     alkyl_pyridinium
+254     thiolate
+255     phenoxide
+256     morpholinium
+257     isoquinolinium
+258     pyrrolidinium
+259     phosphonium
+260     triflate_anion
+261     hydroxide
+262     carbonate
+# silicone
+300     silane
+301     silene
+302     disilene
+303     disilyne
+304     silanol
+305     siloxane
+306     silyl_ether
+307     silica
+# 380-499 reserved. 
+# aromatic cyclic
+487     oxadiazole123
+488     oxadiazole124
+489     oxadiazole125
+490     oxadiazole134
+491     thiadiazole123
+492     thiadiazole124
+493     thiadiazole125
+494     thiadiazole134
+495     triazole_1H_124
+496     triazole_4H_124
+497     triazole_2H_4H_124
+498     triazole_1H_123
+499     triazole_2H_123
+500	imidazole
+501	pyridine
+502	pyrazine
+503	pyridazine
+504 	pyrimidine
+505	furan	
+506     pyrrole
+507     thiazole
+508     oxazole
+509     thiophene
+510     triazine135
+511     triazine123
+512     triazine124
+513     tosyl
+514     tetrazole1234
+515     tetrazole1235
+516     pentazole
+517     isoxazole
+518     pyrazole
+# aromatic 2 fused rings
+520     naphthalene
+521 	quinoline
+522     isoquinoline
+523     quinoxaline
+524     cinnoline
+525     benzoxazole
+526     benzisoxazole
+527     benzimidazole
+528     indole
+529     indazole
+530     benzothiazole
+531     phthalazine
+532     benzofuran
+533     isobenzofuran
+534     pteridine
+535     pyrazolo_34_d_pyrimidine_1H 
+536     benzo_b_thiophene
+537     benzo_c_thiophene
+538     isoindole
+539     indolizine
+# aromatic 3 fused rings
+570	carbazole
+571     acridine
+572     anthracene
+573     phenanthrene
+574     phenothiazine
+# aromatic larger fused rings
+580     chrysene
+581     pyrene
+582     triphenylene
+583     naphthacene
+584     corannulene
+585     coronene
+586     graphene
+# non-aromatic heterocyclic
+600     hydantoin
+601     cyclic_amine
+610     piperidine 
+611     piperazine
+612     pyrrolidine
+613     morpholine
+614     thiomorpholine
+615     dioxane14
+616     azetidine
+617     azete
+618     oxetane
+619     dioxetane12
+620     dioxetane13
+621     thietane
+622     dithietane12
+623     dithietane13
+624     dithiete
+625     pyrroline1    
+626     pyrroline2    
+627     pyrroline3    
+628     pyrazolidine  
+629     imidazolidine 
+630     pyrazoline1    
+631     pyrazoline2    
+632     pyrazoline3    
+633     imidazoline2   
+634     imidazoline3   
+635     imidazoline4   
+636     oxathiolane13
+637     oxathiolane12
+638     monoxolane
+639     dioxolane12
+640     dioxolane13
+641     trioxolane123
+642     trioxolane124
+# Complex heterocyclic, including nuclei acids
+699     nucleoside
+700     guanine
+701     adenine
+702     cytosine
+703     thymine
+704     uracil
+705     purine
+706     xanthine
+707     quinazolinone4
+708     quinazolinone2
+799     porphyrin
+# special cases
+800     water 
+801     tip3p
+802     spc 
+803     spce
+804     tip3p_c
+805     tip3p_pme
+806     tip4p
+807     tip4p_pme
+808     tip5p
+809     tip5p_pme
+810     water_pcff
+850     methanol
+851     tetrachloride
+852     ammonia
+853     carbon_dioxide
+854     carbon_monoxide
+855     hexafluoride
+856     tetrafluoride
+857     dicyanamide
+858     nitric_oxide
+# amino acids
+900     amino_acid	
+901     alanine
+902     arginine
+903     asparagine
+904     aspartic
+905     cysteine
+906     glutamine
+907     glutamic
+908     glycine
+909     histidine1
+910     histidine3
+911     histidine+
+912     isoleucine
+913     leucine
+914     lysine
+915     methionine
+916     phenylalanine
+917     proline
+918     serine
+919     threonine
+920     tryptophan
+921     tyrosine
+922     valine
+925     glutamic_H
+926     cysteine_S
+927     aspartic_H
+950     COO-terminus
+951     GLY-COO-terminus
+952     COOH-terminus
+953     NH2-terminus
+954     NH3-terminus
+# misc.
+960     noble_gas
+961     atom
+962     cation
+963     anion
+964     diatomic 
+965     carbocation
+966     carbanion
+998     pseudo
+999     lone_pair
+# Sugars - pyranose (-CH2OH)
+1000    a-glucopyranose
+1001    a-glucopyranose-O1
+1002    a-glucopyranose-C4 
+1003    a-glucopyranose-O1-C4 
+1004    a-glucopyranose-O1-C3
+1010    b-glucopyranose
+1011    b-glucopyranose-O1
+1012    b-glucopyranose-C4
+1013    b-glucopyranose-O1-C4
+1020    a-allopyranose
+1021    a-allopyranose-O1
+1030    b-allopyranose
+1031    b-allopyranose-O1
+1040    a-altropyranose
+1050    b-altropyranose
+1060    a-mannopyranose
+1070    b-mannopyranose
+1080    a-gulopyranose
+1090    b-gulopyranose
+1100    a-idopyranose
+1101    a-idopyranose-O1-C2
+1110    b-idopyranose
+1120    a-galactopyranose
+1130    b-galactopyranose
+1140    a-talopyranose
+1150    b-talopyranose
+1160    glucosamine
+1170    daunosamine
+1180    a-xylopyranose
+1190    b-xylopyranose
+1200    a-fucopyranose
+1210    b-fucopyranose
+1220    a-rhamnopyranose
+1230    b-rhamnopyranose
+1240    a-glucuronic_acid
+1250    b-glucuronic_acid
+1260    a-iduronic_acid
+1270    b-iduronic_acid
+1280    deoxyribose
+1281    ribose
+# Inorganic sytem. Need to convert by subtracting with 5000 and 
+# expresses as '#n', where n = CGI-5000.
+# For example, for pyrochlore, #n is #200, where CGI = 5200.
+5001    binary_oxide
+5002    binary_halide
+5003    ternary_oxide
+5004    binary_misc
+5010    clay 
+5050    glass 
+5100    zeolite 
+5101    zeolite_silicalite
+5102    zeolite_faujasite
+5103    zeolite_aluminosilicate
+5120    MCM_mesoporous
+5121    silica
+5122    aluminasilicic
+5150    perovskite
+5200    pyrochlore
+5802    water_spc
+5803    water_spce
+5999    unknown_inorganic
+END DLF_notation
+
+# Special case
+# The following lists specific rules that DLF notation could not handle
+# So, these ATOM_TYPEs must be internally corrected by DL_FIELD.
+# These specific rules are force field dependent, listed under the directives
+# FORCE_FIELD and END FORCE_FIELD
+# Wildcard: * = anything, ? = determine primary, sec. or ter. 
+#           > = change neighbour atom of the same element, rather than the given atom to the corrected type.
+
+# Given ATOM_TYPE   Connected_to       Corrected ATOM_TYPE  Improper Examples
+# The CB in CHARMM36 is CT2A for ASP, GLU and HSP only. Normally is CT2.
+# in DL_FIELD assign these special case as CB_protein.
+CHARMM36_PROT
+HC_alkane           Cp_alkane          HCp_alkane           0        !
+HC_alkane           Cs_alkane          HCs_alkane           0        !
+HC_alkane           Ct_alkane          HCt_alkane           0        !
+HC_aromatic         C2_imidazole       HC2_imidazole        0        !
+HC_aromatic         C4_imidazole       HC4_imidazole        0        !
+HC_aromatic         C5_imidazole       HC5_imidazole        0        !
+HC_aromatic         C2_imidazolium     HC2_imidazolium      0        !
+HC_aromatic         C4_imidazolium     HC4_imidazolium      0        !
+HC_aromatic         C5_imidazolium     HC5_imidazolium      0        !
+C_proline           N_proline          CN_proline           0        !
+C*_alkane           S_thiolate         CA_thiolate          0        ! Change all to HA_thiolate
+HN_guanidine        Np_guanidine       HNp_guanidine        0        !
+HN_guanidine        Ns_guanidine       HNs_guanidine        0        !
+HN_guanidine        NU_guanidine       HNU_guanidine        0        !
+END CHARMM36_PROT
+
+# Given ATOM_TYPE   Connected_to       Corrected ATOM_TYPE  Improper Examples
+CHARMM36_LIPID
+Cp_alkane           Nq_ammonium        CpN+_alkane          0        ! tetramethyl ammonium
+Cs_alkane           Nq_ammonium        CsN+_alkane          0        ! tetramethyl ammonium
+HC_alkane           CpN+_alkane        HCpN+_alkane         0        ! tetramethyl ammonium
+HC_alkane           CsN+_alkane        HCsN+_alkane         0        ! tetramethyl ammonium
+HCp_alkane          CpN+_alkane        HCpN+_alkane         0        ! tetramethyl ammonium
+HCs_alkane          CsN+_alkane        HCsN+_alkane         0        ! tetramethyl ammonium
+HC_alkane           Cp_alkane          HCp_alkane           0        !
+HC_alkane           Cs_alkane          HCs_alkane           0        !
+HC_alkane           Ct_alkane          HCt_alkane           0        !
+END CHARMM36_LIPID
+
+# Given ATOM_TYPE     Connected_to           Corrected ATOM_TYPE  Improper Examples
+CHARMM36_CARB
+HC_a-glucopyranose    C6_a-glucopyranose     HC6_a-glucopyranose  0      !
+HC_a-altropyranose    C6_a-altropyranose     HC6_a-altropyranose  0      !
+HC_a-allopyranose     C6_a-allopyranose      HC6_a-allopyranose   0      !
+HC_a-galactopyranose  C6_a-galactopyranose   HC6_a_galactopyranose 0     !
+HC_a-gulopyranose     C6_a-gulopyranose      HC6_a-gulopyranose    0     !
+HC_a-idopyranose      C6_a-idopyranose       HC6_a-idopyranose     0     !
+HC_a-mannopyranose    C6_a-mannopyranose     HC6_a-mannopyranose   0     !
+HC_a-talopyranose     C6_a-talopyranose      HC6_a-talopyranose    0     !
+HC_a-xylopyranose     C5_a-xylopyranose      HC5_a-xylopyranose    0     !
+HC_a-fucopyranose     C6_a-fucopyranose      HC6_a-fucopyranose    0     !
+HC_a-rhamnopyranose   C6_a-rhamnopyranose    HC6_a-rhamnopyranose  0     !
+HC_a-deoxyribose      C1_a-deoxyribose       HC1_a-deoxyribose     0     ! 
+HC_a-deoxyribose      C3_a-deoxyribose       HC3_a-deoxyribose     0     ! 
+HC_a-deoxyribose      C4_a-deoxyribose       HC4_a-deoxyribose     0     !
+HC_a-glucosamine      C6_a-glucosamine       HC6_a-glucosamine     0     !
+HC_alkane             Cp_alkane              HCp_alkane            0     !
+HC_alkane             Cs_alkane              HCs_alkane            0     !
+HC_alkane             Ct_alkane              HCt_alkane            0     !
+END CHARMM36_CARB
+
+# Given ATOM_TYPE   Connected_to       Corrected ATOM_TYPE  Improper Examples
+CHARMM36_NUCL
+# empty for the time being
+END CHARMM36_NUCL
+
+# Given ATOM_TYPE   Connected_to       Corrected ATOM_TYPE  Improper Examples
+CHARMM36_CGENFF
+Cp_alkane           Np_ammonium        CpN+_alkane          0        !
+Cs_alkane           Np_ammonium        CsN+_alkane          0        !
+Cp_alkane           Nq_ammonium        CpNq+_alkane         0        !
+Cs_alkane           Nq_ammonium        CsNq+_alkane         0        !
+C*_alkane           Nt_amine           CNt_amine            0        !
+C*_alkane           Ns_amine           CNs_amine            0        !
+C*_alkane           Np_amine           CNp_amine            0        !
+HC_alkane           CNt_amine          HCNt_amine           0        !
+HC_alkane           CNs_amine          HCNs_amine           0        !
+HC_alkane           CNp_amine          HCNp_amine           0        !
+HN_amine            Np_amine           HNp_amine            0        !
+HN_amine            Ns_amine           HNs_amine            0        !
+Cp_alkane           N_guanidinium      CpN+_alkane          0        !
+Cp_alkane           S_thiolate         CpS-_alkane          0        !
+Cs_alkane           S_thiolate         CsS-_alkane          0        !
+HC_alkane           Cp_alkane          HCp_alkane           0        !
+HC_alkane           Cs_alkane          HCs_alkane           0        !
+HC_alkane           Ct_alkane          HCt_alkane           0        !
+HC_cycloalkane      Cs_cycloalkane     HCs_cycloalkane      0        !
+HC_cycloalkane      Ct_cycloalkane     HCt_cycloalkane      0        !
+HC_alkane           CpNq+_alkane       HCpNq+_alkane        0        !
+HC_alkane           CsNq+_alkane       HCsNq+_alkane        0        !
+HC_alkane           CpN+_alkane        HCpN+_alkane         0        !
+HC_alkane           CsN+_alkane        HCsN+_alkane         0        !
+HCp_alkane          CpN+_alkane        HCpN+_alkane         0        !
+HCs_alkane          CsN+_alkane        HCsN+_alkane         0        !
+HC_alkane           CpS-_alkane        HCpS-_alkane         0        !
+HC_alkane           CsS-_alkane        HCsS-_alkane         0        !
+HCp_alkane          CpS-_alkane        HCpS-_alkane         0        !
+HCs_alkane          CsS-_alkane        HCsS-_alkane         0        !
+HC_alkene           CE_alkene          HCE_alkene           0        !
+HC_alkene           CL_alkene          HCL_alkene           0        !
+HC_aromatic         C2_imidazole       HC_imidazole         0        !
+HC_aromatic         C4_imidazole       HC_imidazole         0        !
+HC_aromatic         C5_imidazole       HC_imidazole         0        !
+HC_aromatic         C2_imidazolium     HC2_imidazolium      0        !
+HC_aromatic         C4_imidazolium     HC4_imidazolium      0        !
+HC_aromatic         C5_imidazolium     HC5_imidazolium      0        !
+HC_aromatic         C2_pyridine        HC2_pyridine         0        ! Change for those near to hetroatom
+HC_aromatic         C6_pyridine        HC6_pyridine         0        !
+HC_aromatic         C*_pyrrole         HC_pyrrole           0        !    
+HC_pyrrole          C2_pyrrole         HC'1_pyrrole         0        !
+HC_pyrrole          C5_pyrrole         HC'1_pyrrole         0        !
+N1_pyrrole          C_amide            CN_amide             1        ! Change to urea type
+HC_aromatic         C*_furan           HC_furan             0        !
+HC_furan            C2_furan           HC'1_furan           0        !
+HC_furan            C5_furan           HC'1_furan           0        !
+HC_aromatic         C*_thiophene       HC_thiophene         0        !
+HC_thiophene        C2_thiophene       HC'1_thiophene       0        !
+HC_thiophene        C5_thiophene       HC'1_thiophene       0        !
+# HC_aromatic         C*_oxazole         HC_oxazole           0        !
+HC_oxazole          C2_oxazole         HC'2_oxazole         0        !
+HC_oxazole          C4_oxazole         HC'1_oxazole         0        !
+HC_oxazole          C5_oxazole         HC'1_oxazole         0        !
+HC_isoxazole        C3_isoxazole       HC'1_isoxazole       0        !
+HC_isoxazole        C5_isoxazole       HC'1_isoxazole       0        !  
+C3_pyridine         FC_aromatic        C3F_pyridine         0        |
+C_pyrrolidine       C_amide            CA_proline           0        !
+HC_pyrrolidine      CA_proline         HA_proline           0        !
+C_monohaloalkane    FC_monohaloalkane  CF_monohaloalkane    0        !
+C_monohaloalkane    ClC_monohaloalkane CCl_monohaloalkane   0        !
+HC_monohaloalkane   CF_monohaloalkane  HCF_monohaloalkane   0        !
+HC_monoxolane       Cs_monoxolane      HCs_monoxolane       0        !
+HC_monoxolane       Ct_monoxolane      HCt_monoxolane       0        !
+END CHARMM36_CGENFF
+
+# Given ATOM_TYPE   Connected_to       Corrected ATOM_TYPE  Improper Examples
+CHARMM22_PROT
+HC_aromatic         C2_imidazole       HC2_imidazole        0        !
+HC_aromatic         C4_imidazole       HC4_imidazole        0        !
+HC_aromatic         C5_imidazole       HC5_imidazole        0        !
+HC_aromatic         C2_imidazolium     HC2_imidazolium      0        !
+HC_aromatic         C4_imidazolium     HC4_imidazolium      0        !
+HC_aromatic         C5_imidazolium     HC5_imidazolium      0        !
+C_proline           N_proline          CN_proline           0        !
+HC_alkene           CE_alkene          HCE_alkene           0        !
+HC_alkene           CL_alkene          HCL_alkene           0        !
+C_amide             Ns_amide           Cs_amide             1        ! n-methylacetamide
+END CHARMM22_PROT
+
+# Given ATOM_TYPE   Connected_to       Corrected ATOM_TYPE  Improper Examples
+G54A7        
+Cp_alkane           Nq_ammonium        CN+_alkane           0        ! DPPC
+END G54A7
+
+# Given ATOM_TYPE   Connected_to       Corrected ATOM_TYPE  Improper Examples
+MISC_FF
+# empty for the time being
+END MISC_FF
+
+# Given ATOM_TYPE   Connected_to       Corrected ATOM_TYPE  Improper Examples
+OPLS_CL_P
+Cp_alkane           N*_imidazolium     CN+_alkane           0        !
+Cs_alkane           N*_imidazolium     CN+_alkane           0        !
+Cp_alkane           N*_pyrrolidinium   CN+_alkane           0        !
+HC_aromatic         C2_imidazolium     HC2_imidazolium      0        !
+HC_aromatic         C4_imidazolium     HC4_imidazolium      0        !
+HC_aromatic         C5_imidazolium     HC5_imidazolium      0        !
+HC_alkane           CN+_alkane         HCN+_alkane          0        !
+Cp_alkane           S_disulfonyl_azanide CA_disulfonyl_azanide  0        !
+Cs_alkane           S_disulfonyl_azanide CA_disulfonyl_azanide  0        !
+CF_dihaloalkane     S_disulfonyl_azanide CA_disulfonyl_azanide  0        !
+CF_trihaloalkane    S_disulfonyl_azanide CA_disulfonyl_azanide  0        !
+END OPLS_CL_P
+
+# Given ATOM_TYPE   Connected_to       Corrected ATOM_TYPE  Improper Examples
+OPLS_DES
+Cp_alkane           Nq_ammonium        CpN+_alkane          0        ! tetramethyl ammonium
+Cs_alkane           Nq_ammonium        CsN+_alkane          0        ! tetramethyl ammonium
+HC_alkane           CpN+_alkane        HCpN+_alkane         0        ! tetramethyl ammonium
+HC_alkane           CsN+_alkane        HCsN+_alkane         0        ! tetramethyl ammonium
+END OPLS_DES
+
+# Given ATOM_TYPE   Connected_to       Corrected ATOM_TYPE  Improper Examples
+TRAPPE_EH
+# empty, not needed.
+END TRAPPE_EH
+
+# Given ATOM_TYPE   Connected_to          Corrected ATOM_TYPE  Improper Examples
+AMBER16_GAFF
+C*_alkane           N*_ammonium           CA_ammonium          0        ! Change all to HA_ammonium
+C*_alkane           N4_morpholinium       CN+_morpholinium     0        !
+H*_alkane           CN+_morpholinium      HCN+_morpholinium    0        !
+HC'1_morpholinium   C3_morpholinium       HC3_morpholinium     0        !
+HC'1_morpholinium   C5_morpholinium       HC5_morpholinium     0        !
+C_nitrile           C*_benzene            CR_nitrile           0        !
+C_nitrile           C*_indole             CR_nitrile           0        !
+CE_alkene           C_ketone              CL_alkene            1        ! vinyl ketone
+CE_alkene           C*_benzene            CR1_alkene           1        ! 
+CE_alkene           C*_quinoline          CR1_alkene           1        !
+CE_alkene           CR1_alkene            CR2_alkene           1        ! make sure it is cc-cd
+CL_alkene           CR1_alkene            CR2_alkene           1        !
+CR1_alkene          CR1_alkene            CR3_alkene           1        !
+CR1_alkene          CR3_alkene            CR4_alkene           1        !
+CE_alkene           C_amide               CL_alkene            1        ! CHEMBL1873475
+CE_alkene           C_ester               CL_alkene            1        !
+# CE_alkene           C_amide               CU1_alkene           1        !
+# CE_alkene           C_ester               CU1_alkene           1        ! 
+CE_alkene           CU1_alkene            CU2_alkene           1        !
+CL_alkene           CU1_alkene            CU2_alkene           1        !
+N_azo               C*_benzene            NR1_azo              0        !
+N_azo               NR1_azo               NR2_azo              0        ! make sure it is ne-nf
+HC_aromatic         C2_benzimidazole      HC2_benzimidazole    0        !
+HC_aromatic         C2_quinoline          HC2_quinoline        0        !
+HC_aromatic         C2_pyridine           HC2_pyridine         0        !
+HC_aromatic         C6_pyridine           HC6_pyridine         0        !
+HC_aromatic         C2_pyrimidine         HC2_pyrimidine       0        !
+HC_aromatic         C4_pyrimidine         HC4_pyrimidine       0        !
+HC_aromatic         C6_pyrimidine         HC6_pyrimidine       0        !
+HC_aromatic         C3_cinnoline          HC3_cinnoline        0        !
+HC_aromatic         C1_isoquinoline       HC1_isoquinoline     0        !
+HC_aromatic         C3_isoquinoline       HC3_isoquinoline     0        !
+HC_aromatic         C2_benzothiazole      HC2_benzothiazole    0        !
+HC_aromatic         C3_isoxazole          HC3_isoxazole        0        !
+HC_aromatic         C2_thiazole           HC2_thiazole         0        !
+HC_aromatic         C5_thiazole           HC5_thiazole         0        ! 
+HC_aromatic         C5_triazole_2H_4H_124 HC5_triazole_2H_4H_124  0     !
+HC_aromatic         C3_triazole_2H_4H_124 HC3_triazole_2H_4H_124  0     !
+HC_aromatic         C6_pyrazolo_34_d_pyrimidine_1H HC6_pyrazolo_34_d_pyrimidine_1H  0   !
+HC_aromatic         C2_thiophene          HC2_thiophene        0        !
+HC_aromatic         C5_thiophene          HC5_thiophene        0        !
+HC_aromatic         C2_furan              HC2_furan            0        !
+HC_aromatic         C5_furan              HC5_furan            0        !
+HC_aromatic         C2_pyrrole            HC2_pyrrole          0        !
+HC_aromatic         C5_pyrrole            HC5_pyrrole          0        !
+Np_aminoacetal      C*_benzene            NR_aminoacetal       0        !
+Ns_aminoacetal      C*_benzene            NR_aminoacetal       0        !
+Nt_aminoacetal      C*_benzene            NR_aminoacetal       0        !
+Np_aminoacetal      C*_aromatic           NR_aminoacetal       0        !
+Ns_aminoacetal      C*_aromatic           NR_aminoacetal       0        !
+Nt_aminoacetal      C*_aromatic           NR_aminoacetal       0        !
+S_sulphonamide      C*_benzene            SR_sulphonamide      0        !
+Np_sulphonamide     C*_benzene            NR_sulphonamide      1        ! 
+Ns_sulphonamide     C*_benzene            NR_sulphonamide      1        !
+Nt_sulphonamide     C*_benzene            NR_sulphonamide      1        !
+Np_sulphonamide     C*_aromatic           NR_sulphonamide      1        !
+Ns_sulphonamide     C*_aromatic           NR_sulphonamide      1        !
+Nt_sulphonamide     C*_aromatic           NR_sulphonamide      1        !
+Np_sulphonamide     C*_isoxazole          NR_sulphonamide      1        !
+Ns_sulphonamide     C*_isoxazole          NR_sulphonamide      1        !
+Nt_sulphonamide     C*_isoxazole          NR_sulphonamide      1        !
+Np_sulphonamide     C*_alkene             NU_sulphonamide      1        !
+Ns_sulphonamide     C*_alkene             NU_sulphonamide      1        !
+Nt_sulphonamide     C*_alkene             NU_sulphonamide      1        !
+C_pyrrolidine       N*_pyrrolidine        CN_pyrrolidine       0        !
+HC_pyrrolidine      CN_pyrrolidine        HCN_pyrrolidine      0        !
+END AMBER16_GAFF
+
+# Given ATOM_TYPE   Connected_to       Corrected ATOM_TYPE  Improper Examples
+OPLS_AAM
+CA_amino_acid       N*_NH3-terminus   CA_NH3-terminus     0        ! Change all to HA_NH3-terminus
+CA_glycine          N*_NH3-terminus   CN+_glycine         0        !
+CA_alanine          C_COO-terminus    CA_COO-terminus     0        ! Change all to HA_COO-terminus
+CA_arginine         C_COO-terminus    CA_COO-terminus     0        ! Change all to HA_COO-terminus
+CA_aspartic         C_COO-terminus    CA_COO-terminus     0        ! Change all to HA_COO-terminus
+CA_aspartic_H       C_COO-terminus    CA_COO-terminus     0        ! Change all to HA_COO-terminus
+CA_asparagine       C_COO-terminus    CA_COO-terminus     0        ! Change all to HA_COO-terminus
+CA_cysteine         C_COO-terminus    CA_COO-terminus     0        ! Change all to HA_COO-terminus
+CA_cysteine_S       C_COO-terminus    CA_COO-terminus     0        ! Change all to HA_COO-terminus
+CA_glutamine        C_COO-terminus    CA_COO-terminus     0        ! Change all to HA_COO-terminus
+CA_glutamic         C_COO-terminus    CA_COO-terminus     0        ! Change all to HA_COO-terminus
+CA_glycine          C_COO-terminus    CA_GLY-COO-terminus 0        ! Change all to HA_GLY-COO-terminus
+CA_histidine1       C_COO-terminus    CA_COO-terminus     0        ! Change all to HA_COO-terminus
+CA_histidine3       C_COO-terminus    CA_COO-terminus     0        ! Change all to HA_COO-terminus
+CA_histidine+       C_COO-terminus    CA_COO-terminus     0        ! Change all to HA_COO-terminus
+CA_isoleucine       C_COO-terminus    CA_COO-terminus     0        ! Change all to HA_COO-terminus
+CA_leucine          C_COO-terminus    CA_COO-terminus     0        ! Change all to HA_COO-terminus
+CA_lysine           C_COO-terminus    CA_COO-terminus     0        ! Change all to HA_COO-terminus
+CA_methionine       C_COO-terminus    CA_COO-terminus     0        ! Change all to HA_COO-terminus
+CA_phenylalanine    C_COO-terminus    CA_COO-terminus     0        ! Change all to HA_COO-terminus
+CA_proline          C_COO-terminus    CAC_proline         0        ! Change all to HA_CAC-terminus
+CA_serine           C_COO-terminus    CA_COO-terminus     0        ! Change all to HA_COO-terminus
+CA_threonine        C_COO-terminus    CA_COO-terminus     0        ! Change all to HA_COO-terminus
+CA_tryptophan       C_COO-terminus    CA_COO-terminus     0        ! Change all to HA_COO-terminus
+CA_tyrosine         C_COO-terminus    CA_COO-terminus     0        ! Change all to HA_COO-terminus
+CA_valine           C_COO-terminus    CA_COO-terminus     0        ! Change all to HA_COO-terminus
+CA_amino_acid       C_COO-terminus    CA_COO-terminus     0        ! Change all to HA_COO-terminus
+CA_amino_acid       C*_proline        CA_proline          0        ! Change all H to HA_proline
+N_amino_acid        C*_proline        N_proline           0        !
+END OPLS_AAM
+
+# Given ATOM_TYPE   Connected_to       Corrected ATOM_TYPE  Improper Examples
+OPLS2005
+C_nitrile           C*_benzene         CR_nitrile           0        ! benzonitrile 
+C_nitrile           C*_indole          CR_nitrile           0        ! benzonitrile
+N_nitrile           CR_nitrile	       NCR_nitrile          0        ! benzonitrile
+Cp_alkane  	    Nq_ammonium        CN+_alkane           0        ! ACHO, POPC 
+Cs_alkane           Nq_ammonium        CN+_alkane           0        ! ACHO, POPC
+Cp_alkane	    Ns_ammonium        CN+_alkane           0        ! ACHO, POPC
+Cs_alkane           Ns_ammonium        CN+_alkane           0        ! ACHO, POPC
+O_aldehyde          CN_aldehyde        O_amide              0        ! MOLECULE gyromitrin
+O_aldehyde	    C*_amide   	       O_amide		    0        ! MOLECULE gyromitrin
+C_alkyne            HC_alkyne          CH_alkyne            0        ! penta-1,3-diyne
+C_alkyne            Cs_alkane          CCs_alkyne           0        ! but-1-yne
+C_alkyne            Cp_alkane          CCp_alkyne           0        !
+C_alkyne            Ct_alkane          CCt_alkyne           0        !
+C_alkyne            Cq_alkane          CCq_alkyne           0        !
+C_alkyne            C*_benzene         CCq_alkyne           0        !
+CL_alkyne           O_alcohol          C_alkyne             0        !  C#[C]-OH
+CL_alkyne           Cs_alkane          CCs_alkyne           0        !  but-1-yne
+CL_alkyne           Cp_alkane          CCp_alkyne           0        !
+CL_alkyne           Ct_alkane          CCt_alkyne           0        !
+CL_alkyne           Ct_cycloalkane     CCt_alkyne           0        !
+CL_alkyne           Cq_alkane          CCq_alkyne           0        !
+CL_alkyne           C*_benzene         CCq_alkyne           0        !
+CL_alkyne           CL_alkyne          CCq_alkyne           0        ! penta-1,3-diyne
+CE_alkyne           Cs_alkane          CCs_alkyne           0        !  but-1-yne
+CE_alkyne           Cp_alkane          CCp_alkyne           0        !
+CE_alkyne           Ct_alkane          CCt_alkyne           0        !
+CE_alkyne           Cq_alkane          CCq_alkyne           0        !
+CE_alkyne           C*_benzene         CCq_alkyne           0        !
+C_benzyl            OL_ester           CA_ester             0        ! change all to HA_ester
+C_benzyl            N*_amide           Cs_alkane            0        !
+C_benzyl            N*_amine           Cs_alkane            0        !  -test out..
+C_benzyl            N*_aminoacetal     Cs_alkane            0        !  -test out..
+C_benzyl            N1_alkyl_pyridinium Cs_alkane           0        !
+C_benzyl            C*_alkane          Cs_alkane            0        ! ethyl benzene (?)
+C_benzyl            CA_ketone          Cs_alkane            0        ! make sure to capture type changed from C*_alkane
+C_benzyl            N*_benzimidazole   Cs_alkane            0        ! candesartan
+C_benzyl            N*_hydrazine       Cs_alkane            0        ! domoxin
+C_benzyl            C*_isoquinoline    Cs_alkane            0        ! papaverine
+C_benzyl            P_phosphonic_acid  Cs_alkane            0        !
+HC_benzyl           C*_alkane          HC_alkane            0        !
+HC_benzyl           C*_alkane          HC_alkane            0        ! H change when benzyl changed to C*_alkane
+O_ether             C*_alkene          OU_ether             0        ! ethyl vinyl ether
+O_hemiacetal        HO_hemiacetal      OH_hemiacetal        0        ! 1-ethoxy-butan-1-ol
+C_ester             C*_benzene         CR_ester             0        ! benzyl benzoate
+Cp_alkane	    O_alcohol          C_methanol           0        ! methanol
+HC_alkane           C_methanol         HC_methanol          0        !
+# Alpha C adjustment. Priority to largest CG.
+C*_alkane           Ns_guanidine       CA_guanidine         0        ! change all H to HA_guanidine
+C*_alkane           Np_guanidine       CA_guanidine         0        ! change all H to HA_guanidine
+C*_alkane           Nt_guanidine       CA_guanidine         0        ! change all H to HA_guanidine
+C*_alkane	    C_imide	       CA_imide		    0        ! change all H to HA_imide
+C*_alkane    	    C_acid_anhydride   CA_acid_anhydride    0        ! change all H to HA_acid_anhydride
+C*_alkane  	    OL_carbonate_ester CA_carbonate_ester   0        ! change all H to HA_carbonate_ester
+C*_alkane           O_orthoester       CA_orthoester        0        ! change all H to HA_orthoester
+C*_alkane           OL_carbamate       CA_carbamate         0        ! change all H to HA_carbamate
+C*_alkane           O*_hemiacetal      CA_hemiacetal        0        ! change all H to HA_hemiacetal
+C*_alkane           O_ketal            CA_ketal             0        ! change all H to HA_ketal
+C*_alkane	    O*_acetal          CA_acetal            0        ! change all H to HA_acetal
+C*_alkane           C_ester            CC_ester             0        ! change all H to HA_ester **
+C*_alkane           OL_ester           CA_ester             0        ! change all H to HA_ester
+C*_alkane           OL_ester_halogen   CA_ester_halogen     0        ! change all to HA.
+C*_alkane           C_aldehyde         CA_aldehyde          0        ! change all H to HA_aldehyde
+C*_alkane 	    C_ketone           CA_ketone            0        ! change all H to HA_ketone
+C*_alkane           O_cyanate          CA_cyanate           0        ! change all H to HA_cyanate
+C*_alkane	    C_nitrile          CA_nitrile           0        ! change all H to HA_nitrile
+C*_alkane 	    N_nitro            CA_nitro             0        ! change all H to HA_nitro
+C*_alkane	    S_sulphone         CA_sulphone          0        ! change all H to HA_sulfone
+C*_alkane           S_sulphonic_acid   CA_sulphonic_acid    0        ! change all H to HA_sulphonic_acid
+C*_alkane           N*_amine           CA_amine             0        ! change all H to HA_amine
+C*_alkane           N*_cyclic_amine    CA_cyclic_amine      0        ! change all H to HA_cyclo_amine
+C_cyclic_amine      N*_cyclic_amine    CA_cyclic_amine      0        ! change all H to HA_cyclo_amine
+C_cyclic_amine      N*_aniline         CA_cyclic_amine      0        ! change all H to HA_cyclo_amine
+C*_alkane           O_ether            CA_ether             0        ! change all H to HA_ether 
+C*_alkane           OU_ether           CA_ether             0        ! change all H to HA_ether
+C*_alkane           O*_a-glucopyranose-O1  CA_ether         0        ! methyl pyranose 
+C*_alkane           O*_b-glucopyranose-O1  CA_ether         0        ! methyl pyranose
+C*_alkane           O*_a-allopyranose-O1   CA_ether         0        ! methyl pyranose
+C*_alkane           O*_b-allopyranose-O1   CA_ether         0        ! methyl pyranose
+C*_alkane           O1L_daunosamine        CA_ether         0        ! doxorubicin
+C*_alkane           S_disulphide       CA_disulphide        0        ! change all H to HA_disulphide
+C*_alkane           O_thionoester      CO_thionoester       0        !
+C*_alkane           N*_sulphonamide    CN_sulphonamide      0        !
+C*_alkane           S_sulphonamide     CS_sulphonamide      0        !
+C*_alkane           S_N_sulfonyloxaziridine CS_N_sulfonyloxaziridine 0 !
+C*_alkane           N*_sulphamide      CA_sulphamide        0        ! change all H to HA_sulphamide
+C*_alkane           N*_aminoacetal     CN_aminoacetal       0        !
+C_pyrrolidine       N*_pyrrolidine     CA_pyrrolidine       0        ! change all H to HA_pyrrolidine
+HC_alkane           CN_aminoacetal     HCN_aminoacetal      0        ! Do this change after above
+HC_benzyl           CN_aminoacetal     HCN_aminoacetal      0        ! Ar-C[H]-N_aminoacetal
+#
+C_aldehyde          N*_hydrazone       C_amide              0        ! gyromitrin
+C_amidine	    C*_benzene	       CR_amidine	    0        ! benzamidine
+N_imide             C*_alkane          NC_imide             1        ! n-ethylmaleimide
+N_imide             HN_imide           NH_imide             1        ! phthalimide
+N*_amine	    C_imide	       N?_urea		    1        ! hydantoin 
+N*_amine            C*_alkene          N?_enamine           1        ! define enamine
+N*_amine            C*_enol            N?_enamine           1        ! define enamine  
+Np_aminoacetal      C*_benzene         NR_aminoacetal       1        !
+Ns_aminoacetal      C*_benzene         NR_aminoacetal       1        ! 
+Nt_aminoacetal      C*_benzene         NR_aminoacetal       1        ! not sure need improper?? Sept 2016
+Ns_sulphonamide     C*_benzene         NR_sulphonamide      1        ! aryl-sulphonamide
+Nt_sulphonamide     C*_benzene         NR_sulphonamide      1        ! aryl-sulphonamide
+Ns_sulphonamide     C*_isoxazole       NR_sulphonamide      1        ! aryl sulphonamide sulfamethoxazole
+Nt_sulphonamide     C*_isoxazole       NR_sulphonamide      1        ! aryl sulphonamide sulfamethoxazole
+Np_sulfinamide      C*_benzene         NR_sulfinamide       1        ! aryl sulfinamide
+Ns_sulfinamide      C*_benzene         NR_sulfinamide       1        ! aryl sulfinamide
+Nt_sulfinamide      C*_benzene         NR_sulfinamide       1        ! aryl sulfinamide
+Np_sulphamide       C*_benzene         NR_sulphamide        1        ! aryl sulphamide
+Ns_sulphamide       C*_benzene         NR_sulphamide        1        ! aryl sulphamide
+Nt_sulphamide       C*_benzene         NR_sulphamide        1        ! aryl sulphamide
+Nt_cyanimide        C*_benzene         NR_cyanimide         1        ! aryl-cyanimide
+Ns_cyanimide        C*_benzene         NR_cyanimide         1        ! aryl-cyanimide
+Np_cyanimide        C*_benzene         NR_cyanimide         1        ! aryl-cyanimide
+N_oxaziridine       C*_benzene         NR_oxaziridine       1        ! 
+C_urea              N*_hydantoin       C_imide              1        ! iprodione, change [C]=O  
+O_urea              C_imide            O_imide              0        ! iprodione, change C=[O]
+N_aldimine          C*_alkane          Ns_aldimine          0        ! n-methylpropanimine
+N_nitro             C*_alkane          NC_nitro             0        ! nitroethane
+N_nitro	            C*_benzene         NR_nitro 	    0        ! nitrobenzene
+N_nitro             C*_imidazole       NR_nitro             0        ! metronidazole
+C_hydrazone         C*_alkane          CC_hydrazone         0        ! gyromitrin
+C_hydrazone         C*_benzene         CR_hydrazone         0        ! benzophenone
+NE_hydrazone        C_aldehyde         NU_hydrazone         0        ! gyromitrin
+N_hydrazone         C_aldehyde         NU_hydrazone         0        ! gyromitrin
+NE_hydrazone        HN_hydrazone       NH_hydrazone         0        ! benzophenone hydrazone
+Ns_hydrazone        C*_benzene         NR_hydrazone         0        ! CCCP
+Np_hydrazone        C*_benzene         NR_hydrazone         0        ! CCCP
+Nt_hydrazone        C*_benzene         NR_hydrazone         0        ! CCCP
+N_hydrazone         HN_hydrazone       NH_hydrazone         0        ! benzophenone
+N*_hydrazone	    C_amide	       N_amide              0        ! gyromitrin
+O_alcohol           C*_benzene         O_phenol             0        !
+HO_alcohol          O_phenol           HO_phenol            0        !
+CC_ester            OL_ester           CA_ether             0        ! -O(ester)-[C]-C(ester)
+CA_ketal            OL_ester           C_acetal             0        ! -O(ketal)-[CA]-O(ester) artemisinin
+Nt_urea             N_nitroso          NN_urea              0        ! n-nitroso-n-methylurea
+OL_phosphate        PO2_phosphate      O_phosphate          0        !
+NU_guanidine        C_carbonyl_guanidine NU_carbonyl_guanidine 0     ! amiloride 
+NU_guanidine        C*_pyrazine        NR_guanidine         0        ! folic acid
+N4_morpholine       C*_pyridine        NR_morpholine        1        ! Change to N connected to 6 member C aromatic
+N4_morpholine       C*_benzene         NR_morpholine        1        ! Change to N connected to 6 member C aromatic
+#
+C_trihaloalkane     BrC_trihaloalkane  CBr_trihaloalkane    0        ! assign type of trihaloalkane type of C
+C_trihaloalkane     ClC_trihaloalkane  CCl_trihaloalkane    0        ! do not change the order of the data
+C_trihaloalkane     FC_trihaloalkane   CF_trihaloalkane     0        !
+C_dihaloalkane      BrC_dihaloalkane   CBr_dihaloalkane     0        !
+C_dihaloalkane      ClC_dihaloalkane   CCl_dihaloalkane     0        !
+C_dihaloalkane      FC_dihaloalkane    CF_dihaloalkane      0        !
+C_monohaloalkane    BrC_monohaloalkane CBr_monohaloalkane   0        !
+C_monohaloalkane    ClC_monohaloalkane CCl_monohaloalkane   0        !
+C_monohaloalkane    FC_monohaloalkane  CF_monohaloalkane    0        !
+# protein
+CA_amino_acid       Np_ammonium        CN+_amino_acid       0        !
+CA_amino_acid       N_NH3-terminus     CN+_amino_acid       0        !
+HCA_amino_acid      CN+_amino_acid     HCN+_amino_acid      0        !
+CA_amino_acid       CB_histidine1      CA_histidine1        0        ! 
+CA_amino_acid       CB_histidine3      CA_histidine3        0        !
+# complex heterocyclic, DNA
+C*_oxathiolane13    N1t_cytosine       CA1_cytosine         0        !
+C*_alkane           N4_triazole_2H_4H_124 C_nucleoside      0        !
+CA_*                N4_triazole_2H_4H_124 C_nucleoside      0        ! See CHEMBL1183349.log -O-[C]-N-C=N-
+C*_alkane           N*_uracil          C_nucleoside         0        !
+CA_*                N*_uracil          C_nucleoside         0        !
+C*_monoxolane       N*_uracil          C_nucleoside         0        !
+CO_monoxolane       N*_adenine         C_nucleoside         0        ! CHEMBL334966
+END OPLS2005
+
+PCFF
+CE_alkene           C_carboxylic      CL_alkene             1        ! If connect to unsaturated C, not just this.
+CE_alkene           C_ketone          CL_alkene             1        ! 
+CE_alkene           C*_alkyne         C_alkene              1        ! dynemicin_a
+CE_alkene           C_amide           C_alkene              1        ! camptothecin
+CE_alkene           C*_quinoline      C_alkene              1        ! camptothecin
+CL_alkene           C_alkene          C_alkene              1        !
+CE_alkene           C_alkene          C_alkene              1        !
+C_aldehyde          N*_hydrazone      CN_aldehyde           0        ! gyromitrin
+C_hydrazone         C*_alkane         CC_hydrazone          0        ! gyromitrin
+C_hydrazone         C*_benzene        CR_hydrazone          0        ! benzophenone hydrazone
+C_hydrazone         C*_aromatic       CR_hydrazone          0        !
+Ns_hydrazone        C*_benzene        NR_hydrazone          0        !
+NE_hydrazone        C_aldehyde        NU_hydrazone          0        ! gyromitrin
+N_carbamate         HN_carbamate      NH_carbamate          0        ! urethane
+N_urea              N_nitroso         NN_urea               0        ! n-nitroso-n-methylurea
+N_azo               C*_alkane         NC_azo                0        !
+N_azo               C*_benzene        NR_azo                0        ! azobenzene
+N_azo               C*_naphthalene    NR_azo                0        !
+NR_azo              NR_azo            NR2_azo               0        ! azobenzene, when both ends connected to aromatic.
+NR_azo              NR2_azo           NR2_azo               0        ! azobenzene, make sure both N change to NR2_azo
+N_imide		    C*_alkane         NC_imide              1        ! n-ethylmaleimide   
+N_imide             HN_imide          NH_imide              1        ! 
+OE_phosphate        PO_phosphate      O_phosphate           0        ! change due to neutral phosphoric
+C_aldimine          C*_benzene        CU_aldimine           1        ! 
+C*_hydantoin        N*_urea           CN_hydantoin          0        !
+C*_hydantoin        N*_amine          CN_hydantoin          0        !
+C*_hydantoin        N*_amide          CN_hydantoin          0        !
+N1_pyrrole          C*_alkane         NC_pyrrole            1        ! pyrrole attach to a C
+Ns_sulphonamide     C*_benzene        NR_sulphonamide       1        ! sulfamethoxazole
+Nt_sulphonamide     C*_benzene        NR_sulphonamide       1        ! sulfamethoxazole
+Ns_sulphonamide     C*_isoxazole      NR_sulphonamide       1        !
+Nt_sulphonamide     C*_isoxazole      NR_sulphonamide       1        !
+END PCFF
+
+# Given ATOM_TYPE   Connected_to       Corrected ATOM_TYPE  Improper Examples
+CVFF
+N_nitro             C*_benzene        NR_nitro              0        ! nitrobenzene
+C_alkane            C_alkane          C_alkane              0        !
+CO_oxetane          O_oxetane         C?_alkane             0        !  
+C_oxetane           C*_alkane         C?_alkane             0        !
+END CVFF
+
+# Given ATOM_TYPE   Connected_to       Corrected ATOM_TYPE  Improper Examples
+COMPASS
+Cs_alkane           O_alcohol         CA_alcohol            0        ! change all H to HA_alcohol
+Ct_alkane           O_alcohol         CsA_alcohol           0        ! C sec. alcohol.
+Ct_alkane           O_alcohol         CA_alcohol            0        ! change all H to HA_alcohol
+C*_alkane           OL_ester          CA_ester              0        ! change all H to HA_ester
+C*_alkane           OL_nitrate        CA_nitrate            0        ! change all H to HA_nitrate
+C*_alkane           O_phosphoramidite CA_phosphoramidite    0        ! change all H to HA_phosphoramidite
+Cs_monoxolane       O_monoxolane      CO_monoxolane         0        !
+Ct_monoxolane       O_monoxolane      CO_monoxolane         0        !
+Cp_alkane           O_alcohol         C_methanol            0        ! methanol
+Si_siloxane         HSi_siloxane      SiH_siloxane          0        !
+C_dihaloalkane      ClC_dihaloalkane  CCl_dihaloalkane      0        ! 
+END COMPASS
