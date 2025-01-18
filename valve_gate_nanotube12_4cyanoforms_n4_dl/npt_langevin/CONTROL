@@ -1,22 +1,93 @@
+Title: valve_gate_nanotube12_4cyanoforms_n4_dl 12_4cyanoforms_H_O2_n4
+
 # copied from dl-poly-data/data/5.1.0/
 # TEST 42 - NPT ensemble, Langevin thermostat-barostat
 
+#ensemble_method langevin
+#ensemble_thermostat_friction  2.0 ps^-1
+#ensemble_barostat_friction   ps^-1
+
+ensemble npt lang 2.0 1.0
+
 temperature  300.0 K
-print_frequency  2.0 steps
-stats_frequency  2.0 steps
-vdw_cutoff  12.0 ang
-cutoff  12.0 ang
-coul_method spme
-spme_precision 1e-06
-ensemble npt
-ensemble_method langevin
-ensemble_thermostat_friction  2.0 ps^-1
-ensemble_barostat_friction  1.0 ps^-1
-time_run  20.0 steps
-time_equilibration  10.0 steps
-time_job  100.0 s
-time_close  10.0 s
-record_equilibration ON
-timestep  0.001 ps
 pressure_hydrostatic  0.001 katm
-restart rescale
+
+# Perform zero temperature run (really set to 10K)
+#zero
+
+# Cap forces during equilibration, in unit kT/angstrom.
+# (useful if your system is far from equilibrium)
+#cap 1000.0
+
+# Increase array size per domain
+#densvar 10 %
+
+# Bypass checking restrictions and reporting
+#no index
+#no strict
+#no topolgy
+
+# time_run  20.0 steps
+# time_equilibration  10.0 steps
+
+
+# timestep  0.001 ps
+timestep 0.0005
+
+# modelling time is 100 ns
+steps 200000000
+
+# record_equilibration ON
+equilibration steps 1000
+
+# 'temperature scaling interval ', thermo%freq_tscale
+scale every 2
+
+# vdw_cutoff  12.0 ang
+# cutoff  12.0 ang
+
+# Suggested cut off - zeolites: ~10.0, condensed phase: ~12.0
+cutoff 10.0
+ewald precision 1e-6
+
+# coul_method spme
+# spme_precision 1e-06
+
+# Need these for bond constrains
+#mxshak 100
+#shake 1.0e-6
+
+# May need this for biological force field like CHARMM, OPLS, etc.
+# May not affect atomistic model too much, if cut off is large (> 10.0).
+# vdw shift
+
+# Continue MD simulation
+#restart
+# restart rescale
+
+
+# traj_start 1
+# traj_interval 20000 every 10 ps
+# traj_key pos-vel-force
+
+traj 1 20000 2
+
+# print_frequency  2.0 steps
+# stats_frequency  2.0 steps
+
+# 'data printing interval (steps) ', flow%freq_output
+print every 1000
+
+# 'statistics file interval ', stats%intsta
+stats every 1000
+
+# 'allocated job run time (s)
+# 'allocated job close time (s)
+
+# time_job  100.0 s
+# time_close  10.0 s
+
+job time 100000000
+close time 10000000
+
+finish
